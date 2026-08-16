@@ -1,0 +1,14 @@
+{
+  "name": "Indian Revised Version - Malayalam",
+  "abbreviation": "IRV",
+  "language": "Malayalam",
+  "language_code": "ml",
+  "year": 2019,
+  "testament_count": {
+    "ot": 39,
+    "nt": 27
+  },
+  "source": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/mal-mal2015.txt",
+  "license": "CC BY-SA 4.0",
+  "notes": "Collected and split canonically into ot/nt folders with labeled verses."
+}

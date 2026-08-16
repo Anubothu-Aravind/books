@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PastorMetadata",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Full name of the pastor/speaker"
+    },
+    "slug": {
+      "type": "string",
+      "description": "URL-friendly slug representing the pastor"
+    },
+    "church": {
+      "type": "string",
+      "description": "Name of the affiliated church or organization"
+    },
+    "location": {
+      "type": "string",
+      "description": "Location (City, State/Country) of the church/speaker"
+    },
+    "language": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Languages spoken/preached by this pastor"
+    },
+    "permission": {
+      "type": "string",
+      "description": "Status or type of permission granted for archiving and transcribing"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Additional notes"
+    }
+  },
+  "required": ["name", "slug", "church", "location", "language", "permission"]
+}

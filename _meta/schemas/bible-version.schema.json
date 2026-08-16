@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BibleVersionMetadata",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Full name of the Bible version"
+    },
+    "abbreviation": {
+      "type": "string",
+      "description": "Standard abbreviation of the Bible version"
+    },
+    "language": {
+      "type": "string",
+      "description": "Language name"
+    },
+    "language_code": {
+      "type": "string",
+      "description": "ISO 639-1 language code"
+    },
+    "year": {
+      "type": "integer",
+      "description": "Year of publication or translation completion"
+    },
+    "testament_count": {
+      "type": "object",
+      "properties": {
+        "ot": {
+          "type": "integer",
+          "description": "Number of Old Testament books in this version"
+        },
+        "nt": {
+          "type": "integer",
+          "description": "Number of New Testament books in this version"
+        }
+      },
+      "required": ["ot", "nt"]
+    },
+    "source": {
+      "type": "string",
+      "description": "Source URL or citation of the text"
+    },
+    "license": {
+      "type": "string",
+      "description": "Licensing information of this version"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Additional notes about the translation, source, or features"
+    }
+  },
+  "required": [
+    "name",
+    "abbreviation",
+    "language",
+    "language_code",
+    "year",
+    "testament_count",
+    "source",
+    "license"
+  ]
+}

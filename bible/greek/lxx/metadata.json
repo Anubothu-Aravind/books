@@ -1,0 +1,14 @@
+{
+  "name": "Septuagint",
+  "abbreviation": "LXX",
+  "language": "Greek",
+  "language_code": "el",
+  "year": -200,
+  "testament_count": {
+    "ot": 46,
+    "nt": 0
+  },
+  "source": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/grc-grcbrent.txt",
+  "license": "Public Domain",
+  "notes": "Collected and split canonically into ot/nt folders with labeled verses."
+}

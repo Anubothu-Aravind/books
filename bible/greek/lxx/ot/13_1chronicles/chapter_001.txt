@@ -1,0 +1,42 @@
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 1] ἈΔΑΜ, Σὴθ, Ἐνὼς,
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 2] καὶ Καϊνᾶν, Μαλελεὴλ, Ἰάρεδ,
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 3] Ἐνὼχ, Μαθουσάλα, Λάμεχ,
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 4] Νῶε· υἱοὶ Νῶε, Σὴμ, Χὰμ, Ἰάφεθ.
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 5] Υἱοὶ Ἰάφεθ, Γαμὲρ, Μαγὼγ, Μαδαῒμ, Ἰωϋὰν, Ἑλισὰ, Θοβὲλ, Μοσὸχ, καὶ Θίρας.
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 6] Καὶ οἱ υἱοὶ Γαμὲρ, Ἀσχανὰζ, καὶ Ῥιφὰθ, καὶ Θοργαμά.
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 7] Καὶ οἱ υἱοὶ Ἰωϋὰν, Ἑλισὰ, καὶ Θαρσὶς, Κίτιοι, καὶ Ῥόδιοι.
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 8] Καὶ υἱοὶ Χὰμ, Χοὺς, καὶ Μεσραῒμ, Φοὺδ, καὶ Χαναάν.
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 9] Καὶ υἱοὶ Χοὺς, Σαβὰ, καὶ Εὐιλὰ, καὶ Σαβαθὰ, καὶ Ῥεγμὰ, καὶ Σεβεθαχά· καὶ υἱοὶ Ῥεγμὰ, Σαβὰ, καὶ Δαδάν.
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 10] Καὶ Χοὺς ἐγέννησε τὸν Νεβρώδ· οὗτος ἤρξατο εἶναι γίγας κυνηγὸς ἐπὶ τῆς γῆς.
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 17] Υἱοὶ Σὴμ, Αἰλὰμ, καὶ Ἀσσοὺρ,
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 24] καὶ Ἀρφαξὰδ, Σάλα,
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 25] Ἔβερ, Φαλὲγ, Ῥαγὰν,
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 26] Σεροὺχ, Ναχὼρ, Θάῤῥα,
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 27] Ἁβραάμ·
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 28] Υἱοὶ δὲ Ἁβραὰμ, Ἰσαὰκ, καὶ Ἰσμαήλ.
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 29] Αὗται δὲ αἱ γενέσεις αὐτῶν· πρωτότοκος Ἰσμαὴλ, Ναβαιὼθ, καὶ Κηδὰρ, Ναβδεὴλ, Μασσὰμ,
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 30] Μασμὰ, Ἰδουμὰ, Μασσὴ, Χονδὰν, Θαιμὰν,
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 31] Ἰεττοὺρ, Ναφὲς, Κεδμά· οὗτοι υἱοὶ Ἰσμαήλ.
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 32] Καὶ υἱοὶ Χεττούρας παλλακῆς Ἁβραάμ· καὶ ἔτεκεν αὐτῷ τὸν Ζεμβρὰμ, Ἰεξὰν, Μαδιὰμ, Μαδὰμ, Σοβὰκ, Σωέ· καὶ υἱοὶ Ἰεξὰν, Δαιδὰν, καὶ Σαβαΐ.
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 33] Καὶ υἱοὶ Μαδιὰμ, Γεφὰρ, καὶ Ὀφὲρ, καὶ Ἐνὼχ, καὶ Ἀβιδὰ, καὶ Ἐλδαδά· πάντες οὗτοι υἱοὶ Χεττούρας.
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 34] Καὶ ἐγέννησεν Ἁβραὰμ τὸν Ἰσαάκ· καὶ υἱοὶ Ἰσαὰκ, Ἰακὼβ, καὶ Ἡσαῦ.
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 35] Υἱοὶ Ἡσαῦ, Ἐλιφὰζ, καὶ Ῥαγουὴλ, καὶ Ἰεοὺλ, καὶ Ἰεγλὸμ, καὶ Κορέ.
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 36] Υἱοὶ Ἐλιφὰζ, Θαιμὰν, καὶ Ὠμὰρ, Σωφὰρ, καὶ Γοωθὰμ, καὶ Κενὲζ, καὶ Θαμνὰ, καὶ Ἀμαλήκ.
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 37] Καὶ υἱοὶ Ῥαγουὴλ, Ναχὲς, Ζαρὲ, Σομὲ, καὶ Μοζέ.
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 38] Υἱοὶ Σηῒρ, Λωτὰν, Σωβὰλ, Σεβεγὼν, Ἀνὰ, Δησὼν, Ὠσὰρ, καὶ Δισάν.
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 39] Καὶ υἱοὶ Λωτὰν, Χοῤῥὶ, καὶ Αἰμὰν· ἀδελφὴ δὲ Λωτὰν Θαμνά. Υἱοὶ Σωβὰλ, Ἀλὼν, Μαχανὰθ, Ταιβὴλ, Σωφὶ, καὶ Ὠνὰν·
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 40] υἱοὶ δὲ Σεβεγὼν, Ἀῒθ, καὶ Σωνάν.
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 41] Υἱοὶ Σωνὰν. Δαισών· υἱοὶ δὲ Δαισὼν, Ἐμερὼν, καὶ Ἀσεβὼν, καὶ Ἰεθρὰμ, καὶ Χαῤῥάν.
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 42] Καὶ υἱοὶ Ὡσὰρ, Βαλαὰμ, καὶ Ζουκὰμ, καὶ Ἀκάν· υἱοὶ Δισὰν, Ὢς καὶ Ἀράν.
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 43] Καὶ οὗτοι οἱ βασιλεῖς αὐτῶν· Βαλὰκ υἱὸς Βεὼρ, καὶ ὄνομα τῇ πόλει αὐτοῦ Δενναβά.
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 44] Καὶ ἀπέθανε Βαλὰκ, καὶ ἐβασίλευσεν ἀντʼ αὐτοῦ Ἰωβὰβ υἱὸς Ζαρὰ ἐκ Βοσόῤῥας.
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 45] Καὶ ἀπέθανεν Ἰωβὰβ καὶ ἐβασίλευσεν ἀντʼ αὐτοῦ Ἁσὸμ ἐκ γῆς Θαιμανών.
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 46] Καὶ ἀπέθανεν Ἁσόμ, καὶ ἐβασίλευσεν ἀντʼ αὐτοῦ Ἀδὰδ υἱὸς Βαρὰδ, ὁ πατάξας Μαδιὰμ ἐν τῷ πεδίῳ Μωὰβ· καὶ ὄνομα τῇ πόλει αὐτοῦ Γεθαίμ.
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 47] Καὶ ἀπέθανεν Ἁδὰδ, καὶ ἐβασίλευσεν ἀντʼ αὐτοῦ Σεβλὰ ἐκ Μασεκκάς.
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 48] Καὶ ἀπέθανε Σεβλὰ, καὶ ἐβασίλευσεν ἀντʼ αὐτοῦ Σαοὺλ ἐκ Ῥωβὼθ τῆς παρὰ ποταμόν.
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 49] Καὶ ἀπέθανε Σαοὺλ, καὶ ἐβασίλευσεν ἀντʼ αὐτοῦ Βαλαεννὼρ υἱὸς Ἀχωβώρ.
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 50] Καὶ ἀπέθανε Βαλαεννὼρ, καὶ ἐβασίλευσεν ἀντʼ αὐτοῦ Ἀδὰδ υἱὸς Βαρὰδ, καὶ ὄνομα τῇ πόλει αὐτοῦ, Φογώρ.
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 51] Ἡγεμόνες Ἐδώμ· ἡγεμὼν Θαμνὰ, ἡγεμὼν Γωλαδὰ, ἡγεμὼν Ἰεθὲρ,
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 52] ἡγεμὼν Ἐλιβαμὰς, ἡγεμὼν Ἠλὰς, ἡγεμὼν Φινὼν,
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 53] ἡγεμὼν Κενέζ, ἡγεμὼν Θαιμὰν, ἡγεμὼν Βαβσὰρ,
+[LXX | EL | OT | 1 Chronicles | Chapter 1 | Verse 54] ἡγεμὼν Μαγεδιὴλ, ἡγεμὼν Ζαφωΐν· οὗτοι ἡγεμόνες Ἐδώμ.

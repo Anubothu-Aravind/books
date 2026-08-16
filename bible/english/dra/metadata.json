@@ -1,0 +1,14 @@
+{
+  "name": "Douay-Rheims Bible",
+  "abbreviation": "DRA",
+  "language": "English",
+  "language_code": "en",
+  "year": 1899,
+  "testament_count": {
+    "ot": 39,
+    "nt": 27
+  },
+  "source": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/eng-engDRA.txt",
+  "license": "Public Domain",
+  "notes": "Collected and split canonically into ot/nt folders with labeled verses."
+}

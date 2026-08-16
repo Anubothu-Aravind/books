@@ -1,0 +1,14 @@
+{
+  "name": "New Arabic Version (Book of Life)",
+  "abbreviation": "NAV",
+  "language": "Arabic",
+  "language_code": "ar",
+  "year": 2012,
+  "testament_count": {
+    "ot": 39,
+    "nt": 27
+  },
+  "source": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/arb-arbnav.txt",
+  "license": "Copyright © 1988, 1997, 2012 Biblica, Inc.",
+  "notes": "Arabic translation split canonically. Source: https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/arb-arbnav.txt"
+}

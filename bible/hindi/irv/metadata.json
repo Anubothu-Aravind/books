@@ -1,0 +1,14 @@
+{
+  "name": "Indian Revised Version - Hindi",
+  "abbreviation": "IRV",
+  "language": "Hindi",
+  "language_code": "hi",
+  "year": 2019,
+  "testament_count": {
+    "ot": 39,
+    "nt": 27
+  },
+  "source": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/hin-hin2017.txt",
+  "license": "CC BY-SA 4.0",
+  "notes": "Collected and split canonically into ot/nt folders with labeled verses."
+}

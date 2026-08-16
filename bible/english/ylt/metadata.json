@@ -1,0 +1,14 @@
+{
+  "name": "Young's Literal Translation",
+  "abbreviation": "YLT",
+  "language": "English",
+  "language_code": "en",
+  "year": 1862,
+  "testament_count": {
+    "ot": 39,
+    "nt": 27
+  },
+  "source": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/eng-engylt.txt",
+  "license": "Public Domain",
+  "notes": "Collected and split canonically into ot/nt folders with labeled verses."
+}

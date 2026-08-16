@@ -1,0 +1,14 @@
+{
+  "name": "World English Bible",
+  "abbreviation": "WEB",
+  "language": "English",
+  "language_code": "en",
+  "year": 2000,
+  "testament_count": {
+    "ot": 39,
+    "nt": 27
+  },
+  "source": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/eng-engwebu.txt",
+  "license": "Public Domain / CC0",
+  "notes": "Collected and split canonically into ot/nt folders with labeled verses."
+}

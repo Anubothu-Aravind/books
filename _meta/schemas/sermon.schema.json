@@ -1,0 +1,87 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SermonMetadata",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Title of the sermon"
+    },
+    "slug": {
+      "type": "string",
+      "description": "URL-friendly slug representing the sermon"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of sermon delivery in YYYY-MM-DD format"
+    },
+    "speaker": {
+      "type": "string",
+      "description": "Full name of the speaker"
+    },
+    "language": {
+      "type": "string",
+      "description": "Primary ISO 639-1 language code (e.g. 'en', 'te', 'hi')"
+    },
+    "mixed_language": {
+      "type": "boolean",
+      "description": "True if translation/code-switching is heavily present (e.g. mixed Telugu & English)"
+    },
+    "duration_minutes": {
+      "type": "integer",
+      "description": "Duration in minutes"
+    },
+    "series": {
+      "type": "string",
+      "description": "Sermon series title if part of a series"
+    },
+    "series_part": {
+      "type": "integer",
+      "description": "Sequence number of the sermon in the series"
+    },
+    "scripture_references": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of scripture passages referenced (e.g., 'Hebrews 11:1')"
+    },
+    "source_type": {
+      "type": "string",
+      "description": "Platform or medium of source (e.g., 'YouTube', 'Vimeo', 'Audio CD')"
+    },
+    "source_url": {
+      "type": "string",
+      "description": "URL link to the source file or video"
+    },
+    "transcription_method": {
+      "type": "string",
+      "description": "Tool/model used for transcription (e.g., 'whisper-large-v3')"
+    },
+    "transcription_quality": {
+      "type": "string",
+      "enum": ["raw", "reviewed"],
+      "description": "Verification status of the transcript text"
+    },
+    "license": {
+      "type": "string",
+      "description": "Licensing or permission details for distribution"
+    }
+  },
+  "required": [
+    "title",
+    "slug",
+    "date",
+    "speaker",
+    "language",
+    "mixed_language",
+    "duration_minutes",
+    "scripture_references",
+    "source_type",
+    "source_url",
+    "transcription_method",
+    "transcription_quality",
+    "license"
+  ]
+}

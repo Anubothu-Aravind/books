@@ -1,0 +1,134 @@
+[
+  {
+    "lang": "english",
+    "version": "kjv",
+    "status": "Success",
+    "chapters": 1359
+  },
+  {
+    "lang": "english",
+    "version": "asv",
+    "status": "Success",
+    "chapters": 1403
+  },
+  {
+    "lang": "english",
+    "version": "web",
+    "status": "Success",
+    "chapters": 1386
+  },
+  {
+    "lang": "english",
+    "version": "ylt",
+    "status": "Success",
+    "chapters": 1188
+  },
+  {
+    "lang": "english",
+    "version": "darby",
+    "status": "Success",
+    "chapters": 1188
+  },
+  {
+    "lang": "english",
+    "version": "bbe",
+    "status": "Success",
+    "chapters": 1188
+  },
+  {
+    "lang": "english",
+    "version": "dra",
+    "status": "Success",
+    "chapters": 1324
+  },
+  {
+    "lang": "english",
+    "version": "oeb",
+    "status": "Success",
+    "chapters": 490
+  },
+  {
+    "lang": "telugu",
+    "version": "irv",
+    "status": "Success",
+    "chapters": 1188
+  },
+  {
+    "lang": "hindi",
+    "version": "irv",
+    "status": "Success",
+    "chapters": 1188
+  },
+  {
+    "lang": "tamil",
+    "version": "irv",
+    "status": "Success",
+    "chapters": 1188
+  },
+  {
+    "lang": "kannada",
+    "version": "irv",
+    "status": "Success",
+    "chapters": 1188
+  },
+  {
+    "lang": "malayalam",
+    "version": "irv",
+    "status": "Success",
+    "chapters": 1188
+  },
+  {
+    "lang": "bengali",
+    "version": "irv",
+    "status": "Success",
+    "chapters": 1188
+  },
+  {
+    "lang": "marathi",
+    "version": "irv",
+    "status": "Success",
+    "chapters": 1188
+  },
+  {
+    "lang": "gujarati",
+    "version": "irv",
+    "status": "Success",
+    "chapters": 1188
+  },
+  {
+    "lang": "punjabi",
+    "version": "irv",
+    "status": "Success",
+    "chapters": 1188
+  },
+  {
+    "lang": "urdu",
+    "version": "irv",
+    "status": "Success",
+    "chapters": 1188
+  },
+  {
+    "lang": "hebrew",
+    "version": "wlc",
+    "status": "Success",
+    "chapters": 929
+  },
+  {
+    "lang": "greek",
+    "version": "lxx",
+    "status": "Success",
+    "chapters": 1077
+  },
+  {
+    "lang": "greek",
+    "version": "sblgnt",
+    "status": "Success",
+    "chapters": 260
+  },
+  {
+    "lang": "arabic",
+    "version": "vandyke",
+    "status": "Success",
+    "chapters": 1188
+  }
+]

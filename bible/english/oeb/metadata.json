@@ -1,0 +1,14 @@
+{
+  "name": "Open English Bible",
+  "abbreviation": "OEB",
+  "language": "English",
+  "language_code": "en",
+  "year": 2010,
+  "testament_count": {
+    "ot": 39,
+    "nt": 27
+  },
+  "source": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/eng-engoebcw.txt",
+  "license": "Creative Commons Zero (CC0)",
+  "notes": "Collected and split canonically into ot/nt folders with labeled verses."
+}

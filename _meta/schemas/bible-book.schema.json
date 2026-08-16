@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BibleBook",
+  "type": "object",
+  "properties": {
+    "book": {
+      "type": "string",
+      "description": "Name of the Bible book (e.g. Genesis)"
+    },
+    "abbreviation": {
+      "type": "string",
+      "description": "Standard abbreviation of the Bible book (e.g. Gen)"
+    },
+    "testament": {
+      "type": "string",
+      "enum": ["OT", "NT"],
+      "description": "Testament (OT or NT)"
+    },
+    "chapters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "chapter": {
+            "type": "integer",
+            "description": "Chapter number"
+          },
+          "verses": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "verse": {
+                  "type": "integer",
+                  "description": "Verse number"
+                },
+                "text": {
+                  "type": "string",
+                  "description": "Clean text of the verse"
+                }
+              },
+              "required": ["verse", "text"]
+            }
+          }
+        },
+        "required": ["chapter", "verses"]
+      }
+    }
+  },
+  "required": ["book", "abbreviation", "testament", "chapters"]
+}

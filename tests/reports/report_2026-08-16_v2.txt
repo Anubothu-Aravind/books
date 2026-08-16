@@ -1,0 +1,415 @@
+======================================================================
+BIBLE VERIFICATION TEST SUITE REPORT - 2026-08-16
+======================================================================
+
+Total Score: 674790 / 674986 assertions passed (99.97%)
+
+--- SUMMARY BY TEST CATEGORY ---
+  Structure Validation               : PASSED   (26304 passed, 0 failed)
+  Translation Fingerprint Validation : FAILED   (10 passed, 190 failed)
+  Verse Count Validation             : FAILED   (78 passed, 3 failed)
+  Verse Format Validation            : PASSED   (648398 passed, 0 failed)
+  Verse Text Spot Checks             : FAILED   (0 passed, 3 failed)
+
+--- DETAILED FINGERPRINT TEST LOG ---
+  [FAIL] #1   Genesis 1:1        KJV  → expected "heaven" — chapter not found
+  [FAIL] #1   Genesis 1:1        ASV  → expected "heavens" — chapter not found
+  [FAIL] #2   Genesis 2:4        KJV  → expected "LORD God" — chapter not found
+  [FAIL] #2   Genesis 2:4        ASV  → expected "Jehovah God" — chapter not found
+  [FAIL] #3   Genesis 4:1        KJV  → expected "knew" — chapter not found
+  [FAIL] #3   Genesis 4:1        ASV  → expected "knew" — chapter not found
+  [FAIL] #4   Genesis 12:1       KJV  → expected "LORD" — chapter not found
+  [FAIL] #4   Genesis 12:1       ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #5   Genesis 15:2       KJV  → expected "Lord GOD" — chapter not found
+  [FAIL] #5   Genesis 15:2       ASV  → expected "Lord Jehovah" — chapter not found
+  [FAIL] #6   Genesis 16:13      KJV  → expected "LORD" — chapter not found
+  [FAIL] #6   Genesis 16:13      ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #7   Genesis 18:25      KJV  → expected "Judge" — chapter not found
+  [FAIL] #7   Genesis 18:25      ASV  → expected "judge" — chapter not found
+  [FAIL] #8   Genesis 22:14      KJV  → expected "JEHOVAH-jireh" — chapter not found
+  [FAIL] #8   Genesis 22:14      ASV  → expected "Jehovah-jireh" — chapter not found
+  [FAIL] #9   Genesis 26:24      KJV  → expected "LORD" — chapter not found
+  [FAIL] #9   Genesis 26:24      ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #10  Genesis 28:16      KJV  → expected "awaked" — chapter not found
+  [FAIL] #10  Genesis 28:16      ASV  → expected "awaked" — chapter not found
+  [FAIL] #11  Genesis 32:30      KJV  → expected "Peniel" — chapter not found
+  [FAIL] #11  Genesis 32:30      ASV  → expected "Peniel" — chapter not found
+  [FAIL] #12  Genesis 35:7       KJV  → expected "God" — chapter not found
+  [FAIL] #12  Genesis 35:7       ASV  → expected "God" — chapter not found
+  [FAIL] #13  Exodus 3:14        KJV  → expected "I AM THAT I AM" — chapter not found
+  [FAIL] #13  Exodus 3:14        ASV  → expected "I AM THAT I AM" — chapter not found
+  [FAIL] #14  Exodus 6:3         KJV  → expected "LORD" — chapter not found
+  [FAIL] #14  Exodus 6:3         ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #15  Exodus 15:2        KJV  → expected "LORD" — chapter not found
+  [FAIL] #15  Exodus 15:2        ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #16  Exodus 17:15       KJV  → expected "JEHOVAH-nissi" — chapter not found
+  [FAIL] #16  Exodus 17:15       ASV  → expected "Jehovah-nissi" — chapter not found
+  [FAIL] #17  Exodus 20:7        KJV  → expected "LORD thy God" — chapter not found
+  [FAIL] #17  Exodus 20:7        ASV  → expected "Jehovah thy God" — chapter not found
+  [FAIL] #18  Exodus 23:17       KJV  → expected "Lord GOD" — chapter not found
+  [FAIL] #18  Exodus 23:17       ASV  → expected "Lord Jehovah" — chapter not found
+  [FAIL] #19  Exodus 33:19       KJV  → expected "LORD" — chapter not found
+  [FAIL] #19  Exodus 33:19       ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #20  Exodus 34:5        KJV  → expected "LORD" — chapter not found
+  [FAIL] #20  Exodus 34:5        ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #21  Leviticus 19:12    KJV  → expected "LORD" — chapter not found
+  [FAIL] #21  Leviticus 19:12    ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #22  Numbers 6:24       KJV  → expected "LORD" — chapter not found
+  [FAIL] #22  Numbers 6:24       ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #23  Numbers 14:18      KJV  → expected "LORD" — chapter not found
+  [FAIL] #23  Numbers 14:18      ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #24  Deuteronomy 6:12   KJV  → expected "LORD ... which" — chapter not found
+  [FAIL] #24  Deuteronomy 6:12   ASV  → expected "Jehovah ... who" — chapter not found
+  [FAIL] #25  Deuteronomy 32:6   KJV  → expected "LORD" — chapter not found
+  [FAIL] #25  Deuteronomy 32:6   ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #26  Joshua 22:22       KJV  → expected "LORD God" — chapter not found
+  [FAIL] #26  Joshua 22:22       ASV  → expected "Jehovah God" — chapter not found
+  [FAIL] #27  Judges 6:24        KJV  → expected "JEHOVAH-shalom" — chapter not found
+  [FAIL] #27  Judges 6:24        ASV  → expected "Jehovah-shalom" — chapter not found
+  [FAIL] #28  Ruth 1:21          KJV  → expected "LORD" — chapter not found
+  [FAIL] #28  Ruth 1:21          ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #29  1 Samuel 2:2       KJV  → expected "LORD" — chapter not found
+  [FAIL] #29  1 Samuel 2:2       ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #30  2 Samuel 22:2      KJV  → expected "LORD" — chapter not found
+  [FAIL] #30  2 Samuel 22:2      ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #31  1 Kings 8:23       KJV  → expected "LORD God" — chapter not found
+  [FAIL] #31  1 Kings 8:23       ASV  → expected "Jehovah God" — chapter not found
+  [FAIL] #32  2 Kings 19:15      KJV  → expected "LORD God" — chapter not found
+  [FAIL] #32  2 Kings 19:15      ASV  → expected "Jehovah God" — chapter not found
+  [FAIL] #33  1 Chronicles 16:36 KJV  → expected "LORD" — chapter not found
+  [FAIL] #33  1 Chronicles 16:36 ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #34  2 Chronicles 20:6  KJV  → expected "LORD God" — chapter not found
+  [FAIL] #34  2 Chronicles 20:6  ASV  → expected "Jehovah God" — chapter not found
+  [FAIL] #35  Ezra 9:8           KJV  → expected "LORD our God" — chapter not found
+  [FAIL] #35  Ezra 9:8           ASV  → expected "Jehovah our God" — chapter not found
+  [FAIL] #36  Nehemiah 1:5       KJV  → expected "LORD God" — chapter not found
+  [FAIL] #36  Nehemiah 1:5       ASV  → expected "Jehovah God" — chapter not found
+  [FAIL] #37  Job 1:21           KJV  → expected "LORD" — chapter not found
+  [FAIL] #37  Job 1:21           ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #38  Psalm 23:1         KJV  → expected "The LORD" — chapter not found
+  [FAIL] #38  Psalm 23:1         ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #39  Psalm 68:4         KJV  → expected "JAH" — chapter not found
+  [FAIL] #39  Psalm 68:4         ASV  → expected "Jah" — chapter not found
+  [FAIL] #40  Psalm 83:18        KJV  → expected "whose name alone is JEHOVAH" — chapter not found
+  [FAIL] #40  Psalm 83:18        ASV  → expected "thou alone, whose name is Jehovah" — chapter not found
+  [FAIL] #41  Psalm 18:2         KJV  → expected "The LORD" — chapter not found
+  [FAIL] #41  Psalm 18:2         ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #42  Psalm 18:30        KJV  → expected "The LORD" — chapter not found
+  [FAIL] #42  Psalm 18:30        ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #43  Psalm 19:14        KJV  → expected "LORD" — chapter not found
+  [FAIL] #43  Psalm 19:14        ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #44  Psalm 20:1         KJV  → expected "The LORD" — chapter not found
+  [FAIL] #44  Psalm 20:1         ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #45  Psalm 27:1         KJV  → expected "The LORD" — chapter not found
+  [FAIL] #45  Psalm 27:1         ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #46  Psalm 34:1         KJV  → expected "LORD" — chapter not found
+  [FAIL] #46  Psalm 34:1         ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #47  Psalm 37:5         KJV  → expected "LORD" — chapter not found
+  [FAIL] #47  Psalm 37:5         ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #48  Psalm 40:1         KJV  → expected "LORD" — chapter not found
+  [FAIL] #48  Psalm 40:1         ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #49  Psalm 46:1         KJV  → expected "God" — chapter not found
+  [FAIL] #49  Psalm 46:1         ASV  → expected "God" — chapter not found
+  [FAIL] #50  Psalm 55:22        KJV  → expected "LORD" — chapter not found
+  [FAIL] #50  Psalm 55:22        ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #51  Psalm 83:18        KJV  → expected "JEHOVAH" — chapter not found
+  [FAIL] #51  Psalm 83:18        ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #52  Psalm 91:2         KJV  → expected "LORD" — chapter not found
+  [FAIL] #52  Psalm 91:2         ASV  → expected "Jehovah" — chapter not found
+  [PASS] #53  Psalm 103:1        KJV  → contains "LORD"
+  [PASS] #53  Psalm 103:1        ASV  → contains "Jehovah"
+  [PASS] #54  Psalm 110:1        KJV  → contains "LORD"
+  [PASS] #54  Psalm 110:1        ASV  → contains "Jehovah"
+  [PASS] #55  Psalm 118:24       KJV  → contains "LORD"
+  [PASS] #55  Psalm 118:24       ASV  → contains "Jehovah"
+  [PASS] #56  Psalm 119:105      KJV  → contains "lamp"
+  [PASS] #56  Psalm 119:105      ASV  → contains "lamp"
+  [PASS] #57  Psalm 139:7        KJV  → contains "Whither"
+  [PASS] #57  Psalm 139:7        ASV  → contains "Whither"
+  [FAIL] #58  Proverbs 3:5       KJV  → expected "LORD" — chapter not found
+  [FAIL] #58  Proverbs 3:5       ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #59  Proverbs 16:3      KJV  → expected "LORD" — chapter not found
+  [FAIL] #59  Proverbs 16:3      ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #60  Ecclesiastes 12:13 KJV  → expected "God" — chapter not found
+  [FAIL] #60  Ecclesiastes 12:13 ASV  → expected "God" — chapter not found
+  [FAIL] #61  Isaiah 7:10        KJV  → expected "Lord" — chapter not found
+  [FAIL] #61  Isaiah 7:10        ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #62  Isaiah 12:2        KJV  → expected "LORD JEHOVAH" — chapter not found
+  [FAIL] #62  Isaiah 12:2        ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #63  Isaiah 26:4        KJV  → expected "LORD JEHOVAH" — chapter not found
+  [FAIL] #63  Isaiah 26:4        ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #64  Isaiah 40:10       KJV  → expected "Lord GOD" — chapter not found
+  [FAIL] #64  Isaiah 40:10       ASV  → expected "Lord Jehovah" — chapter not found
+  [FAIL] #65  Isaiah 42:5        KJV  → expected "LORD God" — chapter not found
+  [FAIL] #65  Isaiah 42:5        ASV  → expected "Jehovah God" — chapter not found
+  [FAIL] #66  Isaiah 43:10       KJV  → expected "LORD" — chapter not found
+  [FAIL] #66  Isaiah 43:10       ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #67  Isaiah 44:6        KJV  → expected "LORD" — chapter not found
+  [FAIL] #67  Isaiah 44:6        ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #68  Isaiah 45:5        KJV  → expected "LORD" — chapter not found
+  [FAIL] #68  Isaiah 45:5        ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #69  Isaiah 48:17       KJV  → expected "LORD" — chapter not found
+  [FAIL] #69  Isaiah 48:17       ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #70  Isaiah 49:14       KJV  → expected "LORD" — chapter not found
+  [FAIL] #70  Isaiah 49:14       ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #71  Jeremiah 16:21     KJV  → expected "LORD" — chapter not found
+  [FAIL] #71  Jeremiah 16:21     ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #72  Jeremiah 31:3      KJV  → expected "LORD" — chapter not found
+  [FAIL] #72  Jeremiah 31:3      ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #73  Ezekiel 36:23      KJV  → expected "LORD" — chapter not found
+  [FAIL] #73  Ezekiel 36:23      ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #74  Hosea 1:7          KJV  → expected "LORD" — chapter not found
+  [FAIL] #74  Hosea 1:7          ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #75  Joel 2:32          KJV  → expected "LORD" — chapter not found
+  [FAIL] #75  Joel 2:32          ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #76  Amos 5:15          KJV  → expected "LORD" — chapter not found
+  [FAIL] #76  Amos 5:15          ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #77  Micah 4:5          KJV  → expected "LORD" — chapter not found
+  [FAIL] #77  Micah 4:5          ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #78  Nahum 1:7          KJV  → expected "LORD" — chapter not found
+  [FAIL] #78  Nahum 1:7          ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #79  Zechariah 8:3      KJV  → expected "LORD" — chapter not found
+  [FAIL] #79  Zechariah 8:3      ASV  → expected "Jehovah" — chapter not found
+  [FAIL] #80  Malachi 3:1        KJV  → expected "Lord" — chapter not found
+  [FAIL] #80  Malachi 3:1        ASV  → expected "Lord" — chapter not found
+  [FAIL] #81  Matthew 1:18       KJV  → expected "Holy Ghost" — chapter not found
+  [FAIL] #81  Matthew 1:18       ASV  → expected "Holy Spirit" — chapter not found
+  [FAIL] #82  Matthew 1:20       KJV  → expected "Holy Ghost" — chapter not found
+  [FAIL] #82  Matthew 1:20       ASV  → expected "Holy Spirit" — chapter not found
+  [FAIL] #83  Matthew 3:11       KJV  → expected "Holy Ghost" — chapter not found
+  [FAIL] #83  Matthew 3:11       ASV  → expected "Holy Spirit" — chapter not found
+  [FAIL] #84  Matthew 12:31      KJV  → expected "Holy Ghost" — chapter not found
+  [FAIL] #84  Matthew 12:31      ASV  → expected "Holy Spirit" — chapter not found
+  [FAIL] #85  Matthew 28:19      KJV  → expected "Holy Ghost" — chapter not found
+  [FAIL] #85  Matthew 28:19      ASV  → expected "Holy Spirit" — chapter not found
+  [FAIL] #86  Mark 1:8           KJV  → expected "Holy Ghost" — chapter not found
+  [FAIL] #86  Mark 1:8           ASV  → expected "Holy Spirit" — chapter not found
+  [FAIL] #87  Luke 1:15          KJV  → expected "Holy Ghost" — chapter not found
+  [FAIL] #87  Luke 1:15          ASV  → expected "Holy Spirit" — chapter not found
+  [FAIL] #88  Luke 1:35          KJV  → expected "Holy Ghost" — chapter not found
+  [FAIL] #88  Luke 1:35          ASV  → expected "Holy Spirit" — chapter not found
+  [FAIL] #89  Luke 3:16          KJV  → expected "Holy Ghost" — chapter not found
+  [FAIL] #89  Luke 3:16          ASV  → expected "Holy Spirit" — chapter not found
+  [FAIL] #90  John 14:26         KJV  → expected "Holy Ghost" — chapter not found
+  [FAIL] #90  John 14:26         ASV  → expected "Holy Spirit" — chapter not found
+  [FAIL] #91  Matthew 4:7        KJV  → expected "tempt" — chapter not found
+  [FAIL] #91  Matthew 4:7        ASV  → expected "make trial of" — chapter not found
+  [FAIL] #92  Luke 4:12          KJV  → expected "tempt" — chapter not found
+  [FAIL] #92  Luke 4:12          ASV  → expected "try" — chapter not found
+  [FAIL] #93  Luke 10:25         KJV  → expected "tempting" — chapter not found
+  [FAIL] #93  Luke 10:25         ASV  → expected "trying" — chapter not found
+  [FAIL] #94  John 6:6           KJV  → expected "prove" — chapter not found
+  [FAIL] #94  John 6:6           ASV  → expected "prove" — chapter not found
+  [FAIL] #95  Acts 15:10         KJV  → expected "tempt ye God" — chapter not found
+  [FAIL] #95  Acts 15:10         ASV  → expected "make trial of God" — chapter not found
+  [FAIL] #96  1 Corinthians 10:9 KJV  → expected "tempt Christ" — chapter not found
+  [FAIL] #96  1 Corinthians 10:9 ASV  → expected "make trial of the Lord" — chapter not found
+  [FAIL] #97  Hebrews 3:9        KJV  → expected "tempted me" — chapter not found
+  [FAIL] #97  Hebrews 3:9        ASV  → expected "made trial of me" — chapter not found
+  [FAIL] #98  Hebrews 11:17      KJV  → expected "tried" — chapter not found
+  [FAIL] #98  Hebrews 11:17      ASV  → expected "tried" — chapter not found
+  [FAIL] #99  James 1:13         KJV  → expected "tempted" — chapter not found
+  [FAIL] #99  James 1:13         ASV  → expected "tempted" — chapter not found
+  [FAIL] #100 James 1:14         KJV  → expected "tempted" — chapter not found
+  [FAIL] #100 James 1:14         ASV  → expected "tempted" — chapter not found
+
+--- ALL FAILURES DETAIL ---
+Category: Translation Fingerprint Validation (190 failures)
+  - [FAIL] #1   Genesis 1:1        KJV  → expected "heaven" — chapter not found
+  - [FAIL] #1   Genesis 1:1        ASV  → expected "heavens" — chapter not found
+  - [FAIL] #2   Genesis 2:4        KJV  → expected "LORD God" — chapter not found
+  - [FAIL] #2   Genesis 2:4        ASV  → expected "Jehovah God" — chapter not found
+  - [FAIL] #3   Genesis 4:1        KJV  → expected "knew" — chapter not found
+  - [FAIL] #3   Genesis 4:1        ASV  → expected "knew" — chapter not found
+  - [FAIL] #4   Genesis 12:1       KJV  → expected "LORD" — chapter not found
+  - [FAIL] #4   Genesis 12:1       ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #5   Genesis 15:2       KJV  → expected "Lord GOD" — chapter not found
+  - [FAIL] #5   Genesis 15:2       ASV  → expected "Lord Jehovah" — chapter not found
+  - [FAIL] #6   Genesis 16:13      KJV  → expected "LORD" — chapter not found
+  - [FAIL] #6   Genesis 16:13      ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #7   Genesis 18:25      KJV  → expected "Judge" — chapter not found
+  - [FAIL] #7   Genesis 18:25      ASV  → expected "judge" — chapter not found
+  - [FAIL] #8   Genesis 22:14      KJV  → expected "JEHOVAH-jireh" — chapter not found
+  - [FAIL] #8   Genesis 22:14      ASV  → expected "Jehovah-jireh" — chapter not found
+  - [FAIL] #9   Genesis 26:24      KJV  → expected "LORD" — chapter not found
+  - [FAIL] #9   Genesis 26:24      ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #10  Genesis 28:16      KJV  → expected "awaked" — chapter not found
+  - [FAIL] #10  Genesis 28:16      ASV  → expected "awaked" — chapter not found
+  - [FAIL] #11  Genesis 32:30      KJV  → expected "Peniel" — chapter not found
+  - [FAIL] #11  Genesis 32:30      ASV  → expected "Peniel" — chapter not found
+  - [FAIL] #12  Genesis 35:7       KJV  → expected "God" — chapter not found
+  - [FAIL] #12  Genesis 35:7       ASV  → expected "God" — chapter not found
+  - [FAIL] #13  Exodus 3:14        KJV  → expected "I AM THAT I AM" — chapter not found
+  - [FAIL] #13  Exodus 3:14        ASV  → expected "I AM THAT I AM" — chapter not found
+  - [FAIL] #14  Exodus 6:3         KJV  → expected "LORD" — chapter not found
+  - [FAIL] #14  Exodus 6:3         ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #15  Exodus 15:2        KJV  → expected "LORD" — chapter not found
+  - [FAIL] #15  Exodus 15:2        ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #16  Exodus 17:15       KJV  → expected "JEHOVAH-nissi" — chapter not found
+  - [FAIL] #16  Exodus 17:15       ASV  → expected "Jehovah-nissi" — chapter not found
+  - [FAIL] #17  Exodus 20:7        KJV  → expected "LORD thy God" — chapter not found
+  - [FAIL] #17  Exodus 20:7        ASV  → expected "Jehovah thy God" — chapter not found
+  - [FAIL] #18  Exodus 23:17       KJV  → expected "Lord GOD" — chapter not found
+  - [FAIL] #18  Exodus 23:17       ASV  → expected "Lord Jehovah" — chapter not found
+  - [FAIL] #19  Exodus 33:19       KJV  → expected "LORD" — chapter not found
+  - [FAIL] #19  Exodus 33:19       ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #20  Exodus 34:5        KJV  → expected "LORD" — chapter not found
+  - [FAIL] #20  Exodus 34:5        ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #21  Leviticus 19:12    KJV  → expected "LORD" — chapter not found
+  - [FAIL] #21  Leviticus 19:12    ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #22  Numbers 6:24       KJV  → expected "LORD" — chapter not found
+  - [FAIL] #22  Numbers 6:24       ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #23  Numbers 14:18      KJV  → expected "LORD" — chapter not found
+  - [FAIL] #23  Numbers 14:18      ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #24  Deuteronomy 6:12   KJV  → expected "LORD ... which" — chapter not found
+  - [FAIL] #24  Deuteronomy 6:12   ASV  → expected "Jehovah ... who" — chapter not found
+  - [FAIL] #25  Deuteronomy 32:6   KJV  → expected "LORD" — chapter not found
+  - [FAIL] #25  Deuteronomy 32:6   ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #26  Joshua 22:22       KJV  → expected "LORD God" — chapter not found
+  - [FAIL] #26  Joshua 22:22       ASV  → expected "Jehovah God" — chapter not found
+  - [FAIL] #27  Judges 6:24        KJV  → expected "JEHOVAH-shalom" — chapter not found
+  - [FAIL] #27  Judges 6:24        ASV  → expected "Jehovah-shalom" — chapter not found
+  - [FAIL] #28  Ruth 1:21          KJV  → expected "LORD" — chapter not found
+  - [FAIL] #28  Ruth 1:21          ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #29  1 Samuel 2:2       KJV  → expected "LORD" — chapter not found
+  - [FAIL] #29  1 Samuel 2:2       ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #30  2 Samuel 22:2      KJV  → expected "LORD" — chapter not found
+  - [FAIL] #30  2 Samuel 22:2      ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #31  1 Kings 8:23       KJV  → expected "LORD God" — chapter not found
+  - [FAIL] #31  1 Kings 8:23       ASV  → expected "Jehovah God" — chapter not found
+  - [FAIL] #32  2 Kings 19:15      KJV  → expected "LORD God" — chapter not found
+  - [FAIL] #32  2 Kings 19:15      ASV  → expected "Jehovah God" — chapter not found
+  - [FAIL] #33  1 Chronicles 16:36 KJV  → expected "LORD" — chapter not found
+  - [FAIL] #33  1 Chronicles 16:36 ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #34  2 Chronicles 20:6  KJV  → expected "LORD God" — chapter not found
+  - [FAIL] #34  2 Chronicles 20:6  ASV  → expected "Jehovah God" — chapter not found
+  - [FAIL] #35  Ezra 9:8           KJV  → expected "LORD our God" — chapter not found
+  - [FAIL] #35  Ezra 9:8           ASV  → expected "Jehovah our God" — chapter not found
+  - [FAIL] #36  Nehemiah 1:5       KJV  → expected "LORD God" — chapter not found
+  - [FAIL] #36  Nehemiah 1:5       ASV  → expected "Jehovah God" — chapter not found
+  - [FAIL] #37  Job 1:21           KJV  → expected "LORD" — chapter not found
+  - [FAIL] #37  Job 1:21           ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #38  Psalm 23:1         KJV  → expected "The LORD" — chapter not found
+  - [FAIL] #38  Psalm 23:1         ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #39  Psalm 68:4         KJV  → expected "JAH" — chapter not found
+  - [FAIL] #39  Psalm 68:4         ASV  → expected "Jah" — chapter not found
+  - [FAIL] #40  Psalm 83:18        KJV  → expected "whose name alone is JEHOVAH" — chapter not found
+  - [FAIL] #40  Psalm 83:18        ASV  → expected "thou alone, whose name is Jehovah" — chapter not found
+  - [FAIL] #41  Psalm 18:2         KJV  → expected "The LORD" — chapter not found
+  - [FAIL] #41  Psalm 18:2         ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #42  Psalm 18:30        KJV  → expected "The LORD" — chapter not found
+  - [FAIL] #42  Psalm 18:30        ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #43  Psalm 19:14        KJV  → expected "LORD" — chapter not found
+  - [FAIL] #43  Psalm 19:14        ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #44  Psalm 20:1         KJV  → expected "The LORD" — chapter not found
+  - [FAIL] #44  Psalm 20:1         ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #45  Psalm 27:1         KJV  → expected "The LORD" — chapter not found
+  - [FAIL] #45  Psalm 27:1         ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #46  Psalm 34:1         KJV  → expected "LORD" — chapter not found
+  - [FAIL] #46  Psalm 34:1         ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #47  Psalm 37:5         KJV  → expected "LORD" — chapter not found
+  - [FAIL] #47  Psalm 37:5         ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #48  Psalm 40:1         KJV  → expected "LORD" — chapter not found
+  - [FAIL] #48  Psalm 40:1         ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #49  Psalm 46:1         KJV  → expected "God" — chapter not found
+  - [FAIL] #49  Psalm 46:1         ASV  → expected "God" — chapter not found
+  - [FAIL] #50  Psalm 55:22        KJV  → expected "LORD" — chapter not found
+  - [FAIL] #50  Psalm 55:22        ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #51  Psalm 83:18        KJV  → expected "JEHOVAH" — chapter not found
+  - [FAIL] #51  Psalm 83:18        ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #52  Psalm 91:2         KJV  → expected "LORD" — chapter not found
+  - [FAIL] #52  Psalm 91:2         ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #58  Proverbs 3:5       KJV  → expected "LORD" — chapter not found
+  - [FAIL] #58  Proverbs 3:5       ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #59  Proverbs 16:3      KJV  → expected "LORD" — chapter not found
+  - [FAIL] #59  Proverbs 16:3      ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #60  Ecclesiastes 12:13 KJV  → expected "God" — chapter not found
+  - [FAIL] #60  Ecclesiastes 12:13 ASV  → expected "God" — chapter not found
+  - [FAIL] #61  Isaiah 7:10        KJV  → expected "Lord" — chapter not found
+  - [FAIL] #61  Isaiah 7:10        ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #62  Isaiah 12:2        KJV  → expected "LORD JEHOVAH" — chapter not found
+  - [FAIL] #62  Isaiah 12:2        ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #63  Isaiah 26:4        KJV  → expected "LORD JEHOVAH" — chapter not found
+  - [FAIL] #63  Isaiah 26:4        ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #64  Isaiah 40:10       KJV  → expected "Lord GOD" — chapter not found
+  - [FAIL] #64  Isaiah 40:10       ASV  → expected "Lord Jehovah" — chapter not found
+  - [FAIL] #65  Isaiah 42:5        KJV  → expected "LORD God" — chapter not found
+  - [FAIL] #65  Isaiah 42:5        ASV  → expected "Jehovah God" — chapter not found
+  - [FAIL] #66  Isaiah 43:10       KJV  → expected "LORD" — chapter not found
+  - [FAIL] #66  Isaiah 43:10       ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #67  Isaiah 44:6        KJV  → expected "LORD" — chapter not found
+  - [FAIL] #67  Isaiah 44:6        ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #68  Isaiah 45:5        KJV  → expected "LORD" — chapter not found
+  - [FAIL] #68  Isaiah 45:5        ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #69  Isaiah 48:17       KJV  → expected "LORD" — chapter not found
+  - [FAIL] #69  Isaiah 48:17       ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #70  Isaiah 49:14       KJV  → expected "LORD" — chapter not found
+  - [FAIL] #70  Isaiah 49:14       ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #71  Jeremiah 16:21     KJV  → expected "LORD" — chapter not found
+  - [FAIL] #71  Jeremiah 16:21     ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #72  Jeremiah 31:3      KJV  → expected "LORD" — chapter not found
+  - [FAIL] #72  Jeremiah 31:3      ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #73  Ezekiel 36:23      KJV  → expected "LORD" — chapter not found
+  - [FAIL] #73  Ezekiel 36:23      ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #74  Hosea 1:7          KJV  → expected "LORD" — chapter not found
+  - [FAIL] #74  Hosea 1:7          ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #75  Joel 2:32          KJV  → expected "LORD" — chapter not found
+  - [FAIL] #75  Joel 2:32          ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #76  Amos 5:15          KJV  → expected "LORD" — chapter not found
+  - [FAIL] #76  Amos 5:15          ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #77  Micah 4:5          KJV  → expected "LORD" — chapter not found
+  - [FAIL] #77  Micah 4:5          ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #78  Nahum 1:7          KJV  → expected "LORD" — chapter not found
+  - [FAIL] #78  Nahum 1:7          ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #79  Zechariah 8:3      KJV  → expected "LORD" — chapter not found
+  - [FAIL] #79  Zechariah 8:3      ASV  → expected "Jehovah" — chapter not found
+  - [FAIL] #80  Malachi 3:1        KJV  → expected "Lord" — chapter not found
+  - [FAIL] #80  Malachi 3:1        ASV  → expected "Lord" — chapter not found
+  - [FAIL] #81  Matthew 1:18       KJV  → expected "Holy Ghost" — chapter not found
+  - [FAIL] #81  Matthew 1:18       ASV  → expected "Holy Spirit" — chapter not found
+  - [FAIL] #82  Matthew 1:20       KJV  → expected "Holy Ghost" — chapter not found
+  - [FAIL] #82  Matthew 1:20       ASV  → expected "Holy Spirit" — chapter not found
+  - [FAIL] #83  Matthew 3:11       KJV  → expected "Holy Ghost" — chapter not found
+  - [FAIL] #83  Matthew 3:11       ASV  → expected "Holy Spirit" — chapter not found
+  - [FAIL] #84  Matthew 12:31      KJV  → expected "Holy Ghost" — chapter not found
+  - [FAIL] #84  Matthew 12:31      ASV  → expected "Holy Spirit" — chapter not found
+  - [FAIL] #85  Matthew 28:19      KJV  → expected "Holy Ghost" — chapter not found
+  - [FAIL] #85  Matthew 28:19      ASV  → expected "Holy Spirit" — chapter not found
+  - [FAIL] #86  Mark 1:8           KJV  → expected "Holy Ghost" — chapter not found
+  - [FAIL] #86  Mark 1:8           ASV  → expected "Holy Spirit" — chapter not found
+  - [FAIL] #87  Luke 1:15          KJV  → expected "Holy Ghost" — chapter not found
+  - [FAIL] #87  Luke 1:15          ASV  → expected "Holy Spirit" — chapter not found
+  - [FAIL] #88  Luke 1:35          KJV  → expected "Holy Ghost" — chapter not found
+  - [FAIL] #88  Luke 1:35          ASV  → expected "Holy Spirit" — chapter not found
+  - [FAIL] #89  Luke 3:16          KJV  → expected "Holy Ghost" — chapter not found
+  - [FAIL] #89  Luke 3:16          ASV  → expected "Holy Spirit" — chapter not found
+  - [FAIL] #90  John 14:26         KJV  → expected "Holy Ghost" — chapter not found
+  - [FAIL] #90  John 14:26         ASV  → expected "Holy Spirit" — chapter not found
+  - [FAIL] #91  Matthew 4:7        KJV  → expected "tempt" — chapter not found
+  - [FAIL] #91  Matthew 4:7        ASV  → expected "make trial of" — chapter not found
+  - [FAIL] #92  Luke 4:12          KJV  → expected "tempt" — chapter not found
+  - [FAIL] #92  Luke 4:12          ASV  → expected "try" — chapter not found
+  - [FAIL] #93  Luke 10:25         KJV  → expected "tempting" — chapter not found
+  - [FAIL] #93  Luke 10:25         ASV  → expected "trying" — chapter not found
+  - [FAIL] #94  John 6:6           KJV  → expected "prove" — chapter not found
+  - [FAIL] #94  John 6:6           ASV  → expected "prove" — chapter not found
+  - [FAIL] #95  Acts 15:10         KJV  → expected "tempt ye God" — chapter not found
+  - [FAIL] #95  Acts 15:10         ASV  → expected "make trial of God" — chapter not found
+  - [FAIL] #96  1 Corinthians 10:9 KJV  → expected "tempt Christ" — chapter not found
+  - [FAIL] #96  1 Corinthians 10:9 ASV  → expected "make trial of the Lord" — chapter not found
+  - [FAIL] #97  Hebrews 3:9        KJV  → expected "tempted me" — chapter not found
+  - [FAIL] #97  Hebrews 3:9        ASV  → expected "made trial of me" — chapter not found
+  - [FAIL] #98  Hebrews 11:17      KJV  → expected "tried" — chapter not found
+  - [FAIL] #98  Hebrews 11:17      ASV  → expected "tried" — chapter not found
+  - [FAIL] #99  James 1:13         KJV  → expected "tempted" — chapter not found
+  - [FAIL] #99  James 1:13         ASV  → expected "tempted" — chapter not found
+  - [FAIL] #100 James 1:14         KJV  → expected "tempted" — chapter not found
+  - [FAIL] #100 James 1:14         ASV  → expected "tempted" — chapter not found
+Category: Verse Count Validation (3 failures)
+  - [english/dra] Psalms verse count deviation: Expected 2461, got 1741 (outside tolerance ±5)
+  - [greek/lxx] Psalms verse count deviation: Expected 2461, got 1740 (outside tolerance ±5)
+  - [hebrew/wlc] Psalms verse count deviation: Expected 2461, got 2527 (outside tolerance ±5)
+Category: Verse Text Spot Checks (3 failures)
+  - [english/kjv] Genesis 1:1 file not found
+  - [english/kjv] John 3:16 file not found
+  - [english/asv] Genesis 1:1 file not found

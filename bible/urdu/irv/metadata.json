@@ -1,0 +1,14 @@
+{
+  "name": "Indian Revised Version - Urdu",
+  "abbreviation": "IRV",
+  "language": "Urdu",
+  "language_code": "ur",
+  "year": 2019,
+  "testament_count": {
+    "ot": 39,
+    "nt": 27
+  },
+  "source": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/urd-urd.txt",
+  "license": "CC BY-SA 4.0",
+  "notes": "Collected and split canonically into ot/nt folders with labeled verses."
+}

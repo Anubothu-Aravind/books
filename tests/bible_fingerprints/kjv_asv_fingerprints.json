@@ -1,0 +1,1719 @@
+[
+  {
+    "id": 1,
+    "reference": "Genesis 1:1",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "heaven"
+      },
+      "ERV": {
+        "expected_contains": "heaven"
+      },
+      "ASV": {
+        "expected_contains": "heavens"
+      }
+    },
+    "fingerprint": "heaven_vs_heavens"
+  },
+  {
+    "id": 2,
+    "reference": "Genesis 2:4",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD God"
+      },
+      "ERV": {
+        "expected_contains": "LORD God"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah God"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 3,
+    "reference": "Genesis 4:1",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "knew"
+      },
+      "ERV": {
+        "expected_contains": "knew"
+      },
+      "ASV": {
+        "expected_contains": "knew"
+      }
+    },
+    "fingerprint": "knew_vs_know"
+  },
+  {
+    "id": 4,
+    "reference": "Genesis 12:1",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 5,
+    "reference": "Genesis 15:2",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "Lord GOD"
+      },
+      "ERV": {
+        "expected_contains": "Lord GOD"
+      },
+      "ASV": {
+        "expected_contains": "Lord Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 6,
+    "reference": "Genesis 16:13",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 7,
+    "reference": "Genesis 18:25",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "Judge"
+      },
+      "ERV": {
+        "expected_contains": "judge"
+      },
+      "ASV": {
+        "expected_contains": "Judge"
+      }
+    },
+    "fingerprint": "Judge_vs_judge",
+    "note": "ASV Genesis 18:25 uses 'Judge of all the earth' (capital J), failing the lowercase 'judge' expectation."
+  },
+  {
+    "id": 8,
+    "reference": "Genesis 22:14",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "JEHOVAH-jireh"
+      },
+      "ERV": {
+        "expected_contains": "JEHOVAH-jireh"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah-jireh"
+      }
+    },
+    "fingerprint": "JEHOVAH"
+  },
+  {
+    "id": 9,
+    "reference": "Genesis 26:24",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 10,
+    "reference": "Genesis 28:16",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "awaked"
+      },
+      "ERV": {
+        "expected_contains": "awaked"
+      },
+      "ASV": {
+        "expected_contains": "awoke"
+      }
+    },
+    "fingerprint": "awaked_vs_awoke",
+    "note": "ASV Genesis 28:16 uses 'awoke' instead of KJV's 'awaked'."
+  },
+  {
+    "id": 11,
+    "reference": "Genesis 32:30",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "Peniel"
+      },
+      "ERV": {
+        "expected_contains": "Peniel"
+      },
+      "ASV": {
+        "expected_contains": "Peniel"
+      }
+    },
+    "fingerprint": "Peniel_vs_Penuel"
+  },
+  {
+    "id": 12,
+    "reference": "Genesis 35:7",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "God"
+      },
+      "ERV": {
+        "expected_contains": "God"
+      },
+      "ASV": {
+        "expected_contains": "God"
+      }
+    },
+    "fingerprint": "God_vs_El"
+  },
+  {
+    "id": 13,
+    "reference": "Exodus 3:14",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "I AM THAT I AM"
+      },
+      "ERV": {
+        "expected_contains": "I AM THAT I AM"
+      },
+      "ASV": {
+        "expected_contains": "I AM THAT I AM"
+      }
+    },
+    "fingerprint": "I_AM"
+  },
+  {
+    "id": 14,
+    "reference": "Exodus 6:3",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "JEHOVAH"
+      },
+      "ERV": {
+        "expected_contains": "JEHOVAH"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH",
+    "note": "KJV CPB Exodus 6:3 uses 'JEHOVAH' in all caps here, failing the expected 'LORD' designation."
+  },
+  {
+    "id": 15,
+    "reference": "Exodus 15:2",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 16,
+    "reference": "Exodus 17:15",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "JEHOVAH-nissi"
+      },
+      "ERV": {
+        "expected_contains": "JEHOVAH-nissi"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah-nissi"
+      }
+    },
+    "fingerprint": "JEHOVAH"
+  },
+  {
+    "id": 17,
+    "reference": "Exodus 20:7",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD thy God"
+      },
+      "ERV": {
+        "expected_contains": "LORD thy God"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah thy God"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 18,
+    "reference": "Exodus 23:17",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "Lord GOD"
+      },
+      "ERV": {
+        "expected_contains": "Lord GOD"
+      },
+      "ASV": {
+        "expected_contains": "Lord Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 19,
+    "reference": "Exodus 33:19",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 20,
+    "reference": "Exodus 34:5",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 21,
+    "reference": "Leviticus 19:12",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 22,
+    "reference": "Numbers 6:24",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 23,
+    "reference": "Numbers 14:18",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 24,
+    "reference": "Deuteronomy 6:12",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD ... which"
+      },
+      "ERV": {
+        "expected_contains": "LORD ... which"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah ... who"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 25,
+    "reference": "Deuteronomy 32:6",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 26,
+    "reference": "Joshua 22:22",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD God"
+      },
+      "ERV": {
+        "expected_contains": "LORD God"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH",
+    "note": "ASV Joshua 22:22 uses 'God, Jehovah' (with a comma), failing the expected 'Jehovah God' sequence."
+  },
+  {
+    "id": 27,
+    "reference": "Judges 6:24",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "JEHOVAH-shalom"
+      },
+      "ERV": {
+        "expected_contains": "JEHOVAH-shalom"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah-shalom"
+      }
+    },
+    "fingerprint": "JEHOVAH"
+  },
+  {
+    "id": 28,
+    "reference": "Ruth 1:21",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 29,
+    "reference": "1 Samuel 2:2",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 30,
+    "reference": "2 Samuel 22:2",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 31,
+    "reference": "1 Kings 8:23",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD God"
+      },
+      "ERV": {
+        "expected_contains": "LORD God"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH",
+    "note": "ASV 1 Kings 8:23 uses 'Jehovah, the God of Israel', failing the expected 'Jehovah God' sequence."
+  },
+  {
+    "id": 32,
+    "reference": "2 Kings 19:15",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD God"
+      },
+      "ERV": {
+        "expected_contains": "LORD God"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH",
+    "note": "ASV 2 Kings 19:15 uses 'Jehovah, the God of Israel', failing the expected 'Jehovah God' sequence."
+  },
+  {
+    "id": 33,
+    "reference": "1 Chronicles 16:36",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 34,
+    "reference": "2 Chronicles 20:6",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD God"
+      },
+      "ERV": {
+        "expected_contains": "LORD God"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH",
+    "note": "ASV 2 Chronicles 20:6 uses 'Jehovah, the God of our fathers', failing the expected 'Jehovah God' sequence."
+  },
+  {
+    "id": 35,
+    "reference": "Ezra 9:8",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD our God"
+      },
+      "ERV": {
+        "expected_contains": "LORD our God"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah our God"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 36,
+    "reference": "Nehemiah 1:5",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD God"
+      },
+      "ERV": {
+        "expected_contains": "LORD God"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH",
+    "note": "ASV Nehemiah 1:5 uses 'Jehovah, the God of heaven', failing the expected 'Jehovah God' sequence."
+  },
+  {
+    "id": 37,
+    "reference": "Job 1:21",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 38,
+    "reference": "Psalm 23:1",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "The LORD"
+      },
+      "ERV": {
+        "expected_contains": "The LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 39,
+    "reference": "Psalm 68:4",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "JAH"
+      },
+      "ERV": {
+        "expected_contains": "JAH"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "JAH_vs_Jah",
+    "note": "ASV Psalm 68:4 uses 'His name is Jehovah', failing the expected 'Jah' naming."
+  },
+  {
+    "id": 40,
+    "reference": "Psalm 83:18",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "whose name alone is JEHOVAH"
+      },
+      "ERV": {
+        "expected_contains": "whose name alone is JEHOVAH"
+      },
+      "ASV": {
+        "expected_contains": "thou alone, whose name is Jehovah"
+      }
+    },
+    "fingerprint": "name_placement"
+  },
+  {
+    "id": 41,
+    "reference": "Psalm 18:2",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "The LORD"
+      },
+      "ERV": {
+        "expected_contains": "The LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 42,
+    "reference": "Psalm 18:30",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "The LORD"
+      },
+      "ERV": {
+        "expected_contains": "The LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 43,
+    "reference": "Psalm 19:14",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 44,
+    "reference": "Psalm 20:1",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "The LORD"
+      },
+      "ERV": {
+        "expected_contains": "The LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 45,
+    "reference": "Psalm 27:1",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "The LORD"
+      },
+      "ERV": {
+        "expected_contains": "The LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 46,
+    "reference": "Psalm 34:1",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 47,
+    "reference": "Psalm 37:5",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 48,
+    "reference": "Psalm 40:1",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 49,
+    "reference": "Psalm 46:1",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "God"
+      },
+      "ERV": {
+        "expected_contains": "God"
+      },
+      "ASV": {
+        "expected_contains": "God"
+      }
+    },
+    "fingerprint": "God"
+  },
+  {
+    "id": 50,
+    "reference": "Psalm 55:22",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 51,
+    "reference": "Psalm 83:18",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "JEHOVAH"
+      },
+      "ERV": {
+        "expected_contains": "JEHOVAH"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "capitalization"
+  },
+  {
+    "id": 52,
+    "reference": "Psalm 91:2",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 53,
+    "reference": "Psalm 103:1",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 54,
+    "reference": "Psalm 110:1",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 55,
+    "reference": "Psalm 118:24",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 56,
+    "reference": "Psalm 119:105",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "lamp"
+      },
+      "ERV": {
+        "expected_contains": "lamp"
+      },
+      "ASV": {
+        "expected_contains": "lamp"
+      }
+    },
+    "fingerprint": "lamp"
+  },
+  {
+    "id": 57,
+    "reference": "Psalm 139:7",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "Whither"
+      },
+      "ERV": {
+        "expected_contains": "Whither"
+      },
+      "ASV": {
+        "expected_contains": "Whither"
+      }
+    },
+    "fingerprint": "Whither"
+  },
+  {
+    "id": 58,
+    "reference": "Proverbs 3:5",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 59,
+    "reference": "Proverbs 16:3",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 60,
+    "reference": "Ecclesiastes 12:13",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "God"
+      },
+      "ERV": {
+        "expected_contains": "God"
+      },
+      "ASV": {
+        "expected_contains": "God"
+      }
+    },
+    "fingerprint": "God"
+  },
+  {
+    "id": 61,
+    "reference": "Isaiah 7:10",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "Lord"
+      },
+      "ERV": {
+        "expected_contains": "Lord"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 62,
+    "reference": "Isaiah 12:2",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD JEHOVAH"
+      },
+      "ERV": {
+        "expected_contains": "LORD JEHOVAH"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 63,
+    "reference": "Isaiah 26:4",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD JEHOVAH"
+      },
+      "ERV": {
+        "expected_contains": "LORD JEHOVAH"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 64,
+    "reference": "Isaiah 40:10",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "Lord GOD"
+      },
+      "ERV": {
+        "expected_contains": "Lord GOD"
+      },
+      "ASV": {
+        "expected_contains": "Lord Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 65,
+    "reference": "Isaiah 42:5",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "God the Lord"
+      },
+      "ERV": {
+        "expected_contains": "LORD God"
+      },
+      "ASV": {
+        "expected_contains": "God Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH",
+    "note": "KJV CPB Isaiah 42:5 uses 'God the Lord' and ASV uses 'God Jehovah', both failing the expected 'LORD God' / 'Jehovah God' sequences."
+  },
+  {
+    "id": 66,
+    "reference": "Isaiah 43:10",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 67,
+    "reference": "Isaiah 44:6",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 68,
+    "reference": "Isaiah 45:5",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 69,
+    "reference": "Isaiah 48:17",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 70,
+    "reference": "Isaiah 49:14",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 71,
+    "reference": "Jeremiah 16:21",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 72,
+    "reference": "Jeremiah 31:3",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 73,
+    "reference": "Ezekiel 36:23",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 74,
+    "reference": "Hosea 1:7",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 75,
+    "reference": "Joel 2:32",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH",
+    "note": "Joel 2:32 is omitted in this corpus chapter (which has only 27 verses) due to Hebrew-aligned chapter splitting; these verses are positioned at Joel 3:1-5."
+  },
+  {
+    "id": 76,
+    "reference": "Amos 5:15",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 77,
+    "reference": "Micah 4:5",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 78,
+    "reference": "Nahum 1:7",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 79,
+    "reference": "Zechariah 8:3",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "LORD"
+      },
+      "ERV": {
+        "expected_contains": "LORD"
+      },
+      "ASV": {
+        "expected_contains": "Jehovah"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 80,
+    "reference": "Malachi 3:1",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "Lord"
+      },
+      "ERV": {
+        "expected_contains": "Lord"
+      },
+      "ASV": {
+        "expected_contains": "Lord"
+      }
+    },
+    "fingerprint": "LORD_vs_JEHOVAH"
+  },
+  {
+    "id": 81,
+    "reference": "Matthew 1:18",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "Holy Ghost"
+      },
+      "ERV": {
+        "expected_contains": "Holy Spirit"
+      },
+      "ASV": {
+        "expected_contains": "Holy Spirit"
+      }
+    },
+    "fingerprint": "holy_ghost_vs_holy_spirit"
+  },
+  {
+    "id": 82,
+    "reference": "Matthew 1:20",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "Holy Ghost"
+      },
+      "ERV": {
+        "expected_contains": "Holy Spirit"
+      },
+      "ASV": {
+        "expected_contains": "Holy Spirit"
+      }
+    },
+    "fingerprint": "holy_ghost_vs_holy_spirit"
+  },
+  {
+    "id": 83,
+    "reference": "Matthew 3:11",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "Holy Ghost"
+      },
+      "ERV": {
+        "expected_contains": "Holy Spirit"
+      },
+      "ASV": {
+        "expected_contains": "Holy Spirit"
+      }
+    },
+    "fingerprint": "holy_ghost_vs_holy_spirit"
+  },
+  {
+    "id": 84,
+    "reference": "Matthew 12:31",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "Holy Ghost"
+      },
+      "ERV": {
+        "expected_contains": "Holy Spirit"
+      },
+      "ASV": {
+        "expected_contains": "Spirit"
+      }
+    },
+    "fingerprint": "holy_ghost_vs_holy_spirit",
+    "note": "ASV Matthew 12:31 uses 'the Spirit' instead of 'Holy Spirit'."
+  },
+  {
+    "id": 85,
+    "reference": "Matthew 28:19",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "Holy Ghost"
+      },
+      "ERV": {
+        "expected_contains": "Holy Spirit"
+      },
+      "ASV": {
+        "expected_contains": "Holy Spirit"
+      }
+    },
+    "fingerprint": "holy_ghost_vs_holy_spirit"
+  },
+  {
+    "id": 86,
+    "reference": "Mark 1:8",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "Holy Ghost"
+      },
+      "ERV": {
+        "expected_contains": "Holy Spirit"
+      },
+      "ASV": {
+        "expected_contains": "Holy Spirit"
+      }
+    },
+    "fingerprint": "holy_ghost_vs_holy_spirit"
+  },
+  {
+    "id": 87,
+    "reference": "Luke 1:15",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "Holy Ghost"
+      },
+      "ERV": {
+        "expected_contains": "Holy Spirit"
+      },
+      "ASV": {
+        "expected_contains": "Holy Spirit"
+      }
+    },
+    "fingerprint": "holy_ghost_vs_holy_spirit"
+  },
+  {
+    "id": 88,
+    "reference": "Luke 1:35",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "Holy Ghost"
+      },
+      "ERV": {
+        "expected_contains": "Holy Spirit"
+      },
+      "ASV": {
+        "expected_contains": "Holy Spirit"
+      }
+    },
+    "fingerprint": "holy_ghost_vs_holy_spirit"
+  },
+  {
+    "id": 89,
+    "reference": "Luke 3:16",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "Holy Ghost"
+      },
+      "ERV": {
+        "expected_contains": "Holy Spirit"
+      },
+      "ASV": {
+        "expected_contains": "Holy Spirit"
+      }
+    },
+    "fingerprint": "holy_ghost_vs_holy_spirit"
+  },
+  {
+    "id": 90,
+    "reference": "John 14:26",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "Holy Ghost"
+      },
+      "ERV": {
+        "expected_contains": "Holy Spirit"
+      },
+      "ASV": {
+        "expected_contains": "Holy Spirit"
+      }
+    },
+    "fingerprint": "holy_ghost_vs_holy_spirit"
+  },
+  {
+    "id": 91,
+    "reference": "Matthew 4:7",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "tempt"
+      },
+      "ERV": {
+        "expected_contains": "tempt"
+      },
+      "ASV": {
+        "expected_contains": "make trial of"
+      }
+    },
+    "fingerprint": "tempt_vs_trial"
+  },
+  {
+    "id": 92,
+    "reference": "Luke 4:12",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "tempt"
+      },
+      "ERV": {
+        "expected_contains": "tempt"
+      },
+      "ASV": {
+        "expected_contains": "make trial"
+      }
+    },
+    "fingerprint": "tempt_vs_trial",
+    "note": "ASV Luke 4:12 uses 'make trial' instead of the expected 'try'."
+  },
+  {
+    "id": 93,
+    "reference": "Luke 10:25",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "tempted"
+      },
+      "ERV": {
+        "expected_contains": "tempting"
+      },
+      "ASV": {
+        "expected_contains": "making trial"
+      }
+    },
+    "fingerprint": "tempt_vs_trial",
+    "note": "KJV CPB Luke 10:25 uses 'tempted' (failing 'tempting') and ASV uses 'making trial' (failing 'trying')."
+  },
+  {
+    "id": 94,
+    "reference": "John 6:6",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "prove"
+      },
+      "ERV": {
+        "expected_contains": "prove"
+      },
+      "ASV": {
+        "expected_contains": "prove"
+      }
+    },
+    "fingerprint": "tempt_vs_trial"
+  },
+  {
+    "id": 95,
+    "reference": "Acts 15:10",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "tempt ye God"
+      },
+      "ERV": {
+        "expected_contains": "make trial of God"
+      },
+      "ASV": {
+        "expected_contains": "make ye trial"
+      }
+    },
+    "fingerprint": "tempt_vs_trial",
+    "note": "ASV Acts 15:10 uses 'make ye trial of God' instead of 'make trial of God'."
+  },
+  {
+    "id": 96,
+    "reference": "1 Corinthians 10:9",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "tempt Christ"
+      },
+      "ERV": {
+        "expected_contains": "make trial of the Lord"
+      },
+      "ASV": {
+        "expected_contains": "make trial"
+      }
+    },
+    "fingerprint": "tempt_vs_trial",
+    "note": "ASV 1 Corinthians 10:9 uses 'make trial of Christ' instead of 'make trial of the Lord'."
+  },
+  {
+    "id": 97,
+    "reference": "Hebrews 3:9",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "tempted me"
+      },
+      "ERV": {
+        "expected_contains": "made trial of me"
+      },
+      "ASV": {
+        "expected_contains": "tried"
+      }
+    },
+    "fingerprint": "tempt_vs_trial",
+    "note": "ASV Hebrews 3:9 uses 'tried me, proved me' instead of 'made trial of me'."
+  },
+  {
+    "id": 98,
+    "reference": "Hebrews 11:17",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "tried"
+      },
+      "ERV": {
+        "expected_contains": "tried"
+      },
+      "ASV": {
+        "expected_contains": "tried"
+      }
+    },
+    "fingerprint": "tempt_vs_trial"
+  },
+  {
+    "id": 99,
+    "reference": "James 1:13",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "tempted"
+      },
+      "ERV": {
+        "expected_contains": "tempted"
+      },
+      "ASV": {
+        "expected_contains": "tempted"
+      }
+    },
+    "fingerprint": "tempt_vs_trial"
+  },
+  {
+    "id": 100,
+    "reference": "James 1:14",
+    "language": "en",
+    "translations": {
+      "KJV": {
+        "expected_contains": "tempted"
+      },
+      "ERV": {
+        "expected_contains": "tempted"
+      },
+      "ASV": {
+        "expected_contains": "tempted"
+      }
+    },
+    "fingerprint": "tempt_vs_trial"
+  }
+]

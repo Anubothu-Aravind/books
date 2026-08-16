@@ -1,0 +1,14 @@
+{
+  "name": "SBL Greek New Testament",
+  "abbreviation": "SBLGNT",
+  "language": "Greek",
+  "language_code": "el",
+  "year": 2010,
+  "testament_count": {
+    "ot": 0,
+    "nt": 27
+  },
+  "source": "https://raw.githubusercontent.com/Faithlife/SBLGNT/master/data/sblgnt/text/",
+  "license": "SBLGNT License",
+  "notes": "SBLGNT text fetched book-by-book from Faithlife GitHub repository."
+}

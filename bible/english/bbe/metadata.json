@@ -1,0 +1,14 @@
+{
+  "name": "Bible in Basic English",
+  "abbreviation": "BBE",
+  "language": "English",
+  "language_code": "en",
+  "year": 1949,
+  "testament_count": {
+    "ot": 39,
+    "nt": 27
+  },
+  "source": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/eng-engBBE.txt",
+  "license": "Public Domain",
+  "notes": "Collected and split canonically into ot/nt folders with labeled verses."
+}

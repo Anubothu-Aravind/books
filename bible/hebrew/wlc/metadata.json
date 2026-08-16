@@ -1,0 +1,14 @@
+{
+  "name": "Westminster Leningrad Codex",
+  "abbreviation": "WLC",
+  "language": "Hebrew",
+  "language_code": "he",
+  "year": 1008,
+  "testament_count": {
+    "ot": 39,
+    "nt": 0
+  },
+  "source": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/hbo-hboWLC.txt",
+  "license": "Public Domain",
+  "notes": "Collected and split canonically into ot/nt folders with labeled verses."
+}
