@@ -106,6 +106,9 @@ USFM_ID_MAP = {
 
 def clean_usfm_text(text):
     """Remove inline USFM markers and return clean verse text."""
+    # Remove Strong's number word-level attributes: word|strong="H1234" -> word
+    # These appear in ERV as: word|strong="H1234"
+    text = re.sub(r'\|strong="[^"]*"', "", text)
     # Remove character-level markers: \wj ...\wj*, \add ...\add*, etc.
     text = re.sub(r"\\[a-z]+\*", "", text)
     text = re.sub(r"\\[a-z]+[0-9]?\s", " ", text)

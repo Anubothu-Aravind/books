@@ -1,10 +1,10 @@
-[ERV | EN | OT | Psalms | Chapter 6 | Verse 1] O|strong="H3068" LORD|strong="H3068", rebuke me|strong="H5921" not|strong="H1732" in|strong="H5921" thine anger, neither chasten me|strong="H5921" in|strong="H5921" thy|strong="H1732" hot displeasure.
-[ERV | EN | OT | Psalms | Chapter 6 | Verse 2] Have|strong="H3068" mercy|strong="H3068" upon|strong="H2534" me|strong="H3256", O|strong="H3068" LORD|strong="H3068"; for|strong="H3068" I|strong="H3068" am|strong="H3068" withered away: O|strong="H3068" LORD|strong="H3068", heal me|strong="H3256"; for|strong="H3068" my|strong="H3068" bones are|strong="H3068" vexed.
-[ERV | EN | OT | Psalms | Chapter 6 | Verse 3] My|strong="H3068" soul also|strong="H3068" is|strong="H3068" sore vexed: and|strong="H3068" thou|strong="H3588", O|strong="H3068" LORD|strong="H3068", how|strong="H3588" long?
-[ERV | EN | OT | Psalms | Chapter 6 | Verse 4] Return, O|strong="H3068" LORD|strong="H3068", deliver my|strong="H3068" soul|strong="H5315": save|strong="H5315" me|strong="H5315" for|strong="H5704" thy|strong="H3068" lovingkindness’ sake.
-[ERV | EN | OT | Psalms | Chapter 6 | Verse 5] For|strong="H3068" in|strong="H3068" death|strong="H5315" there|strong="H3068" is|strong="H3068" no remembrance of|strong="H3068" thee|strong="H7725": in|strong="H3068" Sheol who|strong="H3068" shall|strong="H3068" give|strong="H7725" thee|strong="H7725" thanks?
-[ERV | EN | OT | Psalms | Chapter 6 | Verse 6] I|strong="H3588" am weary with|strong="H7585" my|strong="H3588" groaning; every|strong="H3588" night make|strong="H3588" I|strong="H3588" my|strong="H3588" bed to|strong="H3588" swim; I|strong="H3588" water my|strong="H3588" couch with|strong="H7585" my|strong="H3588" tears.
-[ERV | EN | OT | Psalms | Chapter 6 | Verse 7] Mine eye wasteth away|strong="H3605" because|strong="H3605" of|strong="H3605" grief; it|strong="H3915" waxeth old because|strong="H3605" of|strong="H3605" all|strong="H3605" mine adversaries.
-[ERV | EN | OT | Psalms | Chapter 6 | Verse 8] Depart from|strong="H5869" me|strong="H5869", all|strong="H3605" ye workers of|strong="H5869" iniquity; for|strong="H3605" the|strong="H3605" LORD|strong="H3068" hath|strong="H5869" heard the|strong="H3605" voice of|strong="H5869" my|strong="H3605" weeping.
-[ERV | EN | OT | Psalms | Chapter 6 | Verse 9] The|strong="H3605" LORD|strong="H3068" hath|strong="H3068" heard|strong="H8085" my|strong="H8085" supplication; the|strong="H3605" LORD|strong="H3068" will|strong="H3068" receive my|strong="H8085" prayer.
-[ERV | EN | OT | Psalms | Chapter 6 | Verse 10] All|strong="H3947" mine enemies shall|strong="H3068" be|strong="H3068" ashamed and|strong="H3068" sore vexed: they|strong="H3068" shall|strong="H3068" turn back|strong="H3947", they|strong="H3068" shall|strong="H3068" be|strong="H3068" ashamed suddenly.
+[ERV | EN | OT | Psalms | Chapter 6 | Verse 1] O LORD, rebuke me not in thine anger, neither chasten me in thy hot displeasure.
+[ERV | EN | OT | Psalms | Chapter 6 | Verse 2] Have mercy upon me, O LORD; for I am withered away: O LORD, heal me; for my bones are vexed.
+[ERV | EN | OT | Psalms | Chapter 6 | Verse 3] My soul also is sore vexed: and thou, O LORD, how long?
+[ERV | EN | OT | Psalms | Chapter 6 | Verse 4] Return, O LORD, deliver my soul: save me for thy lovingkindness’ sake.
+[ERV | EN | OT | Psalms | Chapter 6 | Verse 5] For in death there is no remembrance of thee: in Sheol who shall give thee thanks?
+[ERV | EN | OT | Psalms | Chapter 6 | Verse 6] I am weary with my groaning; every night make I my bed to swim; I water my couch with my tears.
+[ERV | EN | OT | Psalms | Chapter 6 | Verse 7] Mine eye wasteth away because of grief; it waxeth old because of all mine adversaries.
+[ERV | EN | OT | Psalms | Chapter 6 | Verse 8] Depart from me, all ye workers of iniquity; for the LORD hath heard the voice of my weeping.
+[ERV | EN | OT | Psalms | Chapter 6 | Verse 9] The LORD hath heard my supplication; the LORD will receive my prayer.
+[ERV | EN | OT | Psalms | Chapter 6 | Verse 10] All mine enemies shall be ashamed and sore vexed: they shall turn back, they shall be ashamed suddenly.

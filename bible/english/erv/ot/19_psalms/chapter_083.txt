@@ -1,18 +1,18 @@
-[ERV | EN | OT | Psalms | Chapter 83 | Verse 1] O|strong="H3068" God, keep not thou silence: hold not thy peace, and be|strong="H7892" not still, O|strong="H3068" God.
-[ERV | EN | OT | Psalms | Chapter 83 | Verse 2] For|strong="H8252", lo, thine enemies make|strong="H2790" a|strong="H3068" tumult: and|strong="H8252" they that hate thee have lifted up the|strong="H8252" head.
-[ERV | EN | OT | Psalms | Chapter 83 | Verse 3] They|strong="H3588" take|strong="H5375" crafty counsel against|strong="H8130" thy|strong="H5375" people, and|strong="H7218" consult together against|strong="H8130" thy|strong="H5375" hidden ones.
-[ERV | EN | OT | Psalms | Chapter 83 | Verse 4] They|strong="H5921" have|strong="H5971" said, Come|strong="H5971", and|strong="H5971" let us|strong="H5921" cut them|strong="H5921" off|strong="H5921" from|strong="H5921" being|strong="H5971" a|strong="H3068" nation|strong="H5971"; that|strong="H5971" the|strong="H5921" name of|strong="H5971" Israel|strong="H5971" may|strong="H5971" be|strong="H5971" no more|strong="H5921" in|strong="H5921" remembrance.
-[ERV | EN | OT | Psalms | Chapter 83 | Verse 5] For|strong="H8034" they|strong="H3808" have|strong="H3478" consulted together with|strong="H3212" one|strong="H3808" consent; against|strong="H3212" thee|strong="H3212" do they|strong="H3808" make|strong="H2142" a|strong="H3068" covenant:
-[ERV | EN | OT | Psalms | Chapter 83 | Verse 6] The|strong="H5921" tents of|strong="H5921" Edom and|strong="H1285" the|strong="H5921" Ishmaelites; Moab, and|strong="H1285" the|strong="H5921" Hagarenes;
-[ERV | EN | OT | Psalms | Chapter 83 | Verse 7] Gebal, and|strong="H4124" Ammon, and|strong="H4124" Amalek; Philistia with the inhabitants of|strong="H4124" Tyre:
-[ERV | EN | OT | Psalms | Chapter 83 | Verse 8] Assyria also is|strong="H6002" joined with|strong="H5973" them|strong="H3427"; they|strong="H5983" have|strong="H5973" holpen the|strong="H5973" children of|strong="H3427" Lot. Selah
-[ERV | EN | OT | Psalms | Chapter 83 | Verse 9] Do thou|strong="H1961" unto|strong="H1121" them|strong="H1961" as|strong="H1961" unto|strong="H1121" Midian; as|strong="H1961" to|strong="H1961" Sisera, as|strong="H1961" to|strong="H1961" Jabin, at|strong="H1961" the|strong="H1961" river Kishon:
-[ERV | EN | OT | Psalms | Chapter 83 | Verse 10] Which|strong="H1992" perished at|strong="H6213" En-dor; they|strong="H1992" became as|strong="H6213" dung for|strong="H6213" the|strong="H6213" earth.
-[ERV | EN | OT | Psalms | Chapter 83 | Verse 11] Make their|strong="H1961" nobles like|strong="H1961" Oreb and|strong="H1961" Zeeb; yea, all their|strong="H1961" princes like|strong="H1961" Zebah and|strong="H1961" Zalmunna:
-[ERV | EN | OT | Psalms | Chapter 83 | Verse 12] Who|strong="H3605" said, Let us take|strong="H7896" to|strong="H3605" ourselves in|strong="H3605" possession the|strong="H3605" habitations of|strong="H3605" God.
-[ERV | EN | OT | Psalms | Chapter 83 | Verse 13] O|strong="H3068" my|strong="H3423" God, make them|strong="H3423" like the|strong="H3423" whirling dust; as stubble before the|strong="H3423" wind.
-[ERV | EN | OT | Psalms | Chapter 83 | Verse 14] As|strong="H6440" the|strong="H6440" fire that|strong="H7307" burneth the|strong="H6440" forest, and|strong="H6440" as|strong="H6440" the|strong="H6440" flame that|strong="H7307" setteth the|strong="H6440" mountains on|strong="H6440" fire;
-[ERV | EN | OT | Psalms | Chapter 83 | Verse 15] So pursue them|strong="H3857" with|strong="H1197" thy|strong="H1197" tempest, and|strong="H2022" terrify them|strong="H3857" with|strong="H1197" thy|strong="H1197" storm.
-[ERV | EN | OT | Psalms | Chapter 83 | Verse 16] Fill their|strong="H3651" faces with|strong="H3651" confusion; that|strong="H3651" they|strong="H3651" may seek thy name, O|strong="H3068" LORD|strong="H3068".
-[ERV | EN | OT | Psalms | Chapter 83 | Verse 17] Let them|strong="H6440" be|strong="H3068" ashamed and|strong="H3068" dismayed for|strong="H6440" ever; yea, let them|strong="H6440" be|strong="H3068" confounded and|strong="H3068" perish:
-[ERV | EN | OT | Psalms | Chapter 83 | Verse 18] That|strong="H5704" they|strong="H5704" may know that|strong="H5704" thou|strong="H5704" alone, whose name is JEHOVAH|strong="H3068", art the|strong="H5704" Most High over|strong="H5704" all|strong="H5704" the|strong="H5704" earth.
+[ERV | EN | OT | Psalms | Chapter 83 | Verse 1] O God, keep not thou silence: hold not thy peace, and be not still, O God.
+[ERV | EN | OT | Psalms | Chapter 83 | Verse 2] For, lo, thine enemies make a tumult: and they that hate thee have lifted up the head.
+[ERV | EN | OT | Psalms | Chapter 83 | Verse 3] They take crafty counsel against thy people, and consult together against thy hidden ones.
+[ERV | EN | OT | Psalms | Chapter 83 | Verse 4] They have said, Come, and let us cut them off from being a nation; that the name of Israel may be no more in remembrance.
+[ERV | EN | OT | Psalms | Chapter 83 | Verse 5] For they have consulted together with one consent; against thee do they make a covenant:
+[ERV | EN | OT | Psalms | Chapter 83 | Verse 6] The tents of Edom and the Ishmaelites; Moab, and the Hagarenes;
+[ERV | EN | OT | Psalms | Chapter 83 | Verse 7] Gebal, and Ammon, and Amalek; Philistia with the inhabitants of Tyre:
+[ERV | EN | OT | Psalms | Chapter 83 | Verse 8] Assyria also is joined with them; they have holpen the children of Lot. Selah
+[ERV | EN | OT | Psalms | Chapter 83 | Verse 9] Do thou unto them as unto Midian; as to Sisera, as to Jabin, at the river Kishon:
+[ERV | EN | OT | Psalms | Chapter 83 | Verse 10] Which perished at En-dor; they became as dung for the earth.
+[ERV | EN | OT | Psalms | Chapter 83 | Verse 11] Make their nobles like Oreb and Zeeb; yea, all their princes like Zebah and Zalmunna:
+[ERV | EN | OT | Psalms | Chapter 83 | Verse 12] Who said, Let us take to ourselves in possession the habitations of God.
+[ERV | EN | OT | Psalms | Chapter 83 | Verse 13] O my God, make them like the whirling dust; as stubble before the wind.
+[ERV | EN | OT | Psalms | Chapter 83 | Verse 14] As the fire that burneth the forest, and as the flame that setteth the mountains on fire;
+[ERV | EN | OT | Psalms | Chapter 83 | Verse 15] So pursue them with thy tempest, and terrify them with thy storm.
+[ERV | EN | OT | Psalms | Chapter 83 | Verse 16] Fill their faces with confusion; that they may seek thy name, O LORD.
+[ERV | EN | OT | Psalms | Chapter 83 | Verse 17] Let them be ashamed and dismayed for ever; yea, let them be confounded and perish:
+[ERV | EN | OT | Psalms | Chapter 83 | Verse 18] That they may know that thou alone, whose name is JEHOVAH, art the Most High over all the earth.

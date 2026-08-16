@@ -1,6 +1,6 @@
-[ERV | EN | OT | Psalms | Chapter 13 | Verse 1] How long, O|strong="H3068" LORD|strong="H3068", wilt thou forget me for|strong="H1732" ever? how long wilt thou hide thy|strong="H1732" face from me?
-[ERV | EN | OT | Psalms | Chapter 13 | Verse 2] How|strong="H5704" long|strong="H5704" shall|strong="H3068" I|strong="H5704" take counsel in|strong="H3068" my|strong="H3068" soul, having sorrow in|strong="H3068" my|strong="H3068" heart all|strong="H5704" the|strong="H6440" day? how|strong="H5704" long|strong="H5704" shall|strong="H3068" mine|strong="H4480" enemy be|strong="H3068" exalted over|strong="H4480" me|strong="H6440"?
-[ERV | EN | OT | Psalms | Chapter 13 | Verse 3] Consider|strong="H7896" and answer me|strong="H5315", O|strong="H3068" LORD|strong="H3068" my|strong="H5921" God: lighten mine|strong="H7311" eyes, lest I|strong="H5704" sleep the|strong="H5921" sleep of death|strong="H5315";
-[ERV | EN | OT | Psalms | Chapter 13 | Verse 4] Lest|strong="H6435" mine enemy say, I|strong="H3068" have|strong="H3068" prevailed against|strong="H5869" him|strong="H5869"; lest mine adversaries rejoice when|strong="H3068" I|strong="H3068" am|strong="H3068" moved.
-[ERV | EN | OT | Psalms | Chapter 13 | Verse 5] But|strong="H3588" I|strong="H3588" have|strong="H6862" trusted in|strong="H1523" thy mercy; my|strong="H3588" heart shall|strong="H6862" rejoice|strong="H1523" in|strong="H1523" thy salvation:
-[ERV | EN | OT | Psalms | Chapter 13 | Verse 6] I|strong="H3588" will|strong="H3068" sing|strong="H7891" unto|strong="H3068" the|strong="H5921" LORD|strong="H3068", because|strong="H3588" he|strong="H3588" hath|strong="H3068" dealt|strong="H1580" bountifully|strong="H1580" with|strong="H3068" me|strong="H5921".
+[ERV | EN | OT | Psalms | Chapter 13 | Verse 1] How long, O LORD, wilt thou forget me for ever? how long wilt thou hide thy face from me?
+[ERV | EN | OT | Psalms | Chapter 13 | Verse 2] How long shall I take counsel in my soul, having sorrow in my heart all the day? how long shall mine enemy be exalted over me?
+[ERV | EN | OT | Psalms | Chapter 13 | Verse 3] Consider and answer me, O LORD my God: lighten mine eyes, lest I sleep the sleep of death;
+[ERV | EN | OT | Psalms | Chapter 13 | Verse 4] Lest mine enemy say, I have prevailed against him; lest mine adversaries rejoice when I am moved.
+[ERV | EN | OT | Psalms | Chapter 13 | Verse 5] But I have trusted in thy mercy; my heart shall rejoice in thy salvation:
+[ERV | EN | OT | Psalms | Chapter 13 | Verse 6] I will sing unto the LORD, because he hath dealt bountifully with me.

@@ -1,0 +1,359 @@
+======================================================================
+BIBLE VERIFICATION TEST SUITE REPORT - 2026-08-16
+======================================================================
+
+Passed: 4810151
+Skipped: 2
+Failed: 37
+Applicable pass rate: 100.00% (4810151 / 4810188 assertions)
+
+Note: 2 fingerprint checks were explicitly skipped due to documented source-corpus versification limitations.
+
+--- SUMMARY BY TEST CATEGORY ---
+  Structure Validation               : PASSED   (37484 passed, 0 failed)
+  Translation Fingerprint Validation : FAILED   (261 passed, 37 failed, 2 skipped)
+  Verse Count Validation             : PASSED   (99 passed, 0 failed)
+  Verse Format Validation            : PASSED   (4772304 passed, 0 failed)
+  Verse Text Spot Checks             : PASSED   (3 passed, 0 failed)
+
+--- DETAILED FINGERPRINT TEST LOG ---
+  [PASS] #1   Genesis 1:1        KJV  → contains "heaven"
+  [PASS] #1   Genesis 1:1        ERV  → contains "heaven"
+  [PASS] #1   Genesis 1:1        ASV  → contains "heavens"
+  [PASS] #2   Genesis 2:4        KJV  → contains "LORD God"
+  [FAIL] #2   Genesis 2:4        ERV  → expected "LORD God" — not found
+  [PASS] #2   Genesis 2:4        ASV  → contains "Jehovah God"
+  [PASS] #3   Genesis 4:1        KJV  → contains "knew"
+  [PASS] #3   Genesis 4:1        ERV  → contains "knew"
+  [PASS] #3   Genesis 4:1        ASV  → contains "knew"
+  [PASS] #4   Genesis 12:1       KJV  → contains "LORD"
+  [PASS] #4   Genesis 12:1       ERV  → contains "LORD"
+  [PASS] #4   Genesis 12:1       ASV  → contains "Jehovah"
+  [PASS] #5   Genesis 15:2       KJV  → contains "Lord GOD"
+  [FAIL] #5   Genesis 15:2       ERV  → expected "Lord GOD" — not found
+  [PASS] #5   Genesis 15:2       ASV  → contains "Lord Jehovah"
+  [PASS] #6   Genesis 16:13      KJV  → contains "LORD"
+  [PASS] #6   Genesis 16:13      ERV  → contains "LORD"
+  [PASS] #6   Genesis 16:13      ASV  → contains "Jehovah"
+  [PASS] #7   Genesis 18:25      KJV  → contains "Judge"
+  [FAIL] #7   Genesis 18:25      ERV  → expected "judge" — not found
+  [PASS] #7   Genesis 18:25      ASV  → contains "Judge"
+  [PASS] #8   Genesis 22:14      KJV  → contains "JEHOVAH-jireh"
+  [PASS] #8   Genesis 22:14      ERV  → contains "JEHOVAH-jireh"
+  [PASS] #8   Genesis 22:14      ASV  → contains "Jehovah-jireh"
+  [PASS] #9   Genesis 26:24      KJV  → contains "LORD"
+  [PASS] #9   Genesis 26:24      ERV  → contains "LORD"
+  [PASS] #9   Genesis 26:24      ASV  → contains "Jehovah"
+  [PASS] #10  Genesis 28:16      KJV  → contains "awaked"
+  [PASS] #10  Genesis 28:16      ERV  → contains "awaked"
+  [PASS] #10  Genesis 28:16      ASV  → contains "awoke"
+  [PASS] #11  Genesis 32:30      KJV  → contains "Peniel"
+  [PASS] #11  Genesis 32:30      ERV  → contains "Peniel"
+  [PASS] #11  Genesis 32:30      ASV  → contains "Peniel"
+  [PASS] #12  Genesis 35:7       KJV  → contains "God"
+  [PASS] #12  Genesis 35:7       ERV  → contains "God"
+  [PASS] #12  Genesis 35:7       ASV  → contains "God"
+  [PASS] #13  Exodus 3:14        KJV  → contains "I AM THAT I AM"
+  [FAIL] #13  Exodus 3:14        ERV  → expected "I AM THAT I AM" — not found
+  [PASS] #13  Exodus 3:14        ASV  → contains "I AM THAT I AM"
+  [PASS] #14  Exodus 6:3         KJV  → contains "JEHOVAH"
+  [PASS] #14  Exodus 6:3         ERV  → contains "JEHOVAH"
+  [PASS] #14  Exodus 6:3         ASV  → contains "Jehovah"
+  [PASS] #15  Exodus 15:2        KJV  → contains "LORD"
+  [PASS] #15  Exodus 15:2        ERV  → contains "LORD"
+  [PASS] #15  Exodus 15:2        ASV  → contains "Jehovah"
+  [PASS] #16  Exodus 17:15       KJV  → contains "JEHOVAH-nissi"
+  [PASS] #16  Exodus 17:15       ERV  → contains "JEHOVAH-nissi"
+  [PASS] #16  Exodus 17:15       ASV  → contains "Jehovah-nissi"
+  [PASS] #17  Exodus 20:7        KJV  → contains "LORD thy God"
+  [FAIL] #17  Exodus 20:7        ERV  → expected "LORD thy God" — not found
+  [PASS] #17  Exodus 20:7        ASV  → contains "Jehovah thy God"
+  [PASS] #18  Exodus 23:17       KJV  → contains "Lord GOD"
+  [FAIL] #18  Exodus 23:17       ERV  → expected "Lord GOD" — not found
+  [PASS] #18  Exodus 23:17       ASV  → contains "Lord Jehovah"
+  [PASS] #19  Exodus 33:19       KJV  → contains "LORD"
+  [PASS] #19  Exodus 33:19       ERV  → contains "LORD"
+  [PASS] #19  Exodus 33:19       ASV  → contains "Jehovah"
+  [PASS] #20  Exodus 34:5        KJV  → contains "LORD"
+  [PASS] #20  Exodus 34:5        ERV  → contains "LORD"
+  [PASS] #20  Exodus 34:5        ASV  → contains "Jehovah"
+  [PASS] #21  Leviticus 19:12    KJV  → contains "LORD"
+  [PASS] #21  Leviticus 19:12    ERV  → contains "LORD"
+  [PASS] #21  Leviticus 19:12    ASV  → contains "Jehovah"
+  [PASS] #22  Numbers 6:24       KJV  → contains "LORD"
+  [PASS] #22  Numbers 6:24       ERV  → contains "LORD"
+  [PASS] #22  Numbers 6:24       ASV  → contains "Jehovah"
+  [PASS] #23  Numbers 14:18      KJV  → contains "LORD"
+  [PASS] #23  Numbers 14:18      ERV  → contains "LORD"
+  [PASS] #23  Numbers 14:18      ASV  → contains "Jehovah"
+  [PASS] #24  Deuteronomy 6:12   KJV  → contains "LORD ... which"
+  [PASS] #24  Deuteronomy 6:12   ERV  → contains "LORD ... which"
+  [PASS] #24  Deuteronomy 6:12   ASV  → contains "Jehovah ... who"
+  [PASS] #25  Deuteronomy 32:6   KJV  → contains "LORD"
+  [PASS] #25  Deuteronomy 32:6   ERV  → contains "LORD"
+  [PASS] #25  Deuteronomy 32:6   ASV  → contains "Jehovah"
+  [PASS] #26  Joshua 22:22       KJV  → contains "LORD God"
+  [FAIL] #26  Joshua 22:22       ERV  → expected "LORD God" — not found
+  [PASS] #26  Joshua 22:22       ASV  → contains "Jehovah"
+  [PASS] #27  Judges 6:24        KJV  → contains "JEHOVAH-shalom"
+  [PASS] #27  Judges 6:24        ERV  → contains "JEHOVAH-shalom"
+  [PASS] #27  Judges 6:24        ASV  → contains "Jehovah-shalom"
+  [PASS] #28  Ruth 1:21          KJV  → contains "LORD"
+  [PASS] #28  Ruth 1:21          ERV  → contains "LORD"
+  [PASS] #28  Ruth 1:21          ASV  → contains "Jehovah"
+  [PASS] #29  1 Samuel 2:2       KJV  → contains "LORD"
+  [PASS] #29  1 Samuel 2:2       ERV  → contains "LORD"
+  [PASS] #29  1 Samuel 2:2       ASV  → contains "Jehovah"
+  [PASS] #30  2 Samuel 22:2      KJV  → contains "LORD"
+  [PASS] #30  2 Samuel 22:2      ERV  → contains "LORD"
+  [PASS] #30  2 Samuel 22:2      ASV  → contains "Jehovah"
+  [PASS] #31  1 Kings 8:23       KJV  → contains "LORD God"
+  [FAIL] #31  1 Kings 8:23       ERV  → expected "LORD God" — not found
+  [PASS] #31  1 Kings 8:23       ASV  → contains "Jehovah"
+  [PASS] #32  2 Kings 19:15      KJV  → contains "LORD God"
+  [FAIL] #32  2 Kings 19:15      ERV  → expected "LORD God" — not found
+  [PASS] #32  2 Kings 19:15      ASV  → contains "Jehovah"
+  [PASS] #33  1 Chronicles 16:36 KJV  → contains "LORD"
+  [PASS] #33  1 Chronicles 16:36 ERV  → contains "LORD"
+  [PASS] #33  1 Chronicles 16:36 ASV  → contains "Jehovah"
+  [PASS] #34  2 Chronicles 20:6  KJV  → contains "LORD God"
+  [FAIL] #34  2 Chronicles 20:6  ERV  → expected "LORD God" — not found
+  [PASS] #34  2 Chronicles 20:6  ASV  → contains "Jehovah"
+  [PASS] #35  Ezra 9:8           KJV  → contains "LORD our God"
+  [FAIL] #35  Ezra 9:8           ERV  → expected "LORD our God" — not found
+  [PASS] #35  Ezra 9:8           ASV  → contains "Jehovah our God"
+  [PASS] #36  Nehemiah 1:5       KJV  → contains "LORD God"
+  [FAIL] #36  Nehemiah 1:5       ERV  → expected "LORD God" — not found
+  [PASS] #36  Nehemiah 1:5       ASV  → contains "Jehovah"
+  [PASS] #37  Job 1:21           KJV  → contains "LORD"
+  [PASS] #37  Job 1:21           ERV  → contains "LORD"
+  [PASS] #37  Job 1:21           ASV  → contains "Jehovah"
+  [PASS] #38  Psalm 23:1         KJV  → contains "The LORD"
+  [FAIL] #38  Psalm 23:1         ERV  → expected "The LORD" — not found
+  [PASS] #38  Psalm 23:1         ASV  → contains "Jehovah"
+  [PASS] #39  Psalm 68:4         KJV  → contains "JAH"
+  [PASS] #39  Psalm 68:4         ERV  → contains "JAH"
+  [PASS] #39  Psalm 68:4         ASV  → contains "Jehovah"
+  [PASS] #40  Psalm 83:18        KJV  → contains "whose name alone is JEHOVAH"
+  [FAIL] #40  Psalm 83:18        ERV  → expected "whose name alone is JEHOVAH" — not found
+  [PASS] #40  Psalm 83:18        ASV  → contains "thou alone, whose name is Jehovah"
+  [PASS] #41  Psalm 18:2         KJV  → contains "The LORD"
+  [FAIL] #41  Psalm 18:2         ERV  → expected "The LORD" — not found
+  [PASS] #41  Psalm 18:2         ASV  → contains "Jehovah"
+  [PASS] #42  Psalm 18:30        KJV  → contains "The LORD"
+  [FAIL] #42  Psalm 18:30        ERV  → expected "The LORD" — not found
+  [PASS] #42  Psalm 18:30        ASV  → contains "Jehovah"
+  [PASS] #43  Psalm 19:14        KJV  → contains "LORD"
+  [PASS] #43  Psalm 19:14        ERV  → contains "LORD"
+  [PASS] #43  Psalm 19:14        ASV  → contains "Jehovah"
+  [PASS] #44  Psalm 20:1         KJV  → contains "The LORD"
+  [FAIL] #44  Psalm 20:1         ERV  → expected "The LORD" — not found
+  [PASS] #44  Psalm 20:1         ASV  → contains "Jehovah"
+  [PASS] #45  Psalm 27:1         KJV  → contains "The LORD"
+  [FAIL] #45  Psalm 27:1         ERV  → expected "The LORD" — not found
+  [PASS] #45  Psalm 27:1         ASV  → contains "Jehovah"
+  [PASS] #46  Psalm 34:1         KJV  → contains "LORD"
+  [PASS] #46  Psalm 34:1         ERV  → contains "LORD"
+  [PASS] #46  Psalm 34:1         ASV  → contains "Jehovah"
+  [PASS] #47  Psalm 37:5         KJV  → contains "LORD"
+  [PASS] #47  Psalm 37:5         ERV  → contains "LORD"
+  [PASS] #47  Psalm 37:5         ASV  → contains "Jehovah"
+  [PASS] #48  Psalm 40:1         KJV  → contains "LORD"
+  [PASS] #48  Psalm 40:1         ERV  → contains "LORD"
+  [PASS] #48  Psalm 40:1         ASV  → contains "Jehovah"
+  [PASS] #49  Psalm 46:1         KJV  → contains "God"
+  [PASS] #49  Psalm 46:1         ERV  → contains "God"
+  [PASS] #49  Psalm 46:1         ASV  → contains "God"
+  [PASS] #50  Psalm 55:22        KJV  → contains "LORD"
+  [PASS] #50  Psalm 55:22        ERV  → contains "LORD"
+  [PASS] #50  Psalm 55:22        ASV  → contains "Jehovah"
+  [PASS] #51  Psalm 83:18        KJV  → contains "JEHOVAH"
+  [PASS] #51  Psalm 83:18        ERV  → contains "JEHOVAH"
+  [PASS] #51  Psalm 83:18        ASV  → contains "Jehovah"
+  [PASS] #52  Psalm 91:2         KJV  → contains "LORD"
+  [PASS] #52  Psalm 91:2         ERV  → contains "LORD"
+  [PASS] #52  Psalm 91:2         ASV  → contains "Jehovah"
+  [PASS] #53  Psalm 103:1        KJV  → contains "LORD"
+  [PASS] #53  Psalm 103:1        ERV  → contains "LORD"
+  [PASS] #53  Psalm 103:1        ASV  → contains "Jehovah"
+  [PASS] #54  Psalm 110:1        KJV  → contains "LORD"
+  [PASS] #54  Psalm 110:1        ERV  → contains "LORD"
+  [PASS] #54  Psalm 110:1        ASV  → contains "Jehovah"
+  [PASS] #55  Psalm 118:24       KJV  → contains "LORD"
+  [PASS] #55  Psalm 118:24       ERV  → contains "LORD"
+  [PASS] #55  Psalm 118:24       ASV  → contains "Jehovah"
+  [PASS] #56  Psalm 119:105      KJV  → contains "lamp"
+  [PASS] #56  Psalm 119:105      ERV  → contains "lamp"
+  [PASS] #56  Psalm 119:105      ASV  → contains "lamp"
+  [PASS] #57  Psalm 139:7        KJV  → contains "Whither"
+  [PASS] #57  Psalm 139:7        ERV  → contains "Whither"
+  [PASS] #57  Psalm 139:7        ASV  → contains "Whither"
+  [PASS] #58  Proverbs 3:5       KJV  → contains "LORD"
+  [PASS] #58  Proverbs 3:5       ERV  → contains "LORD"
+  [PASS] #58  Proverbs 3:5       ASV  → contains "Jehovah"
+  [PASS] #59  Proverbs 16:3      KJV  → contains "LORD"
+  [PASS] #59  Proverbs 16:3      ERV  → contains "LORD"
+  [PASS] #59  Proverbs 16:3      ASV  → contains "Jehovah"
+  [PASS] #60  Ecclesiastes 12:13 KJV  → contains "God"
+  [PASS] #60  Ecclesiastes 12:13 ERV  → contains "God"
+  [PASS] #60  Ecclesiastes 12:13 ASV  → contains "God"
+  [PASS] #61  Isaiah 7:10        KJV  → contains "Lord"
+  [PASS] #61  Isaiah 7:10        ERV  → contains "Lord"
+  [PASS] #61  Isaiah 7:10        ASV  → contains "Jehovah"
+  [PASS] #62  Isaiah 12:2        KJV  → contains "LORD JEHOVAH"
+  [FAIL] #62  Isaiah 12:2        ERV  → expected "LORD JEHOVAH" — not found
+  [PASS] #62  Isaiah 12:2        ASV  → contains "Jehovah"
+  [PASS] #63  Isaiah 26:4        KJV  → contains "LORD JEHOVAH"
+  [FAIL] #63  Isaiah 26:4        ERV  → expected "LORD JEHOVAH" — not found
+  [PASS] #63  Isaiah 26:4        ASV  → contains "Jehovah"
+  [PASS] #64  Isaiah 40:10       KJV  → contains "Lord GOD"
+  [FAIL] #64  Isaiah 40:10       ERV  → expected "Lord GOD" — not found
+  [PASS] #64  Isaiah 40:10       ASV  → contains "Lord Jehovah"
+  [PASS] #65  Isaiah 42:5        KJV  → contains "God the Lord"
+  [FAIL] #65  Isaiah 42:5        ERV  → expected "LORD God" — not found
+  [PASS] #65  Isaiah 42:5        ASV  → contains "God Jehovah"
+  [PASS] #66  Isaiah 43:10       KJV  → contains "LORD"
+  [PASS] #66  Isaiah 43:10       ERV  → contains "LORD"
+  [PASS] #66  Isaiah 43:10       ASV  → contains "Jehovah"
+  [PASS] #67  Isaiah 44:6        KJV  → contains "LORD"
+  [PASS] #67  Isaiah 44:6        ERV  → contains "LORD"
+  [PASS] #67  Isaiah 44:6        ASV  → contains "Jehovah"
+  [PASS] #68  Isaiah 45:5        KJV  → contains "LORD"
+  [PASS] #68  Isaiah 45:5        ERV  → contains "LORD"
+  [PASS] #68  Isaiah 45:5        ASV  → contains "Jehovah"
+  [PASS] #69  Isaiah 48:17       KJV  → contains "LORD"
+  [PASS] #69  Isaiah 48:17       ERV  → contains "LORD"
+  [PASS] #69  Isaiah 48:17       ASV  → contains "Jehovah"
+  [PASS] #70  Isaiah 49:14       KJV  → contains "LORD"
+  [PASS] #70  Isaiah 49:14       ERV  → contains "LORD"
+  [PASS] #70  Isaiah 49:14       ASV  → contains "Jehovah"
+  [PASS] #71  Jeremiah 16:21     KJV  → contains "LORD"
+  [FAIL] #71  Jeremiah 16:21     ERV  → expected "LORD" — not found
+  [PASS] #71  Jeremiah 16:21     ASV  → contains "Jehovah"
+  [PASS] #72  Jeremiah 31:3      KJV  → contains "LORD"
+  [PASS] #72  Jeremiah 31:3      ERV  → contains "LORD"
+  [PASS] #72  Jeremiah 31:3      ASV  → contains "Jehovah"
+  [PASS] #73  Ezekiel 36:23      KJV  → contains "LORD"
+  [PASS] #73  Ezekiel 36:23      ERV  → contains "LORD"
+  [PASS] #73  Ezekiel 36:23      ASV  → contains "Jehovah"
+  [PASS] #74  Hosea 1:7          KJV  → contains "LORD"
+  [PASS] #74  Hosea 1:7          ERV  → contains "LORD"
+  [PASS] #74  Hosea 1:7          ASV  → contains "Jehovah"
+  [SKIP] #75  Joel 2:32          KJV  → Omitted/shifted in source (documented in case note): Joel 2:32 is omitted in this corpus chapter (which has only 27 verses) due to Hebrew-aligned chapter splitting; these verses are positioned at Joel 3:1-5.
+  [PASS] #75  Joel 2:32          ERV  → contains "LORD"
+  [SKIP] #75  Joel 2:32          ASV  → Omitted/shifted in source (documented in case note): Joel 2:32 is omitted in this corpus chapter (which has only 27 verses) due to Hebrew-aligned chapter splitting; these verses are positioned at Joel 3:1-5.
+  [PASS] #76  Amos 5:15          KJV  → contains "LORD"
+  [PASS] #76  Amos 5:15          ERV  → contains "LORD"
+  [PASS] #76  Amos 5:15          ASV  → contains "Jehovah"
+  [PASS] #77  Micah 4:5          KJV  → contains "LORD"
+  [PASS] #77  Micah 4:5          ERV  → contains "LORD"
+  [PASS] #77  Micah 4:5          ASV  → contains "Jehovah"
+  [PASS] #78  Nahum 1:7          KJV  → contains "LORD"
+  [PASS] #78  Nahum 1:7          ERV  → contains "LORD"
+  [PASS] #78  Nahum 1:7          ASV  → contains "Jehovah"
+  [PASS] #79  Zechariah 8:3      KJV  → contains "LORD"
+  [PASS] #79  Zechariah 8:3      ERV  → contains "LORD"
+  [PASS] #79  Zechariah 8:3      ASV  → contains "Jehovah"
+  [PASS] #80  Malachi 3:1        KJV  → contains "Lord"
+  [PASS] #80  Malachi 3:1        ERV  → contains "Lord"
+  [PASS] #80  Malachi 3:1        ASV  → contains "Lord"
+  [PASS] #81  Matthew 1:18       KJV  → contains "Holy Ghost"
+  [FAIL] #81  Matthew 1:18       ERV  → expected "Holy Spirit" — not found
+  [PASS] #81  Matthew 1:18       ASV  → contains "Holy Spirit"
+  [PASS] #82  Matthew 1:20       KJV  → contains "Holy Ghost"
+  [FAIL] #82  Matthew 1:20       ERV  → expected "Holy Spirit" — not found
+  [PASS] #82  Matthew 1:20       ASV  → contains "Holy Spirit"
+  [PASS] #83  Matthew 3:11       KJV  → contains "Holy Ghost"
+  [FAIL] #83  Matthew 3:11       ERV  → expected "Holy Spirit" — not found
+  [PASS] #83  Matthew 3:11       ASV  → contains "Holy Spirit"
+  [PASS] #84  Matthew 12:31      KJV  → contains "Holy Ghost"
+  [FAIL] #84  Matthew 12:31      ERV  → expected "Holy Spirit" — not found
+  [PASS] #84  Matthew 12:31      ASV  → contains "Spirit"
+  [PASS] #85  Matthew 28:19      KJV  → contains "Holy Ghost"
+  [FAIL] #85  Matthew 28:19      ERV  → expected "Holy Spirit" — not found
+  [PASS] #85  Matthew 28:19      ASV  → contains "Holy Spirit"
+  [PASS] #86  Mark 1:8           KJV  → contains "Holy Ghost"
+  [FAIL] #86  Mark 1:8           ERV  → expected "Holy Spirit" — not found
+  [PASS] #86  Mark 1:8           ASV  → contains "Holy Spirit"
+  [PASS] #87  Luke 1:15          KJV  → contains "Holy Ghost"
+  [FAIL] #87  Luke 1:15          ERV  → expected "Holy Spirit" — not found
+  [PASS] #87  Luke 1:15          ASV  → contains "Holy Spirit"
+  [PASS] #88  Luke 1:35          KJV  → contains "Holy Ghost"
+  [FAIL] #88  Luke 1:35          ERV  → expected "Holy Spirit" — not found
+  [PASS] #88  Luke 1:35          ASV  → contains "Holy Spirit"
+  [PASS] #89  Luke 3:16          KJV  → contains "Holy Ghost"
+  [FAIL] #89  Luke 3:16          ERV  → expected "Holy Spirit" — not found
+  [PASS] #89  Luke 3:16          ASV  → contains "Holy Spirit"
+  [PASS] #90  John 14:26         KJV  → contains "Holy Ghost"
+  [FAIL] #90  John 14:26         ERV  → expected "Holy Spirit" — not found
+  [PASS] #90  John 14:26         ASV  → contains "Holy Spirit"
+  [PASS] #91  Matthew 4:7        KJV  → contains "tempt"
+  [PASS] #91  Matthew 4:7        ERV  → contains "tempt"
+  [PASS] #91  Matthew 4:7        ASV  → contains "make trial of"
+  [PASS] #92  Luke 4:12          KJV  → contains "tempt"
+  [PASS] #92  Luke 4:12          ERV  → contains "tempt"
+  [PASS] #92  Luke 4:12          ASV  → contains "make trial"
+  [PASS] #93  Luke 10:25         KJV  → contains "tempted"
+  [FAIL] #93  Luke 10:25         ERV  → expected "tempting" — not found
+  [PASS] #93  Luke 10:25         ASV  → contains "making trial"
+  [PASS] #94  John 6:6           KJV  → contains "prove"
+  [PASS] #94  John 6:6           ERV  → contains "prove"
+  [PASS] #94  John 6:6           ASV  → contains "prove"
+  [PASS] #95  Acts 15:10         KJV  → contains "tempt ye God"
+  [FAIL] #95  Acts 15:10         ERV  → expected "make trial of God" — not found
+  [PASS] #95  Acts 15:10         ASV  → contains "make ye trial"
+  [PASS] #96  1 Corinthians 10:9 KJV  → contains "tempt Christ"
+  [FAIL] #96  1 Corinthians 10:9 ERV  → expected "make trial of the Lord" — not found
+  [PASS] #96  1 Corinthians 10:9 ASV  → contains "make trial"
+  [PASS] #97  Hebrews 3:9        KJV  → contains "tempted me"
+  [FAIL] #97  Hebrews 3:9        ERV  → expected "made trial of me" — not found
+  [PASS] #97  Hebrews 3:9        ASV  → contains "tried"
+  [PASS] #98  Hebrews 11:17      KJV  → contains "tried"
+  [PASS] #98  Hebrews 11:17      ERV  → contains "tried"
+  [PASS] #98  Hebrews 11:17      ASV  → contains "tried"
+  [PASS] #99  James 1:13         KJV  → contains "tempted"
+  [PASS] #99  James 1:13         ERV  → contains "tempted"
+  [PASS] #99  James 1:13         ASV  → contains "tempted"
+  [PASS] #100 James 1:14         KJV  → contains "tempted"
+  [PASS] #100 James 1:14         ERV  → contains "tempted"
+  [PASS] #100 James 1:14         ASV  → contains "tempted"
+
+--- ALL FAILURES DETAIL ---
+Category: Translation Fingerprint Validation (37 failures)
+  - [FAIL] #2   Genesis 2:4        ERV  → expected "LORD God" — not found
+  - [FAIL] #5   Genesis 15:2       ERV  → expected "Lord GOD" — not found
+  - [FAIL] #7   Genesis 18:25      ERV  → expected "judge" — not found
+  - [FAIL] #13  Exodus 3:14        ERV  → expected "I AM THAT I AM" — not found
+  - [FAIL] #17  Exodus 20:7        ERV  → expected "LORD thy God" — not found
+  - [FAIL] #18  Exodus 23:17       ERV  → expected "Lord GOD" — not found
+  - [FAIL] #26  Joshua 22:22       ERV  → expected "LORD God" — not found
+  - [FAIL] #31  1 Kings 8:23       ERV  → expected "LORD God" — not found
+  - [FAIL] #32  2 Kings 19:15      ERV  → expected "LORD God" — not found
+  - [FAIL] #34  2 Chronicles 20:6  ERV  → expected "LORD God" — not found
+  - [FAIL] #35  Ezra 9:8           ERV  → expected "LORD our God" — not found
+  - [FAIL] #36  Nehemiah 1:5       ERV  → expected "LORD God" — not found
+  - [FAIL] #38  Psalm 23:1         ERV  → expected "The LORD" — not found
+  - [FAIL] #40  Psalm 83:18        ERV  → expected "whose name alone is JEHOVAH" — not found
+  - [FAIL] #41  Psalm 18:2         ERV  → expected "The LORD" — not found
+  - [FAIL] #42  Psalm 18:30        ERV  → expected "The LORD" — not found
+  - [FAIL] #44  Psalm 20:1         ERV  → expected "The LORD" — not found
+  - [FAIL] #45  Psalm 27:1         ERV  → expected "The LORD" — not found
+  - [FAIL] #62  Isaiah 12:2        ERV  → expected "LORD JEHOVAH" — not found
+  - [FAIL] #63  Isaiah 26:4        ERV  → expected "LORD JEHOVAH" — not found
+  - [FAIL] #64  Isaiah 40:10       ERV  → expected "Lord GOD" — not found
+  - [FAIL] #65  Isaiah 42:5        ERV  → expected "LORD God" — not found
+  - [FAIL] #71  Jeremiah 16:21     ERV  → expected "LORD" — not found
+  - [FAIL] #81  Matthew 1:18       ERV  → expected "Holy Spirit" — not found
+  - [FAIL] #82  Matthew 1:20       ERV  → expected "Holy Spirit" — not found
+  - [FAIL] #83  Matthew 3:11       ERV  → expected "Holy Spirit" — not found
+  - [FAIL] #84  Matthew 12:31      ERV  → expected "Holy Spirit" — not found
+  - [FAIL] #85  Matthew 28:19      ERV  → expected "Holy Spirit" — not found
+  - [FAIL] #86  Mark 1:8           ERV  → expected "Holy Spirit" — not found
+  - [FAIL] #87  Luke 1:15          ERV  → expected "Holy Spirit" — not found
+  - [FAIL] #88  Luke 1:35          ERV  → expected "Holy Spirit" — not found
+  - [FAIL] #89  Luke 3:16          ERV  → expected "Holy Spirit" — not found
+  - [FAIL] #90  John 14:26         ERV  → expected "Holy Spirit" — not found
+  - [FAIL] #93  Luke 10:25         ERV  → expected "tempting" — not found
+  - [FAIL] #95  Acts 15:10         ERV  → expected "make trial of God" — not found
+  - [FAIL] #96  1 Corinthians 10:9 ERV  → expected "make trial of the Lord" — not found
+  - [FAIL] #97  Hebrews 3:9        ERV  → expected "made trial of me" — not found

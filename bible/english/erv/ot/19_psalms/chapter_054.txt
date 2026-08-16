@@ -1,7 +1,7 @@
-[ERV | EN | OT | Psalms | Chapter 54 | Verse 1] Save me, O|strong="H3068" God, by|strong="H1732" thy|strong="H1732" name, and|strong="H1732" judge me in|strong="H1732" thy|strong="H1732" might.
-[ERV | EN | OT | Psalms | Chapter 54 | Verse 2] Hear my|strong="H1732" prayer, O|strong="H3068" God|strong="H3808"; give ear to|strong="H1732" the|strong="H5973" words of|strong="H3808" my|strong="H1732" mouth.
-[ERV | EN | OT | Psalms | Chapter 54 | Verse 3] For|strong="H8034" strangers are|strong="H1369" risen up against me|strong="H3467", and|strong="H8034" violent men|strong="H8034" have|strong="H8034" sought after|strong="H8034" my|strong="H3467" soul: they|strong="H8034" have|strong="H8034" not|strong="H3467" set God before them|strong="H3467". Selah
-[ERV | EN | OT | Psalms | Chapter 54 | Verse 4] Behold, God is|strong="H6310" mine helper: the|strong="H8085" Lord is|strong="H6310" of|strong="H6310" them|strong="H8085" that|strong="H8085" uphold my|strong="H8085" soul.
-[ERV | EN | OT | Psalms | Chapter 54 | Verse 5] He|strong="H3588" shall|strong="H5315" requite the|strong="H5921" evil unto|strong="H5315" mine|strong="H7760" enemies|strong="H6965": destroy thou|strong="H3588" them|strong="H5921" in|strong="H5921" thy|strong="H7760" truth|strong="H3808".
-[ERV | EN | OT | Psalms | Chapter 54 | Verse 6] With|strong="H5315" a|strong="H3068" freewill offering will|strong="H5315" I|strong="H2009" sacrifice unto|strong="H5315" thee: I|strong="H2009" will|strong="H5315" give thanks unto|strong="H5315" thy name, O|strong="H3068" LORD|strong="H3068", for|strong="H5315" it|strong="H5315" is|strong="H5315" good.
-[ERV | EN | OT | Psalms | Chapter 54 | Verse 7] For|strong="H7451" he|strong="H7725" hath delivered me|strong="H7725" out|strong="H7725" of|strong="H7451" all|strong="H7725" trouble|strong="H7451"; and|strong="H7725" mine|strong="H7725" eye hath seen my desire upon|strong="H7451" mine|strong="H7725" enemies|strong="H8324".
+[ERV | EN | OT | Psalms | Chapter 54 | Verse 1] Save me, O God, by thy name, and judge me in thy might.
+[ERV | EN | OT | Psalms | Chapter 54 | Verse 2] Hear my prayer, O God; give ear to the words of my mouth.
+[ERV | EN | OT | Psalms | Chapter 54 | Verse 3] For strangers are risen up against me, and violent men have sought after my soul: they have not set God before them. Selah
+[ERV | EN | OT | Psalms | Chapter 54 | Verse 4] Behold, God is mine helper: the Lord is of them that uphold my soul.
+[ERV | EN | OT | Psalms | Chapter 54 | Verse 5] He shall requite the evil unto mine enemies: destroy thou them in thy truth.
+[ERV | EN | OT | Psalms | Chapter 54 | Verse 6] With a freewill offering will I sacrifice unto thee: I will give thanks unto thy name, O LORD, for it is good.
+[ERV | EN | OT | Psalms | Chapter 54 | Verse 7] For he hath delivered me out of all trouble; and mine eye hath seen my desire upon mine enemies.

@@ -1,9 +1,9 @@
-[ERV | EN | OT | Psalms | Chapter 47 | Verse 1] O|strong="H3068" clap your|strong="H1121" hands, all ye peoples; shout unto|strong="H1121" God with|strong="H1121" the|strong="H1121" voice of|strong="H1121" triumph.
-[ERV | EN | OT | Psalms | Chapter 47 | Verse 2] For|strong="H3605" the|strong="H3605" LORD|strong="H3068" Most High is|strong="H3605" terrible; he|strong="H3605" is|strong="H3605" a|strong="H3068" great King over|strong="H3605" all|strong="H3605" the|strong="H3605" earth.
-[ERV | EN | OT | Psalms | Chapter 47 | Verse 3] He|strong="H3588" shall|strong="H3068" subdue the|strong="H3605" peoples under|strong="H5921" us|strong="H5921", and|strong="H3068" the|strong="H3605" nations under|strong="H5921" our|strong="H3068" feet.
-[ERV | EN | OT | Psalms | Chapter 47 | Verse 4] He|strong="H7272" shall|strong="H5971" choose our|strong="H5971" inheritance for|strong="H8478" us|strong="H8478", the|strong="H8478" excellency of|strong="H5971" Jacob whom|strong="H5971" he|strong="H7272" loved. Selah
-[ERV | EN | OT | Psalms | Chapter 47 | Verse 5] God is|strong="H5159" gone up with|strong="H5159" a|strong="H3068" shout, the|strong="H3290" LORD|strong="H3068" with|strong="H5159" the|strong="H3290" sound of|strong="H1347" a|strong="H3068" trumpet.
-[ERV | EN | OT | Psalms | Chapter 47 | Verse 6] Sing praises|strong="H3068" to|strong="H3068" God|strong="H3068", sing praises|strong="H3068": sing praises|strong="H3068" unto|strong="H3068" our|strong="H3068" King, sing praises|strong="H3068".
-[ERV | EN | OT | Psalms | Chapter 47 | Verse 7] For|strong="H4428" God is|strong="H4428" the|strong="H2167" King|strong="H4428" of|strong="H4428" all the|strong="H2167" earth: sing|strong="H2167" ye praises|strong="H2167" with|strong="H4428" understanding.
-[ERV | EN | OT | Psalms | Chapter 47 | Verse 8] God reigneth over|strong="H4428" the|strong="H3605" nations: God sitteth upon his|strong="H3605" holy throne.
-[ERV | EN | OT | Psalms | Chapter 47 | Verse 9] The|strong="H5921" princes of|strong="H3427" the|strong="H5921" peoples are|strong="H1471" gathered|strong="H1471" together|strong="H5921" to be the|strong="H5921" people|strong="H1471" of|strong="H3427" the|strong="H5921" God of|strong="H3427" Abraham: for|strong="H5921" the|strong="H5921" shields of|strong="H3427" the|strong="H5921" earth belong unto God; he|strong="H5921" is|strong="H3678" greatly exalted.
+[ERV | EN | OT | Psalms | Chapter 47 | Verse 1] O clap your hands, all ye peoples; shout unto God with the voice of triumph.
+[ERV | EN | OT | Psalms | Chapter 47 | Verse 2] For the LORD Most High is terrible; he is a great King over all the earth.
+[ERV | EN | OT | Psalms | Chapter 47 | Verse 3] He shall subdue the peoples under us, and the nations under our feet.
+[ERV | EN | OT | Psalms | Chapter 47 | Verse 4] He shall choose our inheritance for us, the excellency of Jacob whom he loved. Selah
+[ERV | EN | OT | Psalms | Chapter 47 | Verse 5] God is gone up with a shout, the LORD with the sound of a trumpet.
+[ERV | EN | OT | Psalms | Chapter 47 | Verse 6] Sing praises to God, sing praises: sing praises unto our King, sing praises.
+[ERV | EN | OT | Psalms | Chapter 47 | Verse 7] For God is the King of all the earth: sing ye praises with understanding.
+[ERV | EN | OT | Psalms | Chapter 47 | Verse 8] God reigneth over the nations: God sitteth upon his holy throne.
+[ERV | EN | OT | Psalms | Chapter 47 | Verse 9] The princes of the peoples are gathered together to be the people of the God of Abraham: for the shields of the earth belong unto God; he is greatly exalted.

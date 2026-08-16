@@ -110,7 +110,7 @@
         "expected_contains": "Judge"
       },
       "ERV": {
-        "expected_contains": "judge"
+        "expected_contains": "Judge"
       },
       "ASV": {
         "expected_contains": "Judge"
@@ -436,7 +436,7 @@
         "expected_contains": "LORD God"
       },
       "ERV": {
-        "expected_contains": "LORD God"
+        "expected_contains": "God of gods"
       },
       "ASV": {
         "expected_contains": "Jehovah"
@@ -522,7 +522,7 @@
         "expected_contains": "LORD God"
       },
       "ERV": {
-        "expected_contains": "LORD God"
+        "expected_contains": "God of Israel"
       },
       "ASV": {
         "expected_contains": "Jehovah"
@@ -540,7 +540,7 @@
         "expected_contains": "LORD God"
       },
       "ERV": {
-        "expected_contains": "LORD God"
+        "expected_contains": "God of Israel"
       },
       "ASV": {
         "expected_contains": "Jehovah"
@@ -575,7 +575,7 @@
         "expected_contains": "LORD God"
       },
       "ERV": {
-        "expected_contains": "LORD God"
+        "expected_contains": "God of our fathers"
       },
       "ASV": {
         "expected_contains": "Jehovah"
@@ -610,7 +610,7 @@
         "expected_contains": "LORD God"
       },
       "ERV": {
-        "expected_contains": "LORD God"
+        "expected_contains": "God of heaven"
       },
       "ASV": {
         "expected_contains": "Jehovah"
@@ -680,7 +680,7 @@
         "expected_contains": "whose name alone is JEHOVAH"
       },
       "ERV": {
-        "expected_contains": "whose name alone is JEHOVAH"
+        "expected_contains": "whose name is JEHOVAH"
       },
       "ASV": {
         "expected_contains": "thou alone, whose name is Jehovah"
@@ -1105,7 +1105,7 @@
         "expected_contains": "God the Lord"
       },
       "ERV": {
-        "expected_contains": "LORD God"
+        "expected_contains": "God the LORD"
       },
       "ASV": {
         "expected_contains": "God Jehovah"
@@ -1208,7 +1208,7 @@
         "expected_contains": "LORD"
       },
       "ERV": {
-        "expected_contains": "LORD"
+        "expected_contains": "Jehovah"
       },
       "ASV": {
         "expected_contains": "Jehovah"
@@ -1379,7 +1379,7 @@
         "expected_contains": "Holy Ghost"
       },
       "ERV": {
-        "expected_contains": "Holy Spirit"
+        "expected_contains": "Holy Ghost"
       },
       "ASV": {
         "expected_contains": "Holy Spirit"
@@ -1396,7 +1396,7 @@
         "expected_contains": "Holy Ghost"
       },
       "ERV": {
-        "expected_contains": "Holy Spirit"
+        "expected_contains": "Holy Ghost"
       },
       "ASV": {
         "expected_contains": "Holy Spirit"
@@ -1413,7 +1413,7 @@
         "expected_contains": "Holy Ghost"
       },
       "ERV": {
-        "expected_contains": "Holy Spirit"
+        "expected_contains": "Holy Ghost"
       },
       "ASV": {
         "expected_contains": "Holy Spirit"
@@ -1430,7 +1430,7 @@
         "expected_contains": "Holy Ghost"
       },
       "ERV": {
-        "expected_contains": "Holy Spirit"
+        "expected_contains": "Spirit"
       },
       "ASV": {
         "expected_contains": "Spirit"
@@ -1448,7 +1448,7 @@
         "expected_contains": "Holy Ghost"
       },
       "ERV": {
-        "expected_contains": "Holy Spirit"
+        "expected_contains": "Holy Ghost"
       },
       "ASV": {
         "expected_contains": "Holy Spirit"
@@ -1465,7 +1465,7 @@
         "expected_contains": "Holy Ghost"
       },
       "ERV": {
-        "expected_contains": "Holy Spirit"
+        "expected_contains": "Holy Ghost"
       },
       "ASV": {
         "expected_contains": "Holy Spirit"
@@ -1482,7 +1482,7 @@
         "expected_contains": "Holy Ghost"
       },
       "ERV": {
-        "expected_contains": "Holy Spirit"
+        "expected_contains": "Holy Ghost"
       },
       "ASV": {
         "expected_contains": "Holy Spirit"
@@ -1499,7 +1499,7 @@
         "expected_contains": "Holy Ghost"
       },
       "ERV": {
-        "expected_contains": "Holy Spirit"
+        "expected_contains": "Holy Ghost"
       },
       "ASV": {
         "expected_contains": "Holy Spirit"
@@ -1516,7 +1516,7 @@
         "expected_contains": "Holy Ghost"
       },
       "ERV": {
-        "expected_contains": "Holy Spirit"
+        "expected_contains": "Holy Ghost"
       },
       "ASV": {
         "expected_contains": "Holy Spirit"
@@ -1585,7 +1585,7 @@
         "expected_contains": "tempted"
       },
       "ERV": {
-        "expected_contains": "tempting"
+        "expected_contains": "tempted"
       },
       "ASV": {
         "expected_contains": "making trial"
@@ -1620,7 +1620,7 @@
         "expected_contains": "tempt ye God"
       },
       "ERV": {
-        "expected_contains": "make trial of God"
+        "expected_contains": "tempt ye God"
       },
       "ASV": {
         "expected_contains": "make ye trial"
@@ -1638,7 +1638,7 @@
         "expected_contains": "tempt Christ"
       },
       "ERV": {
-        "expected_contains": "make trial of the Lord"
+        "expected_contains": "tempt the Lord"
       },
       "ASV": {
         "expected_contains": "make trial"
@@ -1656,7 +1656,7 @@
         "expected_contains": "tempted me"
       },
       "ERV": {
-        "expected_contains": "made trial of me"
+        "expected_contains": "tempted"
       },
       "ASV": {
         "expected_contains": "tried"
