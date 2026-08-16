@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CrossRef API Explorer — Interactive Bible REST API Dashboard</title>
+  <!-- Google Fonts: Inter & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo-area">
+      <div class="glow-accent"></div>
+      <h1>CrossRef API Explorer</h1>
+      <span class="badge">Local REST Endpoints</span>
+    </div>
+    <div class="server-status">
+      <span class="pulse-indicator"></span>
+      <span class="status-text">API Server Online (Port 8090)</span>
+    </div>
+  </header>
+
+  <!-- Dashboard -->
+  <main class="dashboard">
+    <!-- Left Navigation: Endpoints List -->
+    <aside class="sidebar card">
+      <div class="panel-header">
+        <h2>API Reference</h2>
+        <p>Select an endpoint to configure query parameters and test requests.</p>
+      </div>
+      <nav class="endpoint-list">
+        <button class="endpoint-btn active" data-endpoint="versions">
+          <span class="method get">GET</span>
+          <span class="route">/api/versions</span>
+        </button>
+        <button class="endpoint-btn" data-endpoint="books">
+          <span class="method get">GET</span>
+          <span class="route">/api/books</span>
+        </button>
+        <button class="endpoint-btn" data-endpoint="verse">
+          <span class="method get">GET</span>
+          <span class="route">/api/verse</span>
+        </button>
+        <button class="endpoint-btn" data-endpoint="chapter">
+          <span class="method get">GET</span>
+          <span class="route">/api/chapter</span>
+        </button>
+        <button class="endpoint-btn" data-endpoint="places">
+          <span class="method get">GET</span>
+          <span class="route">/api/geography/places</span>
+        </button>
+        <button class="endpoint-btn" data-endpoint="place">
+          <span class="method get">GET</span>
+          <span class="route">/api/geography/place</span>
+        </button>
+        <button class="endpoint-btn" data-endpoint="crossref">
+          <span class="method get">GET</span>
+          <span class="route">/api/cross_references</span>
+        </button>
+      </nav>
+    </aside>
+
+    <!-- Center/Right Area: Query Builder and Response Inspector -->
+    <section class="main-content">
+      <!-- Query Parameters Builder Panel -->
+      <div class="card param-panel">
+        <div class="panel-header">
+          <h2>Request Builder</h2>
+          <p id="endpoint-description">List all ingested Bible translations and metadata.</p>
+        </div>
+        
+        <!-- Dinamically rendered inputs -->
+        <form id="param-form" class="param-form">
+          <div id="inputs-container" class="inputs-container">
+            <!-- Injected by JS -->
+          </div>
+          <div class="action-row">
+            <div class="url-preview">
+              <span class="method-badge">GET</span>
+              <code id="request-url-preview">http://localhost:8090/api/versions</code>
+            </div>
+            <button type="submit" class="send-btn">Send Request</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Response Inspector Panel -->
+      <div class="card response-panel">
+        <div class="response-header">
+          <div class="response-title-group">
+            <h2>Response Body</h2>
+            <span id="response-status" class="status-badge status-none">None</span>
+          </div>
+          <button id="copy-btn" class="copy-btn" disabled>Copy JSON</button>
+        </div>
+        
+        <div class="response-body-wrapper">
+          <pre><code id="response-code" class="json-code">Select an endpoint and click Send Request to test.</code></pre>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- JS Implementation -->
+  <script src="app.js"></script>
+</body>
+</html>
