@@ -1,14 +1,14 @@
 # Repository Status
 
-*Last Updated: 2026-08-16 18:38:03*
+*Last Updated: 2026-08-16 18:51:20*
 
 This file tracks the current state of the multilingual sacred text & teaching archive dataset, showcasing what is collected, split, or pending.
 
 ## Collection Overview
 
 - **Total Languages**: 14
-- **Total Bible Versions**: 22
-- **Total Chapters**: 24860
+- **Total Bible Versions**: 26
+- **Total Chapters**: 29352
 
 | Category | Target Languages / Versions | Status | Notes |
 |---|---|---|---|
@@ -29,11 +29,15 @@ This file tracks the current state of the multilingual sacred text & teaching ar
 ### English
 - [x] **ASV** — *Collected & Split (1403 chapters across 84 books)*
 - [x] **BBE** — *Collected & Split (1188 chapters across 66 books)*
+- [x] **BSB** — *Collected & Split (1188 chapters across 66 books)*
 - [x] **DARBY** — *Collected & Split (1188 chapters across 66 books)*
 - [x] **DRA** — *Collected & Split (1324 chapters across 73 books)*
+- [x] **GNV** — *Collected & Split (1188 chapters across 66 books)*
+- [x] **JPS** — *Collected & Split (928 chapters across 39 books)*
 - [x] **KJV** — *Collected & Split (1359 chapters across 80 books)*
 - [x] **OEB** — *Collected & Split (490 chapters across 42 books)*
 - [x] **WEB** — *Collected & Split (1386 chapters across 80 books)*
+- [x] **WEBSTER** — *Collected & Split (1188 chapters across 66 books)*
 - [x] **YLT** — *Collected & Split (1188 chapters across 66 books)*
 ### Greek
 - [x] **LXX** — *Collected & Split (1077 chapters across 51 books)*

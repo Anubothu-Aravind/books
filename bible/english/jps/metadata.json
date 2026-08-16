@@ -1,0 +1,20 @@
+{
+  "name": "Jewish Publication Society Tanakh (1917)",
+  "version": "JPS",
+  "language": "english",
+  "language_code": "en",
+  "edition_year": 1917,
+  "publisher_source": "eBible Corpus (BibleNLP/ebible)",
+  "license": "Public Domain",
+  "source_url": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/eng-engjps.txt",
+  "download_date": "2026-08-16",
+  "checksum_hash": "89673ef9b2dd49d1c0c70f044126e58f1c82a8769b2ccdf0f80373629e8a80b2",
+  "coverage": {
+    "books_count": 39,
+    "chapters_count": 928,
+    "verses_count": 23011,
+    "testaments": [
+      "ot"
+    ]
+  }
+}

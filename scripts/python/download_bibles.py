@@ -138,6 +138,11 @@ downloads = [
     {"lang": "english", "version": "bbe", "filename": "eng-engBBE.txt", "name": "Bible in Basic English", "year": 1949, "ot": 39, "nt": 27, "license": "Public Domain"},
     {"lang": "english", "version": "dra", "filename": "eng-engDRA.txt", "name": "Douay-Rheims Bible", "year": 1899, "ot": 39, "nt": 27, "license": "Public Domain"},
     {"lang": "english", "version": "oeb", "filename": "eng-engoebcw.txt", "name": "Open English Bible", "year": 2010, "ot": 39, "nt": 27, "license": "Creative Commons Zero (CC0)"},
+    # ERV 1885 is pending: eBible corpus file eng-eng_rv.txt is empty. Source from eBible.org USFM or Project Gutenberg separately.
+    {"lang": "english", "version": "webster", "filename": "eng-engwebster.txt", "name": "Webster's Bible Translation", "year": 1833, "ot": 39, "nt": 27, "license": "Public Domain"},
+    {"lang": "english", "version": "bsb", "filename": "eng-engbsb.txt", "name": "Berean Standard Bible", "year": 2020, "ot": 39, "nt": 27, "license": "CC BY 4.0"},
+    {"lang": "english", "version": "gnv", "filename": "eng-enggnv.txt", "name": "Geneva Bible (1599)", "year": 1599, "ot": 39, "nt": 27, "license": "Public Domain"},
+    {"lang": "english", "version": "jps", "filename": "eng-engjps.txt", "name": "Jewish Publication Society Tanakh (1917)", "year": 1917, "ot": 39, "nt": 0, "license": "Public Domain"},
     {"lang": "telugu", "version": "irv", "filename": "tel-tel2017.txt", "name": "Indian Revised Version - Telugu", "year": 2019, "ot": 39, "nt": 27, "license": "CC BY-SA 4.0"},
     {"lang": "hindi", "version": "irv", "filename": "hin-hin2017.txt", "name": "Indian Revised Version - Hindi", "year": 2019, "ot": 39, "nt": 27, "license": "CC BY-SA 4.0"},
     {"lang": "tamil", "version": "irv", "filename": "tam-tam2017.txt", "name": "Indian Revised Version - Tamil", "year": 2019, "ot": 39, "nt": 27, "license": "CC BY-SA 4.0"},

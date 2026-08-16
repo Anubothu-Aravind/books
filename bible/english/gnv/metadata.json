@@ -1,0 +1,21 @@
+{
+  "name": "Geneva Bible (1599)",
+  "version": "GNV",
+  "language": "english",
+  "language_code": "en",
+  "edition_year": 1599,
+  "publisher_source": "eBible Corpus (BibleNLP/ebible)",
+  "license": "Public Domain",
+  "source_url": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/eng-enggnv.txt",
+  "download_date": "2026-08-16",
+  "checksum_hash": "0b61a81f4ea32938922fdff601b6f002da69879857edf6ea5bb79db0df437b7c",
+  "coverage": {
+    "books_count": 66,
+    "chapters_count": 1188,
+    "verses_count": 30957,
+    "testaments": [
+      "nt",
+      "ot"
+    ]
+  }
+}

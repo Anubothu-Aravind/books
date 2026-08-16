@@ -1,0 +1,21 @@
+{
+  "name": "Berean Standard Bible",
+  "version": "BSB",
+  "language": "english",
+  "language_code": "en",
+  "edition_year": 2020,
+  "publisher_source": "eBible Corpus (BibleNLP/ebible)",
+  "license": "CC BY 4.0",
+  "source_url": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/eng-engbsb.txt",
+  "download_date": "2026-08-16",
+  "checksum_hash": "c63c3c3f7c31cac3fbf5b5ee8e9778cf5a4c1a13619e5a3be91169c9d2139f16",
+  "coverage": {
+    "books_count": 66,
+    "chapters_count": 1188,
+    "verses_count": 30950,
+    "testaments": [
+      "nt",
+      "ot"
+    ]
+  }
+}
