@@ -1,0 +1,20 @@
+{
+  "dataset_name": "Bible Cross-References",
+  "description": "Comprehensive map of cross-references between verses of the Bible, with votes indicating significance.",
+  "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+  "source": "OpenBible.info Cross References (openbible.info/labs/cross-references)",
+  "source_urls": [
+    "https://a.openbible.info/data/cross-references.zip"
+  ],
+  "download_date": "Sun, 16 Aug 2026 13:40:35 GMT",
+  "files": {
+    "cross_references.json": {
+      "records_count": 27859,
+      "sha256": "cc2f18767823057871cba4601ca3194b17b83695ac6e90ca7b87e10b1733bb13"
+    },
+    "book_matrix.csv": {
+      "records_count": 66,
+      "sha256": "9a37cc15776f749a572ac3d3c336955f3fe4a7e66188e3e2dcb4bb03bb54cd20"
+    }
+  }
+}

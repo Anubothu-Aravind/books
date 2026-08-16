@@ -1,0 +1,21 @@
+{
+  "dataset_name": "Bible Geography",
+  "description": "Geographic locations, places, regions, mountains, and water bodies mentioned in the Bible.",
+  "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+  "source": "OpenBible.info Bible Geocoding Data (openbibleinfo/Bible-Geocoding-Data)",
+  "source_urls": [
+    "https://raw.githubusercontent.com/openbibleinfo/Bible-Geocoding-Data/master/data/ancient.jsonl",
+    "https://raw.githubusercontent.com/openbibleinfo/Bible-Geocoding-Data/master/data/geometry.jsonl"
+  ],
+  "download_date": "Sun, 16 Aug 2026 13:42:22 GMT",
+  "files": {
+    "places.json": {
+      "records_count": 1143,
+      "sha256": "0295087a313a71ca99ff55b0ef911eb8192e939f21880a624d523d98b8000910"
+    },
+    "regions_water.json": {
+      "records_count": 199,
+      "sha256": "87605dfdac346ca9503c15b669327d622a94b648c176699308a43f77cb543815"
+    }
+  }
+}

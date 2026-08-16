@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CrossRefViz — Interactive Bible Cross-Reference Network</title>
+  <!-- Google Fonts: Inter & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <!-- Custom CSS stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header Bar -->
+  <header>
+    <div class="logo-area">
+      <div class="glow-accent"></div>
+      <h1 id="main-title">CrossRefViz</h1>
+      <span class="badge">Bible Network Analysis</span>
+    </div>
+    <div class="stats-area">
+      <div class="stat-card">
+        <span class="stat-value">66</span>
+        <span class="stat-label">Canonical Books</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-value">323,741</span>
+        <span class="stat-label">Cross-References</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Dashboard Container -->
+  <main class="dashboard">
+    <!-- Left Panel: Interactive Matrix Heatmap -->
+    <section class="visualizer-container card">
+      <div class="panel-header">
+        <h2>Cross-Reference Intensity Heatmap</h2>
+        <p>Hover over cells to see connection count. Click a book label to lock selection.</p>
+      </div>
+      <div class="matrix-wrapper">
+        <canvas id="heatmapCanvas"></canvas>
+      </div>
+      <div class="legend">
+        <span>Low Intensity</span>
+        <div class="gradient-bar"></div>
+        <span>High Intensity</span>
+      </div>
+    </section>
+
+    <!-- Right Panel: Connection Details -->
+    <aside class="details-panel card">
+      <div class="panel-header">
+        <h2>Connection Inspector</h2>
+        <p id="selection-info">Select a cell in the heatmap to view verse connections.</p>
+      </div>
+
+      <div class="book-info-summary" style="display: none;">
+        <div class="info-block">
+          <span class="block-label">Source Book</span>
+          <span id="source-book-val" class="block-value">-</span>
+        </div>
+        <div class="info-block">
+          <span class="block-label">Target Book</span>
+          <span id="target-book-val" class="block-value">-</span>
+        </div>
+        <div class="info-block">
+          <span class="block-label">Total Connections</span>
+          <span id="connections-count-val" class="block-value">-</span>
+        </div>
+      </div>
+
+      <!-- Verse list wrapper -->
+      <div class="verses-list-container">
+        <div id="loading-indicator" class="loading-state" style="display: none;">
+          <div class="spinner"></div>
+          <p>Loading detailed verse connections...</p>
+        </div>
+        <div id="empty-state" class="empty-state">
+          <svg viewBox="0 0 24 24" width="48" height="48">
+            <path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+          </svg>
+          <p>No cell selected. Click any cell to inspect the specific scripture links.</p>
+        </div>
+        <ul id="verses-list" class="verses-list"></ul>
+      </div>
+    </aside>
+  </main>
+
+  <!-- Interactive tooltip -->
+  <div id="tooltip" class="tooltip"></div>
+
+  <!-- JS implementation -->
+  <script src="app.js"></script>
+</body>
+</html>

@@ -41,11 +41,11 @@ Do NOT modify the frozen tests unless the difference is a genuinely documented c
 | BBE | Bible in Basic English (1949) | eBible | Public Domain | eng-engBBE.txt | Complete |
 | DRA | Douay-Rheims Bible -- Challoner Revision (1752) | eBible | Public Domain | eng-engDRA.txt | Complete |
 | OEB | Open English Bible | eBible | CC0 | eng-engoebcw.txt | Complete |
-| ERV | English Revised Version (1885) | Source TBD | Public Domain | eng-eng_rv.txt (empty in eBible) | Pending |
-| WEBSTER | Webster's Bible Translation (1833) | eBible | Public Domain | eng-engwebster.txt | Pending |
-| BSB | Berean Standard Bible | eBible | CC BY 4.0 | eng-engbsb.txt | Pending |
-| GNV | Geneva Bible (1599) | eBible | Public Domain | eng-enggnv.txt | Pending |
-| JPS | Jewish Publication Society Tanakh (1917) | eBible | Public Domain | eng-engjps.txt | Pending |
+| ERV | English Revised Version (1885) | eBible.org | Public Domain | eng-rv_usfm.zip | Complete |
+| WEBSTER | Webster's Bible Translation (1833) | eBible | Public Domain | eng-engwebster.txt | Complete |
+| BSB | Berean Standard Bible | eBible | CC BY 4.0 | eng-engbsb.txt | Complete |
+| GNV | Geneva Bible (1599) | eBible | Public Domain | eng-enggnv.txt | Complete |
+| JPS | Jewish Publication Society Tanakh (1917) | eBible | Public Domain | eng-engjps.txt | Complete |
 
 ### Notes -- ERV 1885
 The eBible corpus file eng-eng_rv.txt exists but is entirely empty (0 non-empty lines out of 41,899).
@@ -117,6 +117,6 @@ Pending originals:
 
 | Region | Versions Complete | Versions Pending |
 |--------|-------------------|-----------------|
-| English | 8 | ERV, Webster, BSB, GNV, JPS |
+| English | 13 | 0 |
 | Indian Languages | 10 | 0 |
 | Originals | 3 | Arabic Van Dyke (true source), Greek TR |
