@@ -1,8 +1,9 @@
 """
 export_sqlite.py
 
-Parses all ingested Bible translations, geography places, and cross-references,
-and exports them into a single optimized SQLite database file (bible_database.db).
+Parses all ingested Bible translations, geography places, cross-references,
+and early Christian/council/patristic tradition texts, exporting them into
+a single optimized SQLite database file (scriptural_tradition.db).
 """
 
 import os
@@ -15,7 +16,8 @@ base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fil
 bible_dir = os.path.join(base_dir, "bible")
 geography_dir = os.path.join(base_dir, "geography")
 xref_dir = os.path.join(base_dir, "cross_references")
-db_path = os.path.join(base_dir, "bible_database.db")
+tradition_dir = os.path.join(base_dir, "tradition")
+db_path = os.path.join(base_dir, "scriptural_tradition.db")
 
 # Regex to parse the standard verse label: [VERSION | LANG | TESTAMENT | Book | Chapter X | Verse Y] Text
 verse_pattern = re.compile(
@@ -26,10 +28,11 @@ verse_pattern = re.compile(
 def create_schema(conn):
     cursor = conn.cursor()
     
-    # 1. Versions Table
+    # 1. Bible Versions Table
     cursor.execute("""
     CREATE TABLE IF NOT EXISTS versions (
         code TEXT PRIMARY KEY,
+        abbreviation TEXT,
         name TEXT NOT NULL,
         language TEXT NOT NULL,
         year INTEGER,
@@ -37,7 +40,7 @@ def create_schema(conn):
         checksum_hash TEXT
     )""")
 
-    # 2. Verses Table
+    # 2. Bible Verses Table
     cursor.execute("""
     CREATE TABLE IF NOT EXISTS verses (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -73,6 +76,35 @@ def create_schema(conn):
         votes INTEGER NOT NULL
     )""")
 
+    # 5. Tradition Works Table
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS tradition_works (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        category TEXT NOT NULL,
+        title TEXT NOT NULL,
+        author TEXT,
+        date TEXT,
+        date_confidence TEXT,
+        language TEXT,
+        translator TEXT,
+        license TEXT,
+        source TEXT,
+        source_url TEXT,
+        source_id TEXT
+    )""")
+
+    # 6. Tradition Passages Table
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS tradition_passages (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        work_id INTEGER NOT NULL,
+        section_label TEXT NOT NULL,
+        section_number INTEGER NOT NULL,
+        text TEXT NOT NULL,
+        FOREIGN KEY(work_id) REFERENCES tradition_works(id),
+        UNIQUE(work_id, section_label, section_number)
+    )""")
+
     conn.commit()
 
 
@@ -83,11 +115,17 @@ def create_indexes(conn):
     cursor.execute("CREATE INDEX IF NOT EXISTS idx_verses_book ON verses (version, book_name)")
     cursor.execute("CREATE INDEX IF NOT EXISTS idx_xref_source ON cross_references (source_verse)")
     cursor.execute("CREATE INDEX IF NOT EXISTS idx_geography_type ON geography (type)")
+    cursor.execute("CREATE INDEX IF NOT EXISTS idx_trad_passage ON tradition_passages (work_id, section_number)")
     conn.commit()
 
 
+def parse_digits(s):
+    match = re.search(r"\d+", s)
+    return int(match.group(0)) if match else 0
+
+
 def main():
-    print("=== EXPORTING BIBLE CORPUS TO SQLITE ===")
+    print("=== EXPORTING CORPUS TO SQLITE (scriptural_tradition.db) ===")
 
     # Delete existing database file if present
     if os.path.exists(db_path):
@@ -107,19 +145,23 @@ def main():
             if not os.path.isdir(lang_path):
                 continue
             
-            for ver in sorted(os.listdir(lang_path)):
-                ver_path = os.path.join(lang_path, ver)
-                if not os.path.isdir(ver_path):
-                    continue
+            # Walk and find all folders containing metadata.json (supports nesting like greek/tr/ebible)
+            version_folders = []
+            for root, dirs, files in os.walk(lang_path):
+                if "metadata.json" in files:
+                    version_folders.append(root)
 
+            for ver_path in sorted(version_folders):
+                # Relative path from lang_path gives the version subfolder(s)
+                ver = os.path.relpath(ver_path, lang_path).replace("\\", "/")
                 print(f"Processing version: {lang}/{ver}...")
 
-                # Generate a globally unique version code (e.g., BENGALI_IRV, ENGLISH_KJV)
-                ver_code = f"{lang}_{ver}".upper()
+                ver_code = f"{lang}_{ver}".upper().replace("/", "_")
 
                 # Read metadata.json
                 meta_file = os.path.join(ver_path, "metadata.json")
                 name = ver.upper()
+                abbreviation = ver.upper()
                 year = None
                 lic = "Unknown"
                 checksum = ""
@@ -129,6 +171,7 @@ def main():
                         with open(meta_file, "r", encoding="utf-8") as f:
                             meta = json.load(f)
                             name = meta.get("name", name)
+                            abbreviation = meta.get("abbreviation", abbreviation)
                             year = meta.get("edition_year")
                             lic = meta.get("license", lic)
                             checksum = meta.get("checksum_hash", "")
@@ -137,8 +180,8 @@ def main():
 
                 # Insert Version
                 cursor.execute(
-                    "INSERT INTO versions (code, name, language, year, license, checksum_hash) VALUES (?, ?, ?, ?, ?, ?)",
-                    (ver_code, name, lang, year, lic, checksum)
+                    "INSERT INTO versions (code, abbreviation, name, language, year, license, checksum_hash) VALUES (?, ?, ?, ?, ?, ?, ?)",
+                    (ver_code, abbreviation, name, lang, year, lic, checksum)
                 )
 
                 # Read chapter files
@@ -148,16 +191,12 @@ def main():
                     if not os.path.exists(test_path):
                         continue
                     
-                    for book_folder in sorted(os.listdir(test_path)):
-                        book_path = os.path.join(test_path, book_folder)
-                        if not os.path.isdir(book_path):
-                            continue
-                        
-                        for ch_file in sorted(os.listdir(book_path)):
-                            if not ch_file.endswith(".txt"):
+                    for root_dir, sub_dirs, files in os.walk(test_path):
+                        for file in sorted(files):
+                            if not file.endswith(".txt"):
                                 continue
                             
-                            ch_path = os.path.join(book_path, ch_file)
+                            ch_path = os.path.join(root_dir, file)
                             try:
                                 with open(ch_path, "r", encoding="utf-8") as f:
                                     for line in f:
@@ -169,7 +208,6 @@ def main():
                                         if match:
                                             v_code, lang_code, testament, b_name, ch_num, v_num, v_text = match.groups()
                                             
-                                            # Add to insertion buffer
                                             verse_buffer.append((
                                                 ver_code,
                                                 testament.lower(),
@@ -194,7 +232,6 @@ def main():
     print("\n--- Ingesting Geography Places ---")
     places_injected = 0
     
-    # Places
     places_file = os.path.join(geography_dir, "places.json")
     if os.path.exists(places_file):
         try:
@@ -218,7 +255,6 @@ def main():
         except Exception as e:
             print(f"  Error ingesting places: {e}")
 
-    # Regions/Water
     regions_file = os.path.join(geography_dir, "regions_water.json")
     if os.path.exists(regions_file):
         try:
@@ -271,7 +307,105 @@ def main():
     else:
         print("  Cross-references file not found.")
 
-    # Commit insertions
+    # 4. Ingest Tradition Corpus
+    print("\n--- Ingesting Tradition Corpus ---")
+    tradition_works_count = 0
+    tradition_passages_count = 0
+    
+    if os.path.exists(tradition_dir):
+        for category in ["early_christian", "councils", "patristics"]:
+            cat_path = os.path.join(tradition_dir, category)
+            if not os.path.exists(cat_path):
+                continue
+            
+            # Recursively find any folder containing a metadata.json (supports nesting like patristics/augustine/de_trinitate)
+            work_folders = []
+            for root, dirs, files in os.walk(cat_path):
+                if "metadata.json" in files:
+                    work_folders.append(root)
+
+            for work_path in sorted(work_folders):
+                # Read metadata
+                meta_file = os.path.join(work_path, "metadata.json")
+                try:
+                    with open(meta_file, "r", encoding="utf-8") as f:
+                        meta = json.load(f)
+                except Exception as e:
+                    print(f"  Error reading metadata in {work_path}: {e}")
+                    continue
+
+                work_dir_name = os.path.basename(work_path)
+                title = meta.get("work", work_dir_name)
+                author = meta.get("author")
+                date = meta.get("date") or meta.get("date_range")
+                date_conf = meta.get("date_confidence")
+                lang = meta.get("language")
+                translator = meta.get("translator")
+                license_str = meta.get("license") or meta.get("source_license")
+                source = meta.get("source")
+                source_url = meta.get("source_url")
+                source_id = meta.get("source_id")
+
+                # Insert into tradition_works
+                cursor.execute("""
+                    INSERT INTO tradition_works (
+                        category, title, author, date, date_confidence, language, translator, license, source, source_url, source_id
+                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                """, (category, title, author, date, date_conf, lang, translator, license_str, source, source_url, source_id))
+                
+                work_id = cursor.lastrowid
+                tradition_works_count += 1
+
+                # Parse text files under this work
+                text_files = []
+                for root, _, files in os.walk(work_path):
+                    for file in files:
+                        if file.endswith(".txt"):
+                            text_files.append(os.path.join(root, file))
+
+                work_passages_count = 0
+                for txt_file in sorted(text_files):
+                    try:
+                        with open(txt_file, "r", encoding="utf-8") as f:
+                            for line in f:
+                                line = line.strip()
+                                if not line:
+                                    continue
+                                
+                                # Parse custom label format, e.g. [Didache | EN | Liturgy | Chapter 14 | Verse 1] Text
+                                match = re.match(r"^\[\s*(.*?)\s*\]\s*(.*)$", line)
+                                if match:
+                                    label_content = match.group(1)
+                                    text_content = match.group(2)
+                                    
+                                    parts = [p.strip() for p in label_content.split("|")]
+                                    
+                                    # Extract section label (e.g. "Chapter 14" or "Canon 29")
+                                    section_label = "Section"
+                                    if len(parts) >= 4:
+                                        # Usually parts[3] is the chapter/canon, e.g. "Chapter 14"
+                                        section_label = parts[3]
+                                    
+                                    # Extract section number and verse number
+                                    section_number = parse_digits(section_label)
+                                    verse_number = 0
+                                    if len(parts) >= 5:
+                                        verse_number = parse_digits(parts[4])
+                                    
+                                    cursor.execute("""
+                                        INSERT OR IGNORE INTO tradition_passages (
+                                            work_id, section_label, section_number, text
+                                        ) VALUES (?, ?, ?, ?)
+                                    """, (work_id, section_label, verse_number, text_content))
+                                    if cursor.rowcount > 0:
+                                        work_passages_count += 1
+                                        tradition_passages_count += 1
+                    except Exception as e:
+                        print(f"  Error parsing tradition text {txt_file}: {e}")
+
+                print(f"  Ingested tradition work: {title} ({work_passages_count} passages).")
+
+    # Commit all
     conn.commit()
 
     # Create optimized indexes
@@ -287,6 +421,10 @@ def main():
     print(f"Total Places  : {cursor.fetchone()[0]}")
     cursor.execute("SELECT COUNT(*) FROM cross_references")
     print(f"Total CrossRefs: {cursor.fetchone()[0]}")
+    cursor.execute("SELECT COUNT(*) FROM tradition_works")
+    print(f"Total Trad Works: {cursor.fetchone()[0]}")
+    cursor.execute("SELECT COUNT(*) FROM tradition_passages")
+    print(f"Total Trad Passages: {cursor.fetchone()[0]}")
 
     conn.close()
 

@@ -1,0 +1,20 @@
+{
+  "name": "TR/EBIBLE",
+  "version": "GRCGTR",
+  "language": "Ancient Greek",
+  "language_code": "el",
+  "edition_year": "Unknown",
+  "publisher_source": "Unknown Publisher",
+  "license": "Public Domain",
+  "source_url": "eBible.org",
+  "download_date": "2026-08-16",
+  "checksum_hash": "8bab4f81505328a90a851cbf61a1ba3918eb951dfac7b0cdcbb3d6ca43f8f04a",
+  "coverage": {
+    "books_count": 27,
+    "chapters_count": 260,
+    "verses_count": 7957,
+    "testaments": [
+      "nt"
+    ]
+  }
+}

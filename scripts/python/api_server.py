@@ -21,17 +21,22 @@ PORT = 8090
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 base_dir = os.path.dirname(os.path.dirname(script_dir))
-db_path = os.path.join(base_dir, "bible_database.db")
+db_path = os.path.join(base_dir, "scriptural_tradition.db")
 
 
 def resolve_version_code(cursor, input_code):
     input_code = input_code.upper()
-    # Try exact match
+    # Try exact match on code
     cursor.execute("SELECT code FROM versions WHERE code=?", (input_code,))
     row = cursor.fetchone()
     if row:
         return row[0]
-    # Try match ending with _input_code (e.g. BENGALI_IRV or ENGLISH_KJV)
+    # Try exact match on abbreviation
+    cursor.execute("SELECT code FROM versions WHERE abbreviation=?", (input_code,))
+    row = cursor.fetchone()
+    if row:
+        return row[0]
+    # Try match ending with _input_code (e.g. BENGALI_IRV or GREEK_TR_EBIBLE)
     cursor.execute("SELECT code FROM versions WHERE code LIKE ?", (f"%_{input_code}",))
     rows = cursor.fetchall()
     if len(rows) == 1:
@@ -271,7 +276,73 @@ class ApiHandler(http.server.SimpleHTTPRequestHandler):
                 }
                 self.send_json(200, data)
 
-            # 8. Not Found
+            # 8. GET /api/tradition/works
+            elif path == "/api/tradition/works":
+                cursor.execute("""
+                    SELECT id, category, title, author, date, date_confidence, language, translator, license, source, source_url, source_id 
+                    FROM tradition_works ORDER BY category, title
+                """)
+                rows = cursor.fetchall()
+                data = [
+                    {
+                        "id": r[0],
+                        "category": r[1],
+                        "title": r[2],
+                        "author": r[3],
+                        "date": r[4],
+                        "date_confidence": r[5],
+                        "language": r[6],
+                        "translator": r[7],
+                        "license": r[8],
+                        "source": r[9],
+                        "source_url": r[10],
+                        "source_id": r[11]
+                    } for r in rows
+                ]
+                self.send_json(200, data)
+
+            # 9. GET /api/tradition/passages
+            elif path == "/api/tradition/passages":
+                work_id_str = query_params.get("work_id", [""])[0]
+                if not work_id_str:
+                    self.send_error_json(400, "Missing required parameter: work_id is required.")
+                    return
+
+                try:
+                    work_id = int(work_id_str)
+                except ValueError:
+                    self.send_error_json(400, "Parameter work_id must be an integer.")
+                    return
+
+                cursor.execute("""
+                    SELECT section_label, section_number, text 
+                    FROM tradition_passages WHERE work_id=? ORDER BY section_number, id
+                """, (work_id,))
+                rows = cursor.fetchall()
+                
+                # Fetch work details for context
+                cursor.execute("SELECT title, author, category FROM tradition_works WHERE id=?", (work_id,))
+                work_row = cursor.fetchone()
+                work_title = work_row[0] if work_row else "Unknown"
+                work_author = work_row[1] if work_row else "Unknown"
+                work_category = work_row[2] if work_row else "Unknown"
+
+                data = {
+                    "work_id": work_id,
+                    "title": work_title,
+                    "author": work_author,
+                    "category": work_category,
+                    "passages": [
+                        {
+                            "section_label": r[0],
+                            "section_number": r[1],
+                            "text": r[2]
+                        } for r in rows
+                    ]
+                }
+                self.send_json(200, data)
+
+            # 10. Not Found
             else:
                 self.send_error_json(404, f"API Endpoint {path} not found.")
 

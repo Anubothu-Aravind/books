@@ -33,16 +33,19 @@ def main():
         
         detailed_sections.append(f"### {lang_name}")
         
-        for ver in sorted(os.listdir(lang_path)):
-            ver_path = os.path.join(lang_path, ver)
-            if not os.path.isdir(ver_path):
-                continue
-                
+        # Recursively find all directories containing metadata.json
+        version_paths = []
+        for root, dirs, files in os.walk(lang_path):
+            if "metadata.json" in files:
+                version_paths.append(root)
+
+        for version_path in sorted(version_paths):
+            ver = os.path.relpath(version_path, lang_path).replace("\\", "/")
             total_versions += 1
             
             # Read metadata.json if exists
             name = ver.upper()
-            meta_path = os.path.join(ver_path, "metadata.json")
+            meta_path = os.path.join(version_path, "metadata.json")
             if os.path.exists(meta_path):
                 try:
                     with open(meta_path, "r", encoding="utf-8") as f:
@@ -52,8 +55,8 @@ def main():
                     pass
             
             # Scan testaments
-            ot_path = os.path.join(ver_path, "ot")
-            nt_path = os.path.join(ver_path, "nt")
+            ot_path = os.path.join(version_path, "ot")
+            nt_path = os.path.join(version_path, "nt")
             
             has_ot = os.path.exists(ot_path) and len(os.listdir(ot_path)) > 0
             has_nt = os.path.exists(nt_path) and len(os.listdir(nt_path)) > 0
@@ -66,7 +69,7 @@ def main():
             chapters_count = 0
             
             for testament in ["ot", "nt"]:
-                t_path = os.path.join(ver_path, testament)
+                t_path = os.path.join(version_path, testament)
                 if os.path.exists(t_path):
                     for book in sorted(os.listdir(t_path)):
                         book_path = os.path.join(t_path, book)

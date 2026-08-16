@@ -1,14 +1,14 @@
 # Repository Status
 
-*Last Updated: 2026-08-16 20:35:58*
+*Last Updated: 2026-08-16 21:36:56*
 
 This file tracks the current state of the multilingual sacred text & teaching archive dataset, showcasing what is collected, split, or pending.
 
 ## Collection Overview
 
 - **Total Languages**: 14
-- **Total Bible Versions**: 27
-- **Total Chapters**: 30541
+- **Total Bible Versions**: 28
+- **Total Chapters**: 30542
 
 | Category | Target Languages / Versions | Status | Notes |
 |---|---|---|---|
@@ -23,7 +23,7 @@ This file tracks the current state of the multilingual sacred text & teaching ar
 ## Detailed Version Status
 
 ### Arabic
-- [x] **VANDYKE** — *Collected & Split (1188 chapters across 66 books)*
+- [x] **VANDYKE** — *Collected & Split (1189 chapters across 66 books)*
 ### Bengali
 - [x] **IRV** — *Collected & Split (1188 chapters across 66 books)*
 ### English
@@ -43,6 +43,7 @@ This file tracks the current state of the multilingual sacred text & teaching ar
 ### Greek
 - [x] **LXX** — *Collected & Split (1077 chapters across 51 books)*
 - [x] **SBLGNT** — *Collected & Split (260 chapters across 27 books)*
+- [x] **TR** — *Collected & Split (0 chapters across 0 books)*
 ### Gujarati
 - [x] **IRV** — *Collected & Split (1188 chapters across 66 books)*
 ### Hebrew

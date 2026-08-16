@@ -49,6 +49,18 @@ const ENDPOINTS = {
     params: [
       { name: "verse", type: "text", default: "Genesis 1:1", placeholder: "e.g. Genesis 1:1, John 3:16" }
     ]
+  },
+  tradition_works: {
+    route: "/api/tradition/works",
+    description: "List all ingested tradition works (Didache, Council Canons, Augustine, Chrysostom).",
+    params: []
+  },
+  tradition_passages: {
+    route: "/api/tradition/passages",
+    description: "Fetch passages for a specific tradition work by ID.",
+    params: [
+      { name: "work_id", type: "number", default: "1", placeholder: "e.g. 1, 2, 3, 4" }
+    ]
   }
 };
 

@@ -64,11 +64,14 @@ def run_test(bible_dir):
         if not os.path.isdir(lang_path):
             continue
             
-        for ver in os.listdir(lang_path):
-            ver_path = os.path.join(lang_path, ver)
-            if not os.path.isdir(ver_path):
-                continue
-                
+        # Recursively find all directories containing metadata.json
+        version_paths = []
+        for root, dirs, files in os.walk(lang_path):
+            if "metadata.json" in files:
+                version_paths.append(root)
+
+        for ver_path in sorted(version_paths):
+            ver = os.path.relpath(ver_path, lang_path).replace("\\", "/")
             version_key = f"{lang}/{ver}"
             
             # Check metadata.json exists

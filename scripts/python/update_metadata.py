@@ -163,11 +163,15 @@ def main():
         if not os.path.isdir(lang_path):
             continue
             
-        for version in sorted(os.listdir(lang_path)):
-            version_path = os.path.join(lang_path, version)
-            if not os.path.isdir(version_path):
-                continue
-                
+        # Recursively find all directories containing metadata.json
+        version_paths = []
+        for root, dirs, files in os.walk(lang_path):
+            if "metadata.json" in files:
+                version_paths.append(root)
+
+        for version_path in sorted(version_paths):
+            # Resolve the version key relative to the language directory
+            version = os.path.relpath(version_path, lang_path).replace("\\", "/")
             update_version_metadata(lang, version, version_path)
             
     print("\nMetadata update finished successfully!")

@@ -2,3 +2,5 @@ scripts/logs/
 __pycache__/
 *.pyc
 bible_database.db
+scriptural_tradition.db
+

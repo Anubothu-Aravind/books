@@ -1,22 +1,21 @@
 {
-  "name": "New Arabic Version (Book of Life)",
-  "version": "NAV",
+  "name": "VANDYKE",
+  "version": "AVD",
   "language": "Arabic",
   "language_code": "ar",
-  "edition_year": 2012,
-  "publisher_source": "eBible Corpus",
-  "license": "Copyright © 1988, 1997, 2012 Biblica, Inc.",
-  "source_url": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/arb-arbnav.txt",
+  "edition_year": "Unknown",
+  "publisher_source": "Unknown Publisher",
+  "license": "Public Domain",
+  "source_url": "eBible.org",
   "download_date": "2026-08-16",
-  "checksum_hash": "927aa61f74e74795bf986e1487dfcefaabb29381a7aa598868acb6af17cf159e",
+  "checksum_hash": "95ce962736d648aa5d5b2a7219a925f046eb19a098ea8ccea63bd169c8172787",
   "coverage": {
     "books_count": 66,
-    "chapters_count": 1188,
-    "verses_count": 30967,
+    "chapters_count": 1189,
+    "verses_count": 31104,
     "testaments": [
       "nt",
       "ot"
     ]
-  },
-  "notes": "Arabic translation split canonically. Source: https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/arb-arbnav.txt"
+  }
 }
