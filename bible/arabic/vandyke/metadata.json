@@ -1,14 +1,22 @@
 {
   "name": "New Arabic Version (Book of Life)",
-  "abbreviation": "NAV",
+  "version": "NAV",
   "language": "Arabic",
   "language_code": "ar",
-  "year": 2012,
-  "testament_count": {
-    "ot": 39,
-    "nt": 27
-  },
-  "source": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/arb-arbnav.txt",
+  "edition_year": 2012,
+  "publisher_source": "eBible Corpus",
   "license": "Copyright © 1988, 1997, 2012 Biblica, Inc.",
+  "source_url": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/arb-arbnav.txt",
+  "download_date": "2026-08-16",
+  "checksum_hash": "927aa61f74e74795bf986e1487dfcefaabb29381a7aa598868acb6af17cf159e",
+  "coverage": {
+    "books_count": 66,
+    "chapters_count": 1188,
+    "verses_count": 30967,
+    "testaments": [
+      "nt",
+      "ot"
+    ]
+  },
   "notes": "Arabic translation split canonically. Source: https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/arb-arbnav.txt"
 }

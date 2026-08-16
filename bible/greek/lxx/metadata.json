@@ -1,14 +1,21 @@
 {
   "name": "Septuagint",
-  "abbreviation": "LXX",
+  "version": "LXX",
   "language": "Greek",
   "language_code": "el",
-  "year": -200,
-  "testament_count": {
-    "ot": 46,
-    "nt": 0
-  },
-  "source": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/grc-grcbrent.txt",
+  "edition_year": -200,
+  "publisher_source": "eBible Corpus",
   "license": "Public Domain",
+  "source_url": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/grc-grcbrent.txt",
+  "download_date": "2026-08-16",
+  "checksum_hash": "cf0619b46d6498fa46e94aaf62d948515501266c0c0f774aeb67fc907546289a",
+  "coverage": {
+    "books_count": 51,
+    "chapters_count": 1077,
+    "verses_count": 26415,
+    "testaments": [
+      "ot"
+    ]
+  },
   "notes": "Collected and split canonically into ot/nt folders with labeled verses."
 }

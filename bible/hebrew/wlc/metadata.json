@@ -1,14 +1,21 @@
 {
   "name": "Westminster Leningrad Codex",
-  "abbreviation": "WLC",
+  "version": "WLC",
   "language": "Hebrew",
   "language_code": "he",
-  "year": 1008,
-  "testament_count": {
-    "ot": 39,
-    "nt": 0
-  },
-  "source": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/hbo-hboWLC.txt",
+  "edition_year": 1008,
+  "publisher_source": "eBible Corpus",
   "license": "Public Domain",
+  "source_url": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/hbo-hboWLC.txt",
+  "download_date": "2026-08-16",
+  "checksum_hash": "4d46893d168445464b2447552be86f0c49d99c39a2af832f8f90e90c3de04f03",
+  "coverage": {
+    "books_count": 39,
+    "chapters_count": 929,
+    "verses_count": 23213,
+    "testaments": [
+      "ot"
+    ]
+  },
   "notes": "Collected and split canonically into ot/nt folders with labeled verses."
 }

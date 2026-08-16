@@ -1,14 +1,22 @@
 {
   "name": "Indian Revised Version - Tamil",
-  "abbreviation": "IRV",
+  "version": "IRV",
   "language": "Tamil",
   "language_code": "ta",
-  "year": 2019,
-  "testament_count": {
-    "ot": 39,
-    "nt": 27
-  },
-  "source": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/tam-tam2017.txt",
+  "edition_year": 2019,
+  "publisher_source": "eBible Corpus",
   "license": "CC BY-SA 4.0",
+  "source_url": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/tam-tam2017.txt",
+  "download_date": "2026-08-16",
+  "checksum_hash": "e9a87a3dc504a008e7cf801702f9850421e608368e303bf3e8e9f39941c95d3f",
+  "coverage": {
+    "books_count": 66,
+    "chapters_count": 1188,
+    "verses_count": 30968,
+    "testaments": [
+      "nt",
+      "ot"
+    ]
+  },
   "notes": "Collected and split canonically into ot/nt folders with labeled verses."
 }

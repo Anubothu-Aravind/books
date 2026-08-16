@@ -1,14 +1,22 @@
 {
   "name": "Indian Revised Version - Hindi",
-  "abbreviation": "IRV",
+  "version": "IRV",
   "language": "Hindi",
   "language_code": "hi",
-  "year": 2019,
-  "testament_count": {
-    "ot": 39,
-    "nt": 27
-  },
-  "source": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/hin-hin2017.txt",
+  "edition_year": 2019,
+  "publisher_source": "eBible Corpus",
   "license": "CC BY-SA 4.0",
+  "source_url": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/hin-hin2017.txt",
+  "download_date": "2026-08-16",
+  "checksum_hash": "2f2bd9a4afa15aa718a5bf289d933c4fa05792cc687d1c6a80089777441c2646",
+  "coverage": {
+    "books_count": 66,
+    "chapters_count": 1188,
+    "verses_count": 30968,
+    "testaments": [
+      "nt",
+      "ot"
+    ]
+  },
   "notes": "Collected and split canonically into ot/nt folders with labeled verses."
 }

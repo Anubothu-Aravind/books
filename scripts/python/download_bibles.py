@@ -3,6 +3,7 @@ import shutil
 import urllib.request
 import json
 import re
+import datetime
 
 # Resolve the repository root dynamically (two levels up from scripts/python/)
 script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -250,16 +251,14 @@ for dl in downloads:
             
         metadata = {
             "name": dl["name"],
-            "abbreviation": version.upper(),
+            "version": version.upper(),
             "language": lang.capitalize(),
             "language_code": lang_codes.get(lang, "unknown"),
-            "year": dl["year"],
-            "testament_count": {
-                "ot": dl["ot"],
-                "nt": dl["nt"]
-            },
-            "source": url,
+            "edition_year": dl["year"],
+            "publisher_source": "eBible Corpus",
             "license": dl["license"],
+            "source_url": url,
+            "download_date": datetime.date.today().strftime("%Y-%m-%d"),
             "notes": "Collected and split canonically into ot/nt folders with labeled verses."
         }
         
@@ -334,16 +333,14 @@ for sfile in sblgnt_files:
 if sbl_success and sblgnt_grouped:
     metadata = {
         "name": "SBL Greek New Testament",
-        "abbreviation": "SBLGNT",
+        "version": "SBLGNT",
         "language": "Greek",
         "language_code": "el",
-        "year": 2010,
-        "testament_count": {
-            "ot": 0,
-            "nt": 27
-        },
-        "source": "https://raw.githubusercontent.com/Faithlife/SBLGNT/master/data/sblgnt/text/",
+        "edition_year": 2010,
+        "publisher_source": "Society of Biblical Literature / Faithlife",
         "license": "SBLGNT License",
+        "source_url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/master/data/sblgnt/text/",
+        "download_date": datetime.date.today().strftime("%Y-%m-%d"),
         "notes": "SBLGNT text fetched book-by-book from Faithlife GitHub repository."
     }
     total_ch = write_chapters_and_metadata("greek", "sblgnt", sblgnt_grouped, metadata)
@@ -417,16 +414,14 @@ if arabic_content:
         
     metadata = {
         "name": name,
-        "abbreviation": "VANDYKE" if "arb-arb.txt" in selected_url else "NAV",
+        "version": "VANDYKE" if "arb-arb.txt" in selected_url else "NAV",
         "language": "Arabic",
         "language_code": "ar",
-        "year": 1865 if "arb-arb.txt" in selected_url else 2012,
-        "testament_count": {
-            "ot": 39,
-            "nt": 27
-        },
-        "source": selected_url,
+        "edition_year": 1865 if "arb-arb.txt" in selected_url else 2012,
+        "publisher_source": "eBible Corpus",
         "license": license_info,
+        "source_url": selected_url,
+        "download_date": datetime.date.today().strftime("%Y-%m-%d"),
         "notes": f"Arabic translation split canonically. Source: {selected_url}"
     }
     
@@ -451,5 +446,13 @@ for res in results:
 summary_path = os.path.join(base_dir, "_meta", "download_summary.json")
 with open(summary_path, "w", encoding="utf-8") as f:
     json.dump(results, f, indent=2)
+
+# Run post-processing to generate complete metadata and fingerprint checksums
+try:
+    print("\n--- RUNNING POST-PROCESS METADATA AND SNAPSHOT CHECKSUMS ---")
+    import update_metadata
+    update_metadata.main()
+except Exception as e:
+    print(f"Error running metadata update post-processor: {e}")
 
 print("\nProcessing complete!")

@@ -1,14 +1,22 @@
 {
   "name": "Indian Revised Version - Urdu",
-  "abbreviation": "IRV",
+  "version": "IRV",
   "language": "Urdu",
   "language_code": "ur",
-  "year": 2019,
-  "testament_count": {
-    "ot": 39,
-    "nt": 27
-  },
-  "source": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/urd-urd.txt",
+  "edition_year": 2019,
+  "publisher_source": "eBible Corpus",
   "license": "CC BY-SA 4.0",
+  "source_url": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/urd-urd.txt",
+  "download_date": "2026-08-16",
+  "checksum_hash": "6085501207b1cf5b4ef1595a1373f80799e6f147f4b9d86dd2a8953322fd71ae",
+  "coverage": {
+    "books_count": 66,
+    "chapters_count": 1188,
+    "verses_count": 30967,
+    "testaments": [
+      "nt",
+      "ot"
+    ]
+  },
   "notes": "Collected and split canonically into ot/nt folders with labeled verses."
 }

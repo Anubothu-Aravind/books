@@ -1,14 +1,22 @@
 {
   "name": "Douay-Rheims Bible",
-  "abbreviation": "DRA",
+  "version": "DRA",
   "language": "English",
   "language_code": "en",
-  "year": 1899,
-  "testament_count": {
-    "ot": 39,
-    "nt": 27
-  },
-  "source": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/eng-engDRA.txt",
+  "edition_year": 1899,
+  "publisher_source": "eBible Corpus",
   "license": "Public Domain",
+  "source_url": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/eng-engDRA.txt",
+  "download_date": "2026-08-16",
+  "checksum_hash": "aecb862f8851f099b816cb4b1de2137a3708d7d474da088c69182db90d6cfbba",
+  "coverage": {
+    "books_count": 73,
+    "chapters_count": 1324,
+    "verses_count": 34240,
+    "testaments": [
+      "nt",
+      "ot"
+    ]
+  },
   "notes": "Collected and split canonically into ot/nt folders with labeled verses."
 }

@@ -1,14 +1,22 @@
 {
   "name": "Indian Revised Version - Telugu",
-  "abbreviation": "IRV",
+  "version": "IRV",
   "language": "Telugu",
   "language_code": "te",
-  "year": 2019,
-  "testament_count": {
-    "ot": 39,
-    "nt": 27
-  },
-  "source": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/tel-tel2017.txt",
+  "edition_year": 2019,
+  "publisher_source": "eBible Corpus",
   "license": "CC BY-SA 4.0",
+  "source_url": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/tel-tel2017.txt",
+  "download_date": "2026-08-16",
+  "checksum_hash": "1368314bf7965d46e1a1f721422b9d54c0064cd939b620bd4ffaf02cfb1c3996",
+  "coverage": {
+    "books_count": 66,
+    "chapters_count": 1188,
+    "verses_count": 30968,
+    "testaments": [
+      "nt",
+      "ot"
+    ]
+  },
   "notes": "Collected and split canonically into ot/nt folders with labeled verses."
 }

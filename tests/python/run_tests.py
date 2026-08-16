@@ -37,48 +37,59 @@ def main():
     # 1. Structure Tests
     print("Running Structure Tests...")
     struct_passes, struct_fails, struct_failures = test_structure.run_test(bible_dir)
-    results["Structure Validation"] = (struct_passes, struct_fails, struct_failures)
+    results["Structure Validation"] = (struct_passes, struct_fails, 0, struct_failures)
     
     # 2. Verse Format Tests
     print("Running Verse Format Tests...")
     format_passes, format_fails, format_failures = test_verse_format.run_test(bible_dir)
-    results["Verse Format Validation"] = (format_passes, format_fails, format_failures)
+    results["Verse Format Validation"] = (format_passes, format_fails, 0, format_failures)
     
     # 3. Verse Count Tests
     print("Running Verse Count Tests...")
     count_passes, count_fails, count_failures = test_verse_count.run_test(bible_dir)
-    results["Verse Count Validation"] = (count_passes, count_fails, count_failures)
+    results["Verse Count Validation"] = (count_passes, count_fails, 0, count_failures)
     
     # 4. Spot Checks
     print("Running Spot Checks...")
     spot_passes, spot_fails, spot_failures = test_spot_checks.run_test(bible_dir)
-    results["Verse Text Spot Checks"] = (spot_passes, spot_fails, spot_failures)
+    results["Verse Text Spot Checks"] = (spot_passes, spot_fails, 0, spot_failures)
     
     # 5. Fingerprints Check
     print("Running Translation Fingerprint Checks...")
-    fp_passes, fp_fails, fp_failures, fp_log = test_fingerprints.run_test(bible_dir, test_dir)
-    results["Translation Fingerprint Validation"] = (fp_passes, fp_fails, fp_failures)
+    fp_passes, fp_fails, fp_skips, fp_failures, fp_log = test_fingerprints.run_test(bible_dir, test_dir)
+    results["Translation Fingerprint Validation"] = (fp_passes, fp_fails, fp_skips, fp_failures)
     
     # Compile Report
     total_passes = sum(r[0] for r in results.values())
     total_fails = sum(r[1] for r in results.values())
-    total_tests = total_passes + total_fails
+    total_skips = sum(r[2] for r in results.values())
+    total_applicable = total_passes + total_fails
     
     report_content = []
     report_content.append("======================================================================")
     report_content.append(f"BIBLE VERIFICATION TEST SUITE REPORT - {today_str}")
     report_content.append("======================================================================\n")
     
-    if total_tests > 0:
-        pct_passed = (total_passes / total_tests) * 100
+    if total_applicable > 0:
+        pct_passed = (total_passes / total_applicable) * 100
     else:
         pct_passed = 0.0
-    report_content.append(f"Total Score: {total_passes} / {total_tests} assertions passed ({pct_passed:.2f}%)\n")
+        
+    report_content.append(f"Passed: {total_passes}")
+    report_content.append(f"Skipped: {total_skips}")
+    report_content.append(f"Failed: {total_fails}")
+    report_content.append(f"Applicable pass rate: {pct_passed:.2f}% ({total_passes} / {total_applicable} assertions)\n")
+    
+    if total_skips > 0:
+        report_content.append(f"Note: {total_skips} fingerprint checks were explicitly skipped due to documented source-corpus versification limitations.\n")
     
     report_content.append("--- SUMMARY BY TEST CATEGORY ---")
-    for cat, (p, f, _) in sorted(results.items()):
+    for cat, (p, f, s, _) in sorted(results.items()):
         status = "PASSED" if f == 0 else "FAILED"
-        report_content.append(f"  {cat:<35}: {status:<8} ({p} passed, {f} failed)")
+        if s > 0:
+            report_content.append(f"  {cat:<35}: {status:<8} ({p} passed, {f} failed, {s} skipped)")
+        else:
+            report_content.append(f"  {cat:<35}: {status:<8} ({p} passed, {f} failed)")
     report_content.append("")
     
     report_content.append("--- DETAILED FINGERPRINT TEST LOG ---")
@@ -88,7 +99,7 @@ def main():
     
     # Group and log all failures
     all_failures = []
-    for cat, (_, f_count, f_list) in sorted(results.items()):
+    for cat, (_, f_count, _, f_list) in sorted(results.items()):
         if f_count > 0:
             all_failures.append(f"Category: {cat} ({f_count} failures)")
             for fail in f_list:
@@ -107,7 +118,11 @@ def main():
         f.write(report_text)
         
     print(f"\nTests finished. Report saved to: {report_file}")
-    print(f"Total Score: {total_passes} / {total_tests} passed.")
+    print(f"Passed: {total_passes}")
+    print(f"Skipped: {total_skips}")
+    print(f"Failed: {total_fails}")
+    print(f"Applicable pass rate: {pct_passed:.2f}%")
+    
     if total_fails > 0:
         print(f"FAILED: Encountered {total_fails} validation failures. See report for details.")
         sys.exit(1)

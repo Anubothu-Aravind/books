@@ -1,14 +1,22 @@
 {
   "name": "Indian Revised Version - Punjabi",
-  "abbreviation": "IRV",
+  "version": "IRV",
   "language": "Punjabi",
   "language_code": "pa",
-  "year": 2019,
-  "testament_count": {
-    "ot": 39,
-    "nt": 27
-  },
-  "source": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/pan-pan.txt",
+  "edition_year": 2019,
+  "publisher_source": "eBible Corpus",
   "license": "CC BY-SA 4.0",
+  "source_url": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/pan-pan.txt",
+  "download_date": "2026-08-16",
+  "checksum_hash": "18a18b297c56d03b27b58baed8fa88e649d09e6bec1c47cfb1aa8f80c1f6512e",
+  "coverage": {
+    "books_count": 66,
+    "chapters_count": 1188,
+    "verses_count": 30968,
+    "testaments": [
+      "nt",
+      "ot"
+    ]
+  },
   "notes": "Collected and split canonically into ot/nt folders with labeled verses."
 }

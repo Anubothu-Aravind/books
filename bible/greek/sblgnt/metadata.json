@@ -1,14 +1,21 @@
 {
   "name": "SBL Greek New Testament",
-  "abbreviation": "SBLGNT",
+  "version": "SBLGNT",
   "language": "Greek",
   "language_code": "el",
-  "year": 2010,
-  "testament_count": {
-    "ot": 0,
-    "nt": 27
-  },
-  "source": "https://raw.githubusercontent.com/Faithlife/SBLGNT/master/data/sblgnt/text/",
+  "edition_year": 2010,
+  "publisher_source": "Society of Biblical Literature / Faithlife",
   "license": "SBLGNT License",
+  "source_url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/master/data/sblgnt/text/",
+  "download_date": "2026-08-16",
+  "checksum_hash": "1c8020c7ffa366a385a986a1d315869aede316ec685480000ad16f1c00ba838b",
+  "coverage": {
+    "books_count": 27,
+    "chapters_count": 260,
+    "verses_count": 7939,
+    "testaments": [
+      "nt"
+    ]
+  },
   "notes": "SBLGNT text fetched book-by-book from Faithlife GitHub repository."
 }

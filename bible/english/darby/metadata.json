@@ -1,14 +1,22 @@
 {
   "name": "Darby Bible",
-  "abbreviation": "DARBY",
+  "version": "DARBY",
   "language": "English",
   "language_code": "en",
-  "year": 1890,
-  "testament_count": {
-    "ot": 39,
-    "nt": 27
-  },
-  "source": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/eng-engDBY.txt",
+  "edition_year": 1890,
+  "publisher_source": "eBible Corpus",
   "license": "Public Domain",
+  "source_url": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/eng-engDBY.txt",
+  "download_date": "2026-08-16",
+  "checksum_hash": "3a696f9d0f66a7a99123a6f7ec4a49a7822826bac9f90ff025e55f078834eeb9",
+  "coverage": {
+    "books_count": 66,
+    "chapters_count": 1188,
+    "verses_count": 30963,
+    "testaments": [
+      "nt",
+      "ot"
+    ]
+  },
   "notes": "Collected and split canonically into ot/nt folders with labeled verses."
 }

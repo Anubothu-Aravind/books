@@ -1,14 +1,22 @@
 {
   "name": "American Standard Version",
-  "abbreviation": "ASV",
+  "version": "ASV",
   "language": "English",
   "language_code": "en",
-  "year": 1901,
-  "testament_count": {
-    "ot": 39,
-    "nt": 27
-  },
-  "source": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/eng-engasvbt.txt",
+  "edition_year": 1901,
+  "publisher_source": "eBible Corpus",
   "license": "Public Domain",
+  "source_url": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/eng-engasvbt.txt",
+  "download_date": "2026-08-16",
+  "checksum_hash": "7b90c19f7a072e173aac830597c42a3629a267303dfe34fb52bbaa985493c7b7",
+  "coverage": {
+    "books_count": 84,
+    "chapters_count": 1403,
+    "verses_count": 37530,
+    "testaments": [
+      "nt",
+      "ot"
+    ]
+  },
   "notes": "Collected and split canonically into ot/nt folders with labeled verses."
 }

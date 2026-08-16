@@ -1,14 +1,22 @@
 {
   "name": "King James Version",
-  "abbreviation": "KJV",
+  "version": "KJV",
   "language": "English",
   "language_code": "en",
-  "year": 1611,
-  "testament_count": {
-    "ot": 39,
-    "nt": 27
-  },
-  "source": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/eng-engkjvcpb.txt",
+  "edition_year": 1611,
+  "publisher_source": "eBible Corpus",
   "license": "Public Domain",
+  "source_url": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/eng-engkjvcpb.txt",
+  "download_date": "2026-08-16",
+  "checksum_hash": "bf6c1342deece7ce084e35e1319641ee7b16c892ed3a219ae50d12eda8fdceac",
+  "coverage": {
+    "books_count": 80,
+    "chapters_count": 1359,
+    "verses_count": 36593,
+    "testaments": [
+      "nt",
+      "ot"
+    ]
+  },
   "notes": "Collected and split canonically into ot/nt folders with labeled verses."
 }

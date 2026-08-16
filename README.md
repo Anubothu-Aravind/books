@@ -94,6 +94,18 @@ python scripts/python/download_bibles.py
 
 The repository includes an automated validation suite that checks repository structure, verse formats, canonical book verse counts, spot checks, and translation fingerprints.
 
+### Current Baseline (v1 Verification Status)
+* **Passed**: 3,921,237 assertions
+* **Skipped**: 2 fingerprint checks (explicitly skipped due to documented source-corpus versification limitations)
+* **Failed**: 0
+* **Applicable pass rate**: 100.00% (3,921,237 / 3,921,237 applicable assertions passed)
+
+### Validation Rules
+1. **Structure Validation**: Verifies book folder name sorting and contiguous chapter ranges (1 to max_chapter) for all canonical books on disk, accounting for known translation-specific variations.
+2. **Verse Format Validation**: Verifies that every verse line in every chapter file is correctly labeled with version, language, testament, pretty book name, and chapter number matching the filesystem path. It also enforces that verse numbers are strictly increasing (allowing for manuscript gaps).
+3. **Verse Count Validation**: Compares actual verse counts against Protestant canonical standards for Genesis, Psalms, Matthew, and Revelation, accounting for known Vulgate (DRA), Septuagint (LXX), and Hebrew (WLC) numbering overrides.
+4. **Translation Fingerprint Validation**: Runs 100 translation fingerprint tests to catch version mixing. It handles documented omissions as skips using fingerprint case notes.
+
 ### Running Tests
 Execute the verification runner from the repository root:
 ```bash
@@ -105,4 +117,5 @@ The runner compiles execution results and saves dated report logs to:
 `tests/reports/report_YYYY-MM-DD.txt`
 
 If multiple runs are performed on the same day, versioned suffixes are dynamically appended (e.g. `report_YYYY-MM-DD_v2.txt`, `report_YYYY-MM-DD_v3.txt`, etc.) to prevent overwriting historical verification logs.
+
 

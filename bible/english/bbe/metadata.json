@@ -1,14 +1,22 @@
 {
   "name": "Bible in Basic English",
-  "abbreviation": "BBE",
+  "version": "BBE",
   "language": "English",
   "language_code": "en",
-  "year": 1949,
-  "testament_count": {
-    "ot": 39,
-    "nt": 27
-  },
-  "source": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/eng-engBBE.txt",
+  "edition_year": 1949,
+  "publisher_source": "eBible Corpus",
   "license": "Public Domain",
+  "source_url": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/eng-engBBE.txt",
+  "download_date": "2026-08-16",
+  "checksum_hash": "69710a2c0b4c8ce3738e9c6b344003eb21d1fb3efb794a05918b11eb76e2aa5c",
+  "coverage": {
+    "books_count": 66,
+    "chapters_count": 1188,
+    "verses_count": 30966,
+    "testaments": [
+      "nt",
+      "ot"
+    ]
+  },
   "notes": "Collected and split canonically into ot/nt folders with labeled verses."
 }

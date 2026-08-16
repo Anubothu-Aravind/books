@@ -1,14 +1,22 @@
 {
   "name": "Indian Revised Version - Malayalam",
-  "abbreviation": "IRV",
+  "version": "IRV",
   "language": "Malayalam",
   "language_code": "ml",
-  "year": 2019,
-  "testament_count": {
-    "ot": 39,
-    "nt": 27
-  },
-  "source": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/mal-mal2015.txt",
+  "edition_year": 2019,
+  "publisher_source": "eBible Corpus",
   "license": "CC BY-SA 4.0",
+  "source_url": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/mal-mal2015.txt",
+  "download_date": "2026-08-16",
+  "checksum_hash": "7b80ac79e0e4155f6937bce2810b9b7e1af7a021b524822e36f6c403c23ac19c",
+  "coverage": {
+    "books_count": 66,
+    "chapters_count": 1188,
+    "verses_count": 30964,
+    "testaments": [
+      "nt",
+      "ot"
+    ]
+  },
   "notes": "Collected and split canonically into ot/nt folders with labeled verses."
 }

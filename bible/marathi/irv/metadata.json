@@ -1,14 +1,22 @@
 {
   "name": "Indian Revised Version - Marathi",
-  "abbreviation": "IRV",
+  "version": "IRV",
   "language": "Marathi",
   "language_code": "mr",
-  "year": 2019,
-  "testament_count": {
-    "ot": 39,
-    "nt": 27
-  },
-  "source": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/mar-mar.txt",
+  "edition_year": 2019,
+  "publisher_source": "eBible Corpus",
   "license": "CC BY-SA 4.0",
+  "source_url": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/mar-mar.txt",
+  "download_date": "2026-08-16",
+  "checksum_hash": "1d7263ca1a9171e409d57106b4de010a2081bec886d4bcb3e84ddec28903b410",
+  "coverage": {
+    "books_count": 66,
+    "chapters_count": 1188,
+    "verses_count": 30968,
+    "testaments": [
+      "nt",
+      "ot"
+    ]
+  },
   "notes": "Collected and split canonically into ot/nt folders with labeled verses."
 }

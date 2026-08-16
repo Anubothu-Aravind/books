@@ -1,14 +1,22 @@
 {
   "name": "Open English Bible",
-  "abbreviation": "OEB",
+  "version": "OEB",
   "language": "English",
   "language_code": "en",
-  "year": 2010,
-  "testament_count": {
-    "ot": 39,
-    "nt": 27
-  },
-  "source": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/eng-engoebcw.txt",
+  "edition_year": 2010,
+  "publisher_source": "eBible Corpus",
   "license": "Creative Commons Zero (CC0)",
+  "source_url": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/eng-engoebcw.txt",
+  "download_date": "2026-08-16",
+  "checksum_hash": "339f87d033b5237254b408ea455eb720587def831083e59bb700983780a6a68e",
+  "coverage": {
+    "books_count": 42,
+    "chapters_count": 490,
+    "verses_count": 11663,
+    "testaments": [
+      "nt",
+      "ot"
+    ]
+  },
   "notes": "Collected and split canonically into ot/nt folders with labeled verses."
 }

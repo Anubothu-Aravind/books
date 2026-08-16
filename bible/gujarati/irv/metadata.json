@@ -1,14 +1,22 @@
 {
   "name": "Indian Revised Version - Gujarati",
-  "abbreviation": "IRV",
+  "version": "IRV",
   "language": "Gujarati",
   "language_code": "gu",
-  "year": 2019,
-  "testament_count": {
-    "ot": 39,
-    "nt": 27
-  },
-  "source": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/guj-guj2017.txt",
+  "edition_year": 2019,
+  "publisher_source": "eBible Corpus",
   "license": "CC BY-SA 4.0",
+  "source_url": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/guj-guj2017.txt",
+  "download_date": "2026-08-16",
+  "checksum_hash": "99273d0af517a3c9747891414cb0455125a77a9c46b21f954c4e7f19ccbc0244",
+  "coverage": {
+    "books_count": 66,
+    "chapters_count": 1188,
+    "verses_count": 30968,
+    "testaments": [
+      "nt",
+      "ot"
+    ]
+  },
   "notes": "Collected and split canonically into ot/nt folders with labeled verses."
 }

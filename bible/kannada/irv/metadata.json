@@ -1,14 +1,22 @@
 {
   "name": "Indian Revised Version - Kannada",
-  "abbreviation": "IRV",
+  "version": "IRV",
   "language": "Kannada",
   "language_code": "kn",
-  "year": 2019,
-  "testament_count": {
-    "ot": 39,
-    "nt": 27
-  },
-  "source": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/kan-kan2017.txt",
+  "edition_year": 2019,
+  "publisher_source": "eBible Corpus",
   "license": "CC BY-SA 4.0",
+  "source_url": "https://raw.githubusercontent.com/BibleNLP/ebible/main/corpus/kan-kan2017.txt",
+  "download_date": "2026-08-16",
+  "checksum_hash": "d1cc0c9900dec849b3452602f86ef1e79310b9e47f0862d7946a0de7cfca3f9d",
+  "coverage": {
+    "books_count": 66,
+    "chapters_count": 1188,
+    "verses_count": 30968,
+    "testaments": [
+      "nt",
+      "ot"
+    ]
+  },
   "notes": "Collected and split canonically into ot/nt folders with labeled verses."
 }
