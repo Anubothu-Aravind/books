@@ -1,0 +1,21 @@
+{
+  "name": "English Revised Version (1885)",
+  "version": "ERV",
+  "language": "english",
+  "language_code": "en",
+  "edition_year": 1885,
+  "publisher_source": "eBible.org USFM Package",
+  "license": "Public Domain",
+  "source_url": "https://ebible.org/Scriptures/eng-rv_usfm.zip",
+  "download_date": "2026-08-16",
+  "checksum_hash": "8a0b17f8e91261c0d8e2ced7e9678b3021dd24b76d6fd7bbfba5ac4fed6e5af6",
+  "coverage": {
+    "books_count": 66,
+    "chapters_count": 1189,
+    "verses_count": 31102,
+    "testaments": [
+      "nt",
+      "ot"
+    ]
+  }
+}
