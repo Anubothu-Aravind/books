@@ -1,0 +1,30 @@
+# Multilingual Sacred Text & Teaching Archive
+
+> A structured, open-source dataset of canonical scripture texts and teachings, standardized for AI/NLP applications, morphological research, and dataset analysis.
+
+This repository organizes sacred texts (specifically Bibles across 22 versions and 14 languages) and teaching transcripts into a standardized, machine-readable format. Each verse line has explicit metadata to make it simple for LLMs to parse and analyze: `[VERSION | LANG_CODE | OT/NT | Book Name | Chapter N | Verse N] Verse Text`.
+
+## Core Documentation
+
+- [Repository README](./README.md): General overview of file structure, verse formatting, setup instructions, and testing.
+- [Sources & Licenses](./_meta/SOURCES.md): Reference URLs, copyright statuses, and licenses for all collected translations.
+- [Repository Status](./_meta/STATUS.md): Tracking list of completed, split, and pending translations or teaching records.
+
+## Data Schemas
+
+- [Bible Version Schema](./_meta/schemas/bible-version.schema.json): Schema definition for a translation's metadata.json.
+- [Bible Book Schema](./_meta/schemas/bible-book.schema.json): Schema definition for scripture books.
+- [Pastor Schema](./_meta/schemas/pastor.schema.json): Reserved schema structure for teaching speakers.
+- [Sermon Schema](./_meta/schemas/sermon.schema.json): Reserved schema structure for individual teaching transcripts.
+
+## Python Scripts & Maintenance
+
+- [Tooling README](./scripts/README.md): Guide to the automation and maintenance scripts.
+- [Download Bibles Script](./scripts/python/download_bibles.py): Python utility that downloads, parses, and splits parallel corpora from eBible.
+- [Batch Push Script](./scripts/python/batch_push.py): Automation helper for tidying up raw/cache files and staging changes in clean batches.
+
+## Testing & Verification
+
+- [Test Suite README](./tests/README.md): Details of the automated testing and validation checks.
+- [Test Runner Orchestrator](./tests/python/run_tests.py): Main script running structure, format, verse count, spot, and fingerprint validations.
+- [Translation Fingerprints](./tests/bible_fingerprints/kjv_asv_fingerprints.json): Master database of expected verses/substrings for translation consistency checking.

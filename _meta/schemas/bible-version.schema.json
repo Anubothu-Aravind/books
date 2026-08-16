@@ -7,9 +7,9 @@
       "type": "string",
       "description": "Full name of the Bible version"
     },
-    "abbreviation": {
+    "version": {
       "type": "string",
-      "description": "Standard abbreviation of the Bible version"
+      "description": "Standard abbreviation of the Bible version (e.g. KJV)"
     },
     "language": {
       "type": "string",
@@ -19,31 +19,55 @@
       "type": "string",
       "description": "ISO 639-1 language code"
     },
-    "year": {
-      "type": "integer",
+    "edition_year": {
+      "type": ["integer", "string"],
       "description": "Year of publication or translation completion"
     },
-    "testament_count": {
-      "type": "object",
-      "properties": {
-        "ot": {
-          "type": "integer",
-          "description": "Number of Old Testament books in this version"
-        },
-        "nt": {
-          "type": "integer",
-          "description": "Number of New Testament books in this version"
-        }
-      },
-      "required": ["ot", "nt"]
-    },
-    "source": {
+    "publisher_source": {
       "type": "string",
-      "description": "Source URL or citation of the text"
+      "description": "Publisher or corpus provider of the text"
     },
     "license": {
       "type": "string",
       "description": "Licensing information of this version"
+    },
+    "source_url": {
+      "type": "string",
+      "description": "Source URL or citation of the text"
+    },
+    "download_date": {
+      "type": "string",
+      "description": "Date when the translation was downloaded/frozen (YYYY-MM-DD)"
+    },
+    "checksum_hash": {
+      "type": "string",
+      "description": "SHA256 checksum of dataset relative paths and file contents"
+    },
+    "coverage": {
+      "type": "object",
+      "properties": {
+        "books_count": {
+          "type": "integer",
+          "description": "Number of books in this version"
+        },
+        "chapters_count": {
+          "type": "integer",
+          "description": "Number of chapters in this version"
+        },
+        "verses_count": {
+          "type": "integer",
+          "description": "Number of verses in this version"
+        },
+        "testaments": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["ot", "nt"]
+          },
+          "description": "Testaments included in this version (ot, nt)"
+        }
+      },
+      "required": ["books_count", "chapters_count", "verses_count", "testaments"]
     },
     "notes": {
       "type": "string",
@@ -52,12 +76,15 @@
   },
   "required": [
     "name",
-    "abbreviation",
+    "version",
     "language",
     "language_code",
-    "year",
-    "testament_count",
-    "source",
-    "license"
+    "edition_year",
+    "publisher_source",
+    "license",
+    "source_url",
+    "download_date",
+    "checksum_hash",
+    "coverage"
   ]
 }
