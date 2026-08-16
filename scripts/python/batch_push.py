@@ -50,9 +50,9 @@ def tidy_repo():
                 except Exception as e:
                     print(f"Error removing cache {full_path}: {e}")
                     
-        # Remove empty folders (except .git or other critical ones)
+        # Remove empty folders (except .git, logs, or other critical ones)
         if not os.listdir(root):
-            if ".git" not in root and root != base_dir:
+            if ".git" not in root and "logs" not in root and root != base_dir:
                 try:
                     os.rmdir(root)
                     print(f"Removed empty folder: {root}")
